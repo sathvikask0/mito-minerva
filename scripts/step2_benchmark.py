@@ -78,6 +78,9 @@ def main() -> int:
     ap.add_argument("--device", default="mps")
     ap.add_argument("--dtype", default="float16")
     ap.add_argument("--adapter", help="directory holding a finetuned LoRA adapter")
+    ap.add_argument("--out", default="outputs/step2_benchmark.json",
+                    help="where to write results; change it for adapter runs so "
+                         "the baseline file is not overwritten")
     ap.add_argument("--n-decoys", type=int, default=200)
     ap.add_argument("--seed", type=int, default=0)
     args = ap.parse_args()
@@ -140,9 +143,9 @@ def main() -> int:
 
     decoys = run_decoys(args, rcrs, m, trnas, fold, genome_map)
     summarise(rows, decoys)
-    with open("outputs/step2_benchmark.json", "w") as fh:
+    with open(args.out, "w") as fh:
         json.dump({"trnas": rows, "decoys": decoys}, fh, indent=2)
-    print("\nwrote outputs/step2_benchmark.json")
+    print(f"\nwrote {args.out}")
     return 0
 
 
