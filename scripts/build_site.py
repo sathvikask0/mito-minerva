@@ -25,6 +25,7 @@ STEPS = [
     ("02-does-it-work.md", "Step 2 — does it work?", "done"),
     ("03-mutation-scan.md", "Step 3 — break every letter", "done"),
     ("04-validation.md", "Step 4 — check against real disease", "done"),
+    ("05-finetune.md", "Step 5 — teach it mitochondria", "running"),
 ]
 
 BADGE = {"done": ("done", "#1a7f5a"), "running": ("in progress", "#b8860b"),

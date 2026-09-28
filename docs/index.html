@@ -75,7 +75,8 @@
 <a href='#s01'>Step 1</a>
 <a href='#s02'>Step 2</a>
 <a href='#s03'>Step 3</a>
-<a href='#s04'>Step 4</a></nav>
+<a href='#s04'>Step 4</a>
+<a href='#s05'>Step 5</a></nav>
 <section id='s00'><h2>The idea </h2><h3>What we're trying to do</h3>
 <p>Your cells have a second, tiny genome inside the <strong>mitochondria</strong> — the parts of
 the cell that make energy. It is about 16,500 letters long, versus 3 billion in
@@ -286,12 +287,63 @@ building on it.</p>
    times more, which would make the test sharper.</li>
 <li><strong>Stop.</strong> The honest option. Conservation-based tools already do this well.</li>
 </ol></section>
+<section id='s05'><h2>Step 5 — teach it mitochondria <span class='badge' style='background:#b8860b'>in progress</span></h2><p>Step 4 said no. But it also said <em>why</em>: the model has never seen mitochondrial
+DNA. It was trained on bacteria, and mitochondrial genomes are packed far more
+tightly — genes butt up against each other, and the tRNAs sit in the cracks
+between them.</p>
+<p>So the obvious repair is to show it some. There are thousands of animal
+mitochondrial genomes free to download. We fine-tune on those, hold out human,
+then re-run steps 2 through 4 and see if anything moved.</p>
+<p><strong>Human is held out</strong> so we never train on what we test on.</p>
+<h3>Laptop or rented GPU?</h3>
+<p>We measured it rather than guessed.</p>
+<p>Training is far heavier than the prediction work so far, because the computer
+has to remember every intermediate step in order to work backwards and adjust
+the model. On your laptop:</p>
+<table>
+<thead>
+<tr>
+<th>sequence length</th>
+<th>speed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>512 units</td>
+<td>0.62 s per step</td>
+</tr>
+<tr>
+<td>1,024 units</td>
+<td>1.47 s per step</td>
+</tr>
+<tr>
+<td>2,048 units</td>
+<td><strong>out of memory</strong></td>
+</tr>
+</tbody>
+</table>
+<p>The corpus is roughly 120 million units of text. One pass over it, at the
+biggest chunk size that fits, would take about <strong>48 hours</strong> — and it would be
+processing one sequence at a time, which is the slowest possible way to do it.</p>
+<p>A rented A100 GPU does the same pass in <strong>about an hour</strong>, with four times the
+chunk size and eight sequences at once. Three passes is a few hours and
+roughly <strong>$10</strong>.</p>
+<p><strong>So: rented GPU for the training.</strong> Everything else stays on the laptop —
+building the data, and all the scoring afterwards, which we already know runs
+in minutes.</p>
+<h3>What success looks like</h3>
+<p>We are not looking for a small nudge. Step 2 found the model is fragile: real
+genomic neighbours break it. If fine-tuning fixes that fragility, we should see
+folding hold up in context instead of collapsing. If it only moves the disease
+scores from 0.60 to 0.63, that is noise, not a result.</p>
+<p><em>In progress: building the corpus.</em></p></section>
 <section id="log">
   <h2>Every step, as it happened</h2>
   <p class="note">Each row is one commit. The notebook above is rebuilt from the
   repository after every step, so it never drifts from the code.</p>
   <table><thead><tr><th>commit</th><th>date</th><th>what changed</th></tr></thead>
-  <tbody><tr><td class='mono'>0b9293f</td><td class='mono'>2026-09-28</td><td>Demote note headings so step titles stay dominant on the site</td></tr>
+  <tbody><tr><td class='mono'>2d30fa9</td><td class='mono'>2026-09-28</td><td>Step 4: Minerva does not beat ViennaRNA at ranking tRNA pathogenicity</td></tr>
+<tr><td class='mono'>0b9293f</td><td class='mono'>2026-09-28</td><td>Demote note headings so step titles stay dominant on the site</td></tr>
 <tr><td class='mono'>47c2baa</td><td class='mono'>2026-09-28</td><td>Step 3: 4,524 mutations scored across all 22 tRNAs</td></tr>
 <tr><td class='mono'>fc9838e</td><td class='mono'>2026-09-28</td><td>Add step 3 mutation scan and the lab-notebook site</td></tr>
 <tr><td class='mono'>2d68488</td><td class='mono'>2026-09-28</td><td>Step 2: Minerva folds mitochondrial tRNAs, but not in genomic context</td></tr>
