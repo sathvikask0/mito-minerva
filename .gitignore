@@ -10,3 +10,5 @@ outputs/*
 *.npz
 *.pt
 .ipynb_checkpoints/
+data/raw/*.gz
+data/processed/*.jsonl

@@ -1,0 +1,614 @@
+LOCUS       NC_025604              16798 bp    DNA     circular VRT 03-APR-2023
+DEFINITION  Leucosticte brandti mitochondrion, complete genome.
+ACCESSION   NC_025604
+VERSION     NC_025604.1
+DBLINK      BioProject: PRJNA927338
+KEYWORDS    RefSeq.
+SOURCE      mitochondrion Leucosticte brandti
+  ORGANISM  Leucosticte brandti
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Archelosauria; Archosauria; Dinosauria; Saurischia; Theropoda;
+            Coelurosauria; Aves; Neognathae; Neoaves; Telluraves; Australaves;
+            Passeriformes; Passeroidea; Fringillidae; Carduelinae; Leucosticte.
+REFERENCE   1  (bases 1 to 16798)
+  AUTHORS   Lerner,H.R., Meyer,M., James,H.F., Hofreiter,M. and Fleischer,R.C.
+  TITLE     Multilocus resolution of phylogeny and timescale in the extant
+            adaptive radiation of Hawaiian honeycreepers
+  JOURNAL   Curr. Biol. 21 (21), 1838-1844 (2011)
+   PUBMED   22018543
+REFERENCE   2  (bases 1 to 16798)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-NOV-2014) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 16798)
+  AUTHORS   Lerner,H.R.L., Meyer,M., James,H.F., Hofreiter,M. and Fleischer,R.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-JUL-2014) Biology, Earlham College, 801 National Road
+            West, Richmond, IN 47374, USA
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence is identical to KM078775.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..16798
+                     /organism="Leucosticte brandti"
+                     /organelle="mitochondrion"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:571888"
+     misc_feature    1..1213
+                     /note="control region"
+     tRNA            1214..1281
+                     /product="tRNA-Phe"
+     rRNA            1282..2255
+                     /product="12S ribosomal RNA"
+     tRNA            2256..2325
+                     /product="tRNA-Val"
+     rRNA            2326..3923
+                     /product="16S ribosomal RNA"
+     tRNA            3924..3998
+                     /product="tRNA-Leu"
+     gene            4013..4990
+                     /gene="ND1"
+                     /db_xref="GeneID:22162500"
+     CDS             4013..4990
+                     /gene="ND1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 1"
+                     /protein_id="YP_009107745.1"
+                     /db_xref="GeneID:22162500"
+                     /translation="MANYPLLISFIMALSYALPILIAVAFLTLVERKILSYMQSRKGPN
+                     IVGPYGLLQPLADGVKLFIKEPIRPSTSSPLLFIATPMLALLLAISIWTPLPLPFSLAD
+                     LNLGLLFLLAMSSLAVYSILWSGWASNSKYALIGALRAVAQTISYEVTLAIILLSVVIL
+                     SGNYTLSTLAVTQEPLYLIFSCWPLAMMWYVSTLAETNRAPFDLTEGESELVSGFNVEY
+                     AAGPFALFFLAEYANIMLMNTITTILFFNPSLLNPPQELFPVVLATKVLLLSAGFLWIR
+                     ASYPRFRYDQLMHLLWKNFLPLTLALCLWHVSLPICYAGLPPYL"
+     misc_feature    4019..4987
+                     /gene="ND1"
+                     /note="NADH dehydrogenase subunit 1; Provisional; Region:
+                     ND1; MTH00111"
+                     /db_xref="CDD:214422"
+     tRNA            4999..5072
+                     /product="tRNA-Ile"
+     tRNA            complement(5076..5146)
+                     /product="tRNA-Gln"
+     tRNA            5146..5214
+                     /product="tRNA-Met"
+     gene            5215..6254
+                     /gene="ND2"
+                     /db_xref="GeneID:22162493"
+     CDS             5215..6254
+                     /gene="ND2"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /codon_start=1
+                     /transl_except=(pos:6253..6254,aa:TERM)
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 2"
+                     /protein_id="YP_009107746.1"
+                     /db_xref="GeneID:22162493"
+                     /translation="MNPQAKLIFVASLLLGTTITISSNHWITAWAGLEINTLAILPLIS
+                     KSHHPRSIEAATKYFLTQSAASALVLFSSMTNAWHTGQWDITQLSHPTSSLILTSAIAM
+                     KLGLVPFHFWFPEVLQGSPLSTGLLLSTIMKLPPITLLYMTSSALNPTLLTILAILSAG
+                     LGGWMGLNQTQIRKILAFSSISHLGWMAIIIVYNPKLTLLNFYLYTMMTATVFLALNSI
+                     KVLKLSTLMTAWTKVPSLNAALLLTLLSLAGLPPLTGFLPKWLIIQELTKQEMIPAATL
+                     MSLLSLLSLFFYLRLAYCTTITLPPHTTNHMKQWRTGKSTNILIAILTTMSITLLPISP
+                     MILTTI"
+     misc_feature    5215..6252
+                     /gene="ND2"
+                     /note="NADH dehydrogenase subunit 2; Provisional; Region:
+                     ND2; MTH00112"
+                     /db_xref="CDD:214423"
+     tRNA            6255..6325
+                     /product="tRNA-Trp"
+     tRNA            complement(6327..6395)
+                     /product="tRNA-Ala"
+     tRNA            complement(6404..6476)
+                     /product="tRNA-Asn"
+     tRNA            complement(6477..6543)
+                     /product="tRNA-Cys"
+     tRNA            complement(6543..6613)
+                     /product="tRNA-Tyr"
+     gene            6615..8165
+                     /gene="COX1"
+                     /db_xref="GeneID:22162492"
+     CDS             6615..8165
+                     /gene="COX1"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit I"
+                     /protein_id="YP_009107747.1"
+                     /db_xref="GeneID:22162492"
+                     /translation="MTFINRWLFSTNHKDIGTLYLIFGAWAGMVGTALSLLIRAELGQP
+                     GALLGDDQVYNVVVTAHAFVMIFFMVMPIMIGGFGNWLVPLMIGAPDMAFPRMNNMSFW
+                     LLPPSFLLLLASSTVEAGVGTGWTVYPPLAGNLAHAGASVDLAIFSLHLAGISSILGAI
+                     NFITTAINMKPPALSQYQTPLFVWSVLITAVLLLLSLPVLAAGITMLLTDRNLNTTFFD
+                     PAGGGDPVLYQHLFWFFGHPEVYILILPGFGIISHVVTYYAGKKEPFGYMGMVWAMLSI
+                     GFLGFIVWAHHMFTVGMDVDTRAYFTSATMIIAIPTGIKVFSWLATLHGGTIKWDPPML
+                     WALGFIFLFTIGGLTGIVLANSSLDIALHDTYYVVAHFHYVLSMGAVFAILAGFTHWFP
+                     LFTGYTLHSTWAKTHFGVMFVGVNLTFFPQHFLGLAGMPRRYSDYPDAYTLWNTISSVG
+                     SLISLTAVIMLVFIIWEAFASKRKVLQPELTSTNVEWIHGCPPPFHTFEEPAFVQVQE"
+     misc_feature    6621..8162
+                     /gene="COX1"
+                     /note="cytochrome c oxidase subunit I; Provisional; Region:
+                     COX1; MTH00116"
+                     /db_xref="CDD:177177"
+     misc_feature    order(6645..6647,6885..6887,6897..6899,6903..6905,
+                     6924..6926,7047..7049,7059..7061,7113..7115,7125..7127,
+                     7185..7187,7206..7208,7215..7217,7239..7241,7266..7274,
+                     7287..7292,7296..7298,7326..7328,7440..7442,7449..7451,
+                     7458..7463,7473..7475)
+                     /gene="COX1"
+                     /note="Subunit I/III interface [polypeptide binding]; other
+                     site"
+                     /db_xref="CDD:238833"
+     misc_feature    order(6672..6674,6855..6857,6888..6890,6909..6911,
+                     6918..6920,7083..7088,7104..7106,7116..7118)
+                     /gene="COX1"
+                     /note="D-pathway [active]"
+                     /db_xref="CDD:238833"
+     misc_feature    order(6690..6692,6702..6704,6711..6713,6723..6725,
+                     6963..6968,7815..7817,8034..8036,8043..8045)
+                     /gene="COX1"
+                     /note="Subunit I/VIIc interface [polypeptide binding];
+                     other site"
+                     /db_xref="CDD:238833"
+     misc_feature    order(6732..6734,6741..6746,7839..7841,7848..7853,
+                     7950..7952,8004..8006)
+                     /gene="COX1"
+                     /note="Subunit I/IV interface [polypeptide binding]; other
+                     site"
+                     /db_xref="CDD:238833"
+     misc_feature    order(6780..6782,7296..7298,7410..7412,7419..7424,
+                     7497..7505,7512..7514,7521..7523,7545..7547,7569..7571,
+                     7578..7580,7599..7607,7641..7643,7695..7700,7704..7706,
+                     7710..7724,7914..7919,7929..7937,7962..7967)
+                     /gene="COX1"
+                     /note="Subunit I/II interface [polypeptide binding]; other
+                     site"
+                     /db_xref="CDD:238833"
+     misc_feature    order(6798..6800,7749..7751,7761..7763,7887..7889,
+                     7998..8000)
+                     /gene="COX1"
+                     /note="Low-spin heme (heme a) binding site [chemical
+                     binding]; other site"
+                     /db_xref="CDD:238833"
+     misc_feature    order(6957..6959,6966..6968)
+                     /gene="COX1"
+                     /note="Subunit I/VIIa interface [polypeptide binding];
+                     other site"
+                     /db_xref="CDD:238833"
+     misc_feature    order(7020..7022,7254..7265)
+                     /gene="COX1"
+                     /note="Subunit I/VIa interface [polypeptide binding]; other
+                     site"
+                     /db_xref="CDD:238833"
+     misc_feature    order(7185..7187,7206..7208,7326..7328,7440..7442,
+                     7449..7451,7458..7463,7473..7475)
+                     /gene="COX1"
+                     /note="Dimer interface; other site"
+                     /db_xref="CDD:238833"
+     misc_feature    order(7296..7298,7311..7316,7707..7709,7719..7724,
+                     7929..7931)
+                     /gene="COX1"
+                     /note="Putative water exit pathway; other site"
+                     /db_xref="CDD:238833"
+     misc_feature    order(7335..7337,7485..7490,7743..7745)
+                     /gene="COX1"
+                     /note="Binuclear center (heme a3/CuB) [ion binding]; other
+                     site"
+                     /db_xref="CDD:238833"
+     misc_feature    order(7335..7337,7347..7349,7380..7382,7485..7490,
+                     7563..7565,7572..7574)
+                     /gene="COX1"
+                     /note="K-pathway [active]"
+                     /db_xref="CDD:238833"
+     misc_feature    order(7413..7415,7425..7427,8100..8102)
+                     /gene="COX1"
+                     /note="Subunit I/Vb interface [polypeptide binding]; other
+                     site"
+                     /db_xref="CDD:238833"
+     misc_feature    order(7488..7490,7719..7724,7929..7934)
+                     /gene="COX1"
+                     /note="Putative proton exit pathway; other site"
+                     /db_xref="CDD:238833"
+     misc_feature    7503..7505
+                     /gene="COX1"
+                     /note="Subunit I/VIb interface; other site"
+                     /db_xref="CDD:238833"
+     misc_feature    7602..7604
+                     /gene="COX1"
+                     /note="Subunit I/VIc interface [polypeptide binding]; other
+                     site"
+                     /db_xref="CDD:238833"
+     misc_feature    order(7746..7748,7929..7934)
+                     /gene="COX1"
+                     /note="Electron transfer pathway [active]"
+                     /db_xref="CDD:238833"
+     misc_feature    order(7842..7844,8013..8015)
+                     /gene="COX1"
+                     /note="Subunit I/VIIIb interface [polypeptide binding];
+                     other site"
+                     /db_xref="CDD:238833"
+     misc_feature    order(7950..7952,7962..7964)
+                     /gene="COX1"
+                     /note="Subunit I/VIIb interface [polypeptide binding];
+                     other site"
+                     /db_xref="CDD:238833"
+     tRNA            complement(8157..8229)
+                     /product="tRNA-Ser"
+     tRNA            8235..8303
+                     /product="tRNA-Asp"
+     gene            8314..8997
+                     /gene="COX2"
+                     /db_xref="GeneID:22162489"
+     CDS             8314..8997
+                     /gene="COX2"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit II"
+                     /protein_id="YP_009107748.1"
+                     /db_xref="GeneID:22162489"
+                     /translation="MANHSQLNFQDASSPIMEELMGFHDHALMIALAICSLVLYLLTHM
+                     LTEKLSSSTVNAQEIELVWTILPAMVLVTLALPSLRILYMMDEINEPDLTLKAIGHQWY
+                     WTYEYTDLKDLTFDSYMIPTSDLPLGHFRLLEVDHRVVVPMSSTIRVIVTADDVLHSWA
+                     VPSLGVKTDAIPGRLNQTSFLASRPGVFYGQCSEICGANHSFMPIVVESTPLANFESWS
+                     SLMSS"
+     misc_feature    8314..8991
+                     /gene="COX2"
+                     /note="cytochrome c oxidase subunit II; Provisional;
+                     Region: COX2; MTH00117"
+                     /db_xref="CDD:177178"
+     tRNA            8999..9067
+                     /product="tRNA-Lys"
+     gene            9069..9236
+                     /gene="ATP8"
+                     /db_xref="GeneID:22162496"
+     CDS             9069..9236
+                     /gene="ATP8"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="ATP synthase F0 subunit 8"
+                     /protein_id="YP_009107749.1"
+                     /db_xref="GeneID:22162496"
+                     /translation="MPQLNPAPWFFIMIISWLTFSLIIQPKLLSFVTMNPPSSKPPTAP
+                     NTTPWTWPWT"
+     misc_feature    9069..9230
+                     /gene="ATP8"
+                     /note="ATP synthase F0 subunit 8; Provisional; Region:
+                     ATP8; MTH00133"
+                     /db_xref="CDD:177191"
+     gene            9227..9910
+                     /gene="ATP6"
+                     /db_xref="GeneID:22162499"
+     CDS             9227..9910
+                     /gene="ATP6"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="ATP synthase F0 subunit 6"
+                     /protein_id="YP_009107750.1"
+                     /db_xref="GeneID:22162499"
+                     /translation="MNLSFFDQFSSPSFLGIPLILISMTFPALLIPSLDNRWITNRLST
+                     LQLWFVNLITKQLMMPLDKKGHKWALILTSLMIFLLLINLLGLLPYTFTPTTQLSMNLA
+                     LAFPLWLATLLTGLRNQPSASLGHLLPEGTPTPLIPALILIETTSLLIRPLALGVRLTA
+                     NLTAGHLLIQLISTATMALFSTMPAVSLLTFLVLLLLTVLEVAVAMIQAYVFVLLLSLY
+                     LQENI"
+     misc_feature    9227..9907
+                     /gene="ATP6"
+                     /note="ATP synthase F0 subunit 6; Provisional; Region:
+                     ATP6; MTH00120"
+                     /db_xref="CDD:177181"
+     gene            9919..10702
+                     /gene="COX3"
+                     /db_xref="GeneID:22162495"
+     CDS             9919..10702
+                     /gene="COX3"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /codon_start=1
+                     /transl_except=(pos:10702,aa:TERM)
+                     /transl_table=2
+                     /product="cytochrome c oxidase subunit III"
+                     /protein_id="YP_009107751.1"
+                     /db_xref="GeneID:22162495"
+                     /translation="MAHQAHSYHMVDPSPWPILGAAAALLTTSGLTMWFHYNSPKLLIL
+                     GLLSTILVMFQWWRDIIRESTFQGHHTPTVQKGLRYGMALFITSEAFFFLGFFWAFFHS
+                     SLAPTPELGGQWPPVGIKPLNPMEVPLLNTAILLASGVTVTWAHHSITEANRKQAMQAL
+                     TLTVLLGFYFTALQAMEYYEAPFSIADGIYGSTFFVATGFHGLHVIIGSTFLLVCLLRL
+                     MKYHFTSGHHFGFEAAAWYWHFVDVVWLFLYISIYWWGS"
+     misc_feature    9919..10701
+                     /gene="COX3"
+                     /note="cytochrome c oxidase subunit III; Provisional;
+                     Region: COX3; MTH00118"
+                     /db_xref="CDD:177179"
+     misc_feature    order(10084..10086,10093..10098,10105..10107,10114..10122)
+                     /gene="COX3"
+                     /note="Subunit III/VIIa interface [polypeptide binding];
+                     other site"
+                     /db_xref="CDD:238834"
+     misc_feature    order(10087..10092,10099..10104,10111..10113,10129..10131,
+                     10162..10167,10174..10176,10558..10560,10579..10581,
+                     10615..10620)
+                     /gene="COX3"
+                     /note="Phospholipid binding site [chemical binding]; other
+                     site"
+                     /db_xref="CDD:238834"
+     misc_feature    order(10138..10140,10147..10152,10183..10185,10192..10194,
+                     10204..10209,10225..10227,10489..10494,10501..10503,
+                     10513..10515)
+                     /gene="COX3"
+                     /note="Subunit I/III interface [polypeptide binding]; other
+                     site"
+                     /db_xref="CDD:238834"
+     misc_feature    10273..10275
+                     /gene="COX3"
+                     /note="Subunit III/VIb interface [polypeptide binding];
+                     other site"
+                     /db_xref="CDD:238834"
+     misc_feature    order(10297..10305,10354..10356,10432..10434,10462..10470,
+                     10483..10491)
+                     /gene="COX3"
+                     /note="Subunit III/VIa interface; other site"
+                     /db_xref="CDD:238834"
+     misc_feature    10390..10392
+                     /gene="COX3"
+                     /note="Subunit III/Vb interface [polypeptide binding];
+                     other site"
+                     /db_xref="CDD:238834"
+     tRNA            10703..10771
+                     /product="tRNA-Gly"
+     gene            10772..11122
+                     /gene="ND3"
+                     /db_xref="GeneID:22162494"
+     CDS             10772..11122
+                     /gene="ND3"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 3"
+                     /protein_id="YP_009107752.1"
+                     /db_xref="GeneID:22162494"
+                     /translation="MNMILFMLTLSLTLSILLTILNFWLAQMNPDSEKLSPYECGFDPL
+                     GSARLPFSIRFFLVAILFLLFDLEIALLLPLPWAVQLESPTTTLIWTSFLLLILTLGLI
+                     YEWIQGGLEWAE"
+     misc_feature    10772..11119
+                     /gene="ND3"
+                     /note="NADH dehydrogenase subunit 3; Provisional; Region:
+                     ND3; MTH00136"
+                     /db_xref="CDD:177194"
+     tRNA            11124..11193
+                     /product="tRNA-Arg"
+     gene            11195..11491
+                     /gene="ND4L"
+                     /db_xref="GeneID:22162497"
+     CDS             11195..11491
+                     /gene="ND4L"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 4L"
+                     /protein_id="YP_009107753.1"
+                     /db_xref="GeneID:22162497"
+                     /translation="MSYLHLSFYSAFTLSSLGLAFHRTHLISALLCLESMMLSMYVALA
+                     MWPIQMQSPSSTILPIIMLTFSACEAGTGLALLVASTRTHGSDHLHNFNLLQC"
+     misc_feature    11195..11488
+                     /gene="ND4L"
+                     /note="NADH dehydrogenase subunit 4L; Provisional; Region:
+                     ND4L; MTH00125"
+                     /db_xref="CDD:177184"
+     gene            11485..12862
+                     /gene="ND4"
+                     /db_xref="GeneID:22162498"
+     CDS             11485..12862
+                     /gene="ND4"
+                     /note="TAA stop codon is completed by the addition of 3' A
+                     residues to the mRNA"
+                     /codon_start=1
+                     /transl_except=(pos:12862,aa:TERM)
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 4"
+                     /protein_id="YP_009107754.1"
+                     /db_xref="GeneID:22162498"
+                     /translation="MLKIIIPTATLLPLTLTSPLKHLWTNITLHSLLIATVSLQWLTPT
+                     YYPSKGLTPWSSIDQISSPLLVLSCWLLPLMIMASQNHLEQEPAIRKRIFATTVVLAQL
+                     FILLAFSASELMLFYISFEATLIPTLILITRWGNQPERLNAGIYLLFYTLASSLPLLIA
+                     ILHLQNLIGTLYLPMLKLSHPTLNTSWSGLIASLALLLAFMVKAPLYGLHLWLPKAHVE
+                     APIAGSMLLAALLLKLGGYGIMRITILVNPTSNNLHYPFITLALWGALMTSAICLRQID
+                     LKSLIAYSSVSHMGLVVAATMIQTQWAFSGAMILMISHGLTSSMLFCLANTNYERTHSR
+                     ILLLTRGLQPLLPLMATWWLLANLTNMALPPTTNLMAELTIVVALFNWSAFTIILTGAA
+                     ILLTASYTLYMLTMTQRGPLPSHITSIQNSSTREHLLMALHMIPMLLLILKPELISGVP
+                     M"
+     misc_feature    11485..12852
+                     /gene="ND4"
+                     /note="NADH dehydrogenase subunit 4; Provisional; Region:
+                     ND4; MTH00124"
+                     /db_xref="CDD:214427"
+     tRNA            12863..12932
+                     /product="tRNA-His"
+     tRNA            12933..12998
+                     /product="tRNA-Ser"
+     tRNA            12998..13068
+                     /product="tRNA-Leu"
+     gene            13069..14886
+                     /gene="ND5"
+                     /db_xref="GeneID:22162490"
+     CDS             13069..14886
+                     /gene="ND5"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 5"
+                     /protein_id="YP_009107755.1"
+                     /db_xref="GeneID:22162490"
+                     /translation="MDQALILNTFMLLTLTTLFTPILLPLLFPNFKNTPNSITNTVKTS
+                     FLISLVPMTIHIYSGTESLTSLWEWKFIMNFKIPISLKMDFYSLTFFPIALFVSWSILQ
+                     FATWYMASDPYITKFFTYLLFFLMAMLILIIANNLFVLFIGWEGVGIMSFLLISWWHGR
+                     AEANTAALQAVLYNRVGDVGLILCMAWLASAMNTWEIHQLSSPSQTPTLPLLGLILAAT
+                     GKSAQFGLHPWLPAAMEGPTPVSALLHSSTMVVAGIFLLIRTHPLFSNNQTALTLCLCL
+                     GAISTLFAATCALTQNDIKKIIAFSTSSQLGLMMVTIGLNLPELAFLHISTHAFFKAML
+                     FLCSGSIIHNLNGEQDIRKMGGLQKMMPTTTSCLTIGNLALMGTPFLAGFYSKDQIIES
+                     LNTSYLNTWALLLTLLATSFTAVYTIRMTVLVQTGFVRIPPMTPMNENNPAVTSPITRL
+                     ALGSILAGFLITSFIIPTKTPTMTMPLSIKMTALMVTALGIALALEISKMSQTLILTKQ
+                     TTLSNFSTSLGYFNHLTHRLSMSNFLSGGQNIASHLIDLSWFKTIGPEGLAHLQLMATK
+                     TATSLHSGLIKAYLGAFALSIIIILMSMH"
+     misc_feature    13141..14880
+                     /gene="ND5"
+                     /note="NADH dehydrogenase subunit 5; Validated; Region:
+                     ND5; MTH00004"
+                     /db_xref="CDD:214398"
+     gene            14895..16037
+                     /gene="CYTB"
+                     /db_xref="GeneID:22162488"
+     CDS             14895..16037
+                     /gene="CYTB"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="cytochrome b"
+                     /protein_id="YP_009107756.1"
+                     /db_xref="GeneID:22162488"
+                     /translation="MALNLRKNHQILKIINDALIDLPTPSNISTWWNFGSLLGICLITQ
+                     IVTGLLLAMHYTADTNLAFSSVAHMCRDVQFGWLIRNLHANGASFFFICIYLHIGRGIY
+                     YGSYLNKETWNIGVILLLTLMATAFVGYVLPWGQMSFWGATVITNLFSAIPYIGQTLVE
+                     WAWGGFSVDNPTLTRFFALHFLLPFVIVGLTLVHLTFLHETGSNNPTGVPSDCDKIPFH
+                     PYYTVKDILGFALMIALLVSLALFSPNMLGDPENFTPANPLVTPPHIKPEWYFLFAYAI
+                     LRSIPNKLGGVLALAASILVLFLMPLLHTSKLRSMTFRPISQILFWALVANVLILTWVG
+                     SQPVEHPFIIIGQLASLTYFTIILVLFPLAAALENKMLKL"
+     misc_feature    14895..16034
+                     /gene="CYTB"
+                     /note="cytochrome b; Provisional; Region: CYTB; MTH00119"
+                     /db_xref="CDD:214425"
+     misc_feature    order(14946..14951,15000..15002,15009..15011,15486..15488,
+                     15510..15512)
+                     /gene="CYTB"
+                     /note="Qi binding site [active]"
+                     /db_xref="CDD:238176"
+     misc_feature    order(14949..14954,14964..14972,14988..14993,15000..15005,
+                     15012..15014,15084..15086,15129..15131,15138..15143,
+                     15150..15155,15159..15164,15168..15173,15180..15182,
+                     15201..15218,15225..15227,15234..15239,15246..15248,
+                     15255..15260,15288..15290,15300..15320,15330..15335,
+                     15357..15359,15513..15515)
+                     /gene="CYTB"
+                     /note="intrachain domain interface [active]"
+                     /db_xref="CDD:238176"
+     misc_feature    order(14952..14957,14961..14963,14970..14972,15033..15035,
+                     15045..15047,15054..15059,15084..15089,15096..15101,
+                     15108..15122,15126..15134,15141..15143,15498..15503)
+                     /gene="CYTB"
+                     /note="interchain domain interface [polypeptide binding];
+                     other site"
+                     /db_xref="CDD:238176"
+     misc_feature    order(14988..14990,14997..15002,15006..15011,15165..15167,
+                     15177..15179,15186..15191,15195..15197,15231..15236,
+                     15243..15248,15252..15257,15474..15476,15483..15488,
+                     15495..15497,15510..15515)
+                     /gene="CYTB"
+                     /note="heme bH binding site [chemical binding]; other site"
+                     /db_xref="CDD:238176"
+     misc_feature    order(15018..15020,15027..15032,15039..15044,15048..15053,
+                     15060..15062,15093..15095,15135..15137,15144..15149,
+                     15156..15158,15273..15278,15285..15290,15294..15299,
+                     15441..15446,15453..15455)
+                     /gene="CYTB"
+                     /note="heme bL binding site [chemical binding]; other site"
+                     /db_xref="CDD:238176"
+     misc_feature    order(15258..15260,15267..15272,15279..15284,15321..15323,
+                     15330..15335,15345..15347,15429..15431,15438..15440)
+                     /gene="CYTB"
+                     /note="Qo binding site [active]"
+                     /db_xref="CDD:238176"
+     tRNA            16041..16109
+                     /product="tRNA-Thr"
+     tRNA            complement(16131..16200)
+                     /product="tRNA-Pro"
+     gene            complement(16209..16727)
+                     /gene="ND6"
+                     /db_xref="GeneID:22162491"
+     CDS             complement(16209..16727)
+                     /gene="ND6"
+                     /codon_start=1
+                     /transl_table=2
+                     /product="NADH dehydrogenase subunit 6"
+                     /protein_id="YP_009107757.1"
+                     /db_xref="GeneID:22162491"
+                     /translation="MMEFVLFLGVCFALGGLAVASNPSPYYGVLGLVVAAVAGCGWLVS
+                     LGVSFVSLVLVMVYLGGMLVVFVYSVSLAADPYPESWVSWGVVGYGVGMGLVVLVGIAV
+                     GGVLDLLVGEGTVNNGGLLSVRSDFSGVAVLYSEGVGLLLIGGWGLLLTLFVVLELVRG
+                     LSRGAIRAV"
+     misc_feature    complement(16212..16727)
+                     /gene="ND6"
+                     /note="NADH dehydrogenase subunit 6; Provisional; Region:
+                     ND6; MTH00115"
+                     /db_xref="CDD:214424"
+     tRNA            complement(16729..16798)
+                     /product="tRNA-Glu"
+ORIGIN
+        1 ccctaacttc cgaccccccc ttccccccca gtatgttttt attcatactt taagggtatg
+       61 tatagtatgc atcacactct tcgccccatc agacagtcca tgaaatgtag gacaccccac
+      121 atcatacgct atgcctctcc acgaaaaacc caaacattat ctccaaaacg gacctcattc
+      181 ggccaataca ccctccaggc acattcttgc ttcaggtacc atatagccca aatgctccta
+      241 cctacggcca agccgcaagc gttacccata cacccaggaa actacctact atacataacc
+      301 tccaacccag gaaacgagga atgtcccagt acacctttga attctcctag tctactgaat
+      361 tcgcccacct cctaactaca attgtccgcc aacagccttc aggcactccc aagccagagg
+      421 acatggttat ctattgatcg cgcttctcac gagaaccgag ctactcaacg ttataggtga
+      481 attacgttat tgccctgcag gcgcatacat ttaacaaact tgctcttttg cgctattggt
+      541 tgtaacttca ggaacatacc tccaccactc cctccttctt gcccttcact gatacaagtg
+      601 gtcggttgaa tattcctccc taacttcatt acctcggcat accgacctcc tacacttgtt
+      661 ttttttagcg tctcttcaat aagcccctca agtgcagagc aggtgatatc ttcctcttga
+      721 catgtccatc acatgactac cgaacatatg aatcccctaa cacccagaat gtcatggtct
+      781 aacggataag gtcgtcgcaa acttggcact gatgcacttt gaccccattc atggagggcg
+      841 cgctacctac ctctagacaa cagatagtgt aatggttgcc ggacatagat tttattattt
+      901 cattcactag gaattgtcat ttaaacctag ctttacgcat ctttttttta tcttgacatt
+      961 ttttgttttt ttgttaaaaa attaaccata tccccctaca ttatccaaat tgttcatcat
+     1021 caatccatct taaaccaacc tttctccgca ttttctacca tcaaaaacag taaccaacta
+     1081 tcatcactac accaatatac ccctaaaact acacaaacca acttttccct atcacacccc
+     1141 cccccccgaa aacccaaaca aaataagaat catgttcaca accatgagcc aattacacac
+     1201 caaatccccc tacgttcttg tagcttatag aaagcatgac actgaagatg tcaagatggc
+     1261 tgccacacac acccaagaac aaaagactta gtcctaacct tactgttagt ttttgctagg
+     1321 tatatacatg caagtatccg cgctccagtg tagaagccct ggaaacctta atcaggtaga
+     1381 taggagcggg tatcaggctc accataaccg tagcccaaga cgccttgcac ttgccacacc
+     1441 cccacgggta ctcagcagta gttaatatta agcaatgagt gtaaacttga cttagccata
+     1501 gcaaatttag ggttggtaaa tcctgtgcca gccaccgcgg tcatacagga gacccaaatt
+     1561 aacattataa cggcgtaaag agtggtcaca tgttatccaa gtagctaaga ttaaaaagca
+     1621 gctgagctgt cacaagccca agatgccaat aaggcctcct cgtcaaagaa gatcttagaa
+     1681 caacgattaa ttgaactcca cgaaagccag ggcccaaact gggattagat accccactat
+     1741 gcctggccct aaatcttgat gcttaaacct actaaagcat ccgcccgaga actacgagca
+     1801 ctaacgctta aaactctaag gacttggcgg tgccccaaac ccacctagag gagcctgttc
+     1861 tgtaatcgat gatccacgat atacctaacc attccttgcc aaaacagcct acataccgcc
+     1921 gtctccagtt cacccaccct gaaggccaaa cagtgagcgc aatagcccca ccacgctaat
+     1981 acgacaggtc aaggtatagc ctatggaatg ggagtaatgg gctacatttt ctagactaga
+     2041 acacacggca aaggggtatg aaacaacccc tggaaggcgg atttagcagt aaagtgggac
+     2101 aatcgagccc tctttaagcc ggccctgggg cacgtacata ccgcccgtca ccctcctcat
+     2161 aggcgccccc cccccccata aactaataag ccatccagcc aaagatgagg taagtcgtaa
+     2221 caaggtaagt gtaccggaag gtgcacttag gctaccaaga cgtagcttaa acaaaagcat
+     2281 tcagcttaca cctgaaaaat gtctgttaac atcagatcgt cttgatgcca aactctagcc
+     2341 caatcgacat gacctggaat aacaaagcta cttcatacac ccaactaaag cattcaccag
+     2401 tcctagtata ggcgatagaa aagacacctt tggagcgata gagactacgt accgtaaggg
+     2461 aaagatgaaa tattagtgaa ataaactaag ctataaacag caaagatcaa cccttgtacc
+     2521 ttttgcatca tggtctagca agaaaaacca agcaaaatga ctttaagttt gccatcccga
+     2581 aacccaagcg agctacttac gagcagctat tttgagcgca cccgtctctg tggcaaaaga
+     2641 gtgggatgac ttgttagtag aggtgaaaag ccaaccgagc tgggtgatag ctggttgcct
+     2701 gtgaaacgaa tcttagttca ctcttaattc ttctccaagg aaacacacaa accctaatga
+     2761 agcgaattaa gggcaattta aaggaggtac agctccttta aaaaagaata caatctctac
+     2821 gagcggataa gtactaacct tccaattata ctgtgggccc tcaagcagcc atcaacaaag
+     2881 agtgcgttaa agctctacca tacaaaaata taagaacaat atgactccct catcattaac
+     2941 aggctaacct atattcaaat aggagaatta atgctagaat gagtaacctg ggtcctccct
+     3001 ctacgacgca agcttacatc ggcacattat taacaaacca ccaatatacg ataaatcaaa
+     3061 caagcagagt attaagtaca ttgttaaccc gacagaggag cgtccattaa gaaagattaa
+     3121 aacctgtaaa aggaactcgg caagcacgtc aaggcccgac tgtttaccaa aaacatagcc
+     3181 ttcagcaaac agtagacaag tattgaaggt gatgcctgcc cggtgactca cgttcaacgg
+     3241 ccgcggtatc ctaaccgtgc aaaggtagcg caatcaattg tcccataaat cgagactagt
+     3301 atgaatggct aaacgaggtc ttaactgtct cttacaggca atcggtgaaa ttgatctccc
+     3361 tgtacaaaag cagggataaa cacataagac gagaagaccc tgtggaactt taaaaccagc
+     3421 aaccacctta aatcacatac tcacccactg ggttcactga cacataagtc actggtctgc
+     3481 gtttttcggt tggggcgacc ttggagcaaa acaaaacctc caaaaattag accacacctc
+     3541 tagactgaga gcaacccctc aacgtgctaa tagcatccag acccaataca attgatcaat
+     3601 ggaccaagct accccaggga taacagcgca atctcctccg agagtccgta tcgacgggga
+     3661 ggtttacgac ctcgatgttg gatcaggaca tcctagtggt gcagccgcta ctaagggttc
+     3721 gtttgttcaa cgattaatag tcctacgtga tctgagttca gaccggagta atccaggtcg
+     3781 gtttctatct atgatgaact cttcccagta cgaaaggata ggaaaagtga ggccaatacc
+     3841 gcaggcaagc ctccgcttta agtaatgaaa tcaactaaat tacaaaaggc tatcacacca
+     3901 caccacatcc aagaaaagga ccagctagcg tggcagagct cggaaaatgc aaaaggctta
+     3961 agtcctttaa atcagaggtt caaatcctct ccctagctta accagatcac ccatggccaa
+     4021 ctacccccta ctaattagtt ttatcatagc cctctcctac gccctaccaa tcttaattgc
+     4081 agtggccttt ctcacactag tagaacgcaa aattctaagc tacatgcaaa gccgaaaagg
+     4141 ccctaacatc gtaggcccat acggcctgct acaaccactg gcagacggag taaaactatt
+     4201 catcaaagaa cccattcgac catcaacatc ctccccactc ctattcattg caaccccaat
+     4261 actagcccta
