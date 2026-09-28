@@ -17,6 +17,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
 
 from mitominerva.mito import fetch_rcrs, tokenize_mito
 from mitominerva.sanity import check_contact_map
+from mitominerva.loading import load_model
 
 
 def main() -> int:
@@ -24,6 +25,7 @@ def main() -> int:
     ap.add_argument("--model", default="gbrixi/minerva-mlm-8k")
     ap.add_argument("--device", default="cpu", help="cpu fits the full window; mps caps near 7168 tokens")
     ap.add_argument("--dtype", default="float32")
+    ap.add_argument("--adapter", help="directory holding a finetuned LoRA adapter")
     ap.add_argument("--heads", nargs="+", default=["base_pairing", "protein", "repeat"])
     ap.add_argument("--out", default="outputs/full_window")
     args = ap.parse_args()
@@ -32,13 +34,9 @@ def main() -> int:
     m = tokenize_mito(fetch_rcrs(), drop_dloop=True)
     print(f"window rCRS {m.window[0]}..{m.window[1]}  {m.n_tokens:,} tokens")
 
-    tok = AutoTokenizer.from_pretrained(args.model, trust_remote_code=True)
+    tok, model = load_model(args.model, args.device, args.dtype, args.adapter)
     ids = tok(m.token_string, return_tensors="pt")["input_ids"]
     assert ids.shape[1] == m.n_tokens
-
-    model = AutoModelForMaskedLM.from_pretrained(
-        args.model, trust_remote_code=True, dtype=getattr(torch, args.dtype)
-    ).to(args.device).eval()
 
     t0 = time.time()
     with torch.inference_mode():

@@ -78,6 +78,8 @@ def main() -> int:
     ap.add_argument("--device", default="mps")
     ap.add_argument("--dtype", default="float16")
     ap.add_argument("--adapter", help="directory holding a finetuned LoRA adapter")
+    ap.add_argument("--genome-map", default="outputs/full_window/base_pairing.npy",
+                    help="whole-window map; must come from the same weights as --adapter")
     ap.add_argument("--out", default="outputs/step2_benchmark.json",
                     help="where to write results; change it for adapter runs so "
                          "the baseline file is not overwritten")
@@ -90,7 +92,7 @@ def main() -> int:
     m = tokenize_mito(gb, drop_dloop=True)
     trnas = sorted([f for f in m.other_features if f["type"] == "tRNA"],
                    key=lambda f: f["start"])
-    genome_map = np.load("outputs/full_window/base_pairing.npy").astype(np.float32)
+    genome_map = np.load(args.genome_map).astype(np.float32)
 
     tok, model = load_model(args.model, args.device, args.dtype, args.adapter)
     fold = Folder(model, tok, args.device)
