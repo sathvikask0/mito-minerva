@@ -30,6 +30,7 @@ from mitominerva.cloverleaf import (
     find_anticodon, revcomp, score_stem,
 )
 from mitominerva.mito import fetch_rcrs, load_record, tokenize_mito
+from mitominerva.loading import load_model
 
 BASES = "ACGT"
 CONFIDENT = 0.5
@@ -85,6 +86,7 @@ def main() -> int:
     ap.add_argument("--model", default="gbrixi/minerva-mlm-8k")
     ap.add_argument("--device", default="mps")
     ap.add_argument("--dtype", default="float16")
+    ap.add_argument("--adapter", help="directory holding a finetuned LoRA adapter")
     ap.add_argument("--only", nargs="*", help="restrict to these tRNA names")
     ap.add_argument("--out", default="outputs/step3_mutations.json")
     args = ap.parse_args()
@@ -97,10 +99,7 @@ def main() -> int:
     if args.only:
         trnas = [f for f in trnas if f["name"] in args.only]
 
-    tok = AutoTokenizer.from_pretrained(args.model, trust_remote_code=True)
-    model = AutoModelForMaskedLM.from_pretrained(
-        args.model, trust_remote_code=True, dtype=getattr(torch, args.dtype)
-    ).to(args.device).eval()
+    tok, model = load_model(args.model, args.device, args.dtype, args.adapter)
 
     records = []
     t_all = time.time()

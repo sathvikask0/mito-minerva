@@ -29,6 +29,7 @@ from mitominerva.cloverleaf import (
     find_anticodon, revcomp, score_stem,
 )
 from mitominerva.mito import fetch_rcrs, load_record, tokenize_mito
+from mitominerva.loading import load_model
 
 
 def vienna_partners(seq):
@@ -76,6 +77,7 @@ def main() -> int:
     ap.add_argument("--model", default="gbrixi/minerva-mlm-8k")
     ap.add_argument("--device", default="mps")
     ap.add_argument("--dtype", default="float16")
+    ap.add_argument("--adapter", help="directory holding a finetuned LoRA adapter")
     ap.add_argument("--n-decoys", type=int, default=200)
     ap.add_argument("--seed", type=int, default=0)
     args = ap.parse_args()
@@ -87,10 +89,7 @@ def main() -> int:
                    key=lambda f: f["start"])
     genome_map = np.load("outputs/full_window/base_pairing.npy").astype(np.float32)
 
-    tok = AutoTokenizer.from_pretrained(args.model, trust_remote_code=True)
-    model = AutoModelForMaskedLM.from_pretrained(
-        args.model, trust_remote_code=True, dtype=getattr(torch, args.dtype)
-    ).to(args.device).eval()
+    tok, model = load_model(args.model, args.device, args.dtype, args.adapter)
     fold = Folder(model, tok, args.device)
 
     header = (f"{'tRNA':7s} {'s':2s} {'len':>4s} | {'isolated':>18s} | "
