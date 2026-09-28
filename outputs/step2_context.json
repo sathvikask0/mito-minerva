@@ -1,0 +1,310 @@
+[
+  {
+    "name": "TRNF",
+    "strand": "+",
+    "length": 71,
+    "by_flank": {
+      "0": 5,
+      "50": 2,
+      "200": 1,
+      "1000": 2
+    },
+    "genome": 0,
+    "five_prime_partner_rel": 10,
+    "five_prime_partner_p": 0.01116943359375
+  },
+  {
+    "name": "TRNV",
+    "strand": "+",
+    "length": 69,
+    "by_flank": {
+      "0": 2,
+      "50": 0,
+      "200": 0,
+      "1000": 0
+    },
+    "genome": 0,
+    "five_prime_partner_rel": null,
+    "five_prime_partner_p": 0.0152740478515625
+  },
+  {
+    "name": "TRNL1",
+    "strand": "+",
+    "length": 75,
+    "by_flank": {
+      "0": 7,
+      "50": 7,
+      "200": 7,
+      "1000": 7
+    },
+    "genome": 7,
+    "five_prime_partner_rel": 73,
+    "five_prime_partner_p": 1.0
+  },
+  {
+    "name": "TRNI",
+    "strand": "+",
+    "length": 69,
+    "by_flank": {
+      "0": 6,
+      "50": 1,
+      "200": 0,
+      "1000": 0
+    },
+    "genome": 0,
+    "five_prime_partner_rel": null,
+    "five_prime_partner_p": 0.0084991455078125
+  },
+  {
+    "name": "TRNQ",
+    "strand": "-",
+    "length": 72,
+    "by_flank": {
+      "0": 6,
+      "50": 7,
+      "200": 7,
+      "1000": 7
+    },
+    "genome": 7,
+    "five_prime_partner_rel": 70,
+    "five_prime_partner_p": 0.9990234375
+  },
+  {
+    "name": "TRNM",
+    "strand": "+",
+    "length": 68,
+    "by_flank": {
+      "0": 5,
+      "50": 0,
+      "200": 0,
+      "1000": 0
+    },
+    "genome": 0,
+    "five_prime_partner_rel": null,
+    "five_prime_partner_p": 0.0158843994140625
+  },
+  {
+    "name": "TRNW",
+    "strand": "+",
+    "length": 68,
+    "by_flank": {
+      "0": 5,
+      "50": 2,
+      "200": 4,
+      "1000": 0
+    },
+    "genome": 0,
+    "five_prime_partner_rel": null,
+    "five_prime_partner_p": 0.00827789306640625
+  },
+  {
+    "name": "TRNA",
+    "strand": "-",
+    "length": 69,
+    "by_flank": {
+      "0": 1,
+      "50": 0,
+      "200": 0,
+      "1000": 0
+    },
+    "genome": 0,
+    "five_prime_partner_rel": 13,
+    "five_prime_partner_p": 0.00455474853515625
+  },
+  {
+    "name": "TRNN",
+    "strand": "-",
+    "length": 73,
+    "by_flank": {
+      "0": 6,
+      "50": 4,
+      "200": 7,
+      "1000": 7
+    },
+    "genome": 7,
+    "five_prime_partner_rel": 71,
+    "five_prime_partner_p": 0.99951171875
+  },
+  {
+    "name": "TRNC",
+    "strand": "-",
+    "length": 66,
+    "by_flank": {
+      "0": 4,
+      "50": 0,
+      "200": 0,
+      "1000": 0
+    },
+    "genome": 0,
+    "five_prime_partner_rel": 10,
+    "five_prime_partner_p": 0.046295166015625
+  },
+  {
+    "name": "TRNY",
+    "strand": "-",
+    "length": 66,
+    "by_flank": {
+      "0": 6,
+      "50": 4,
+      "200": 3,
+      "1000": 0
+    },
+    "genome": 0,
+    "five_prime_partner_rel": 10,
+    "five_prime_partner_p": 0.00400543212890625
+  },
+  {
+    "name": "TRNS1",
+    "strand": "-",
+    "length": 69,
+    "by_flank": {
+      "0": 3,
+      "50": 0,
+      "200": 2,
+      "1000": 6
+    },
+    "genome": 5,
+    "five_prime_partner_rel": 68,
+    "five_prime_partner_p": 0.90185546875
+  },
+  {
+    "name": "TRND",
+    "strand": "+",
+    "length": 68,
+    "by_flank": {
+      "0": 0,
+      "50": 0,
+      "200": 0,
+      "1000": 0
+    },
+    "genome": 0,
+    "five_prime_partner_rel": 18,
+    "five_prime_partner_p": 0.3681640625
+  },
+  {
+    "name": "TRNK",
+    "strand": "+",
+    "length": 70,
+    "by_flank": {
+      "0": 7,
+      "50": 2,
+      "200": 1,
+      "1000": 0
+    },
+    "genome": 3,
+    "five_prime_partner_rel": 68,
+    "five_prime_partner_p": 0.002620697021484375
+  },
+  {
+    "name": "TRNG",
+    "strand": "+",
+    "length": 68,
+    "by_flank": {
+      "0": 7,
+      "50": 6,
+      "200": 3,
+      "1000": 1
+    },
+    "genome": 0,
+    "five_prime_partner_rel": null,
+    "five_prime_partner_p": 0.00693511962890625
+  },
+  {
+    "name": "TRNR",
+    "strand": "+",
+    "length": 65,
+    "by_flank": {
+      "0": 5,
+      "50": 0,
+      "200": 0,
+      "1000": 0
+    },
+    "genome": 0,
+    "five_prime_partner_rel": null,
+    "five_prime_partner_p": 0.004016876220703125
+  },
+  {
+    "name": "TRNH",
+    "strand": "+",
+    "length": 69,
+    "by_flank": {
+      "0": 5,
+      "50": 0,
+      "200": 0,
+      "1000": 0
+    },
+    "genome": 0,
+    "five_prime_partner_rel": 21,
+    "five_prime_partner_p": 0.0044403076171875
+  },
+  {
+    "name": "TRNS2",
+    "strand": "+",
+    "length": 59,
+    "by_flank": {
+      "0": 7,
+      "50": 7,
+      "200": 5,
+      "1000": 0
+    },
+    "genome": 3,
+    "five_prime_partner_rel": 57,
+    "five_prime_partner_p": 0.006389617919921875
+  },
+  {
+    "name": "TRNL2",
+    "strand": "+",
+    "length": 71,
+    "by_flank": {
+      "0": 6,
+      "50": 0,
+      "200": 0,
+      "1000": 0
+    },
+    "genome": 0,
+    "five_prime_partner_rel": 11,
+    "five_prime_partner_p": 0.01274871826171875
+  },
+  {
+    "name": "TRNE",
+    "strand": "-",
+    "length": 69,
+    "by_flank": {
+      "0": 0,
+      "50": 0,
+      "200": 0,
+      "1000": 0
+    },
+    "genome": 0,
+    "five_prime_partner_rel": 16,
+    "five_prime_partner_p": 0.00534820556640625
+  },
+  {
+    "name": "TRNT",
+    "strand": "+",
+    "length": 66,
+    "by_flank": {
+      "0": 7,
+      "50": 3,
+      "200": 2,
+      "1000": 2
+    },
+    "genome": 5,
+    "five_prime_partner_rel": 64,
+    "five_prime_partner_p": 0.247314453125
+  },
+  {
+    "name": "TRNP",
+    "strand": "-",
+    "length": 68,
+    "by_flank": {
+      "0": 6,
+      "50": 1,
+      "200": 0,
+      "1000": 1
+    },
+    "genome": 0,
+    "five_prime_partner_rel": 66,
+    "five_prime_partner_p": 0.014434814453125
+  }
+]

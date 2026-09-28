@@ -167,7 +167,7 @@ mitochondrial disease mutation comes out perfect in every setting.</p>
 <p>Side benefit: single tRNAs are tiny, so everything runs in milliseconds. <strong>No
 GPU needed.</strong></p><figure><img src='step2_trna_maps_isolated.png' alt='Predicted folding for all 22 tRNAs, each folded on its own. Dark pixels are predicted contacts; blue and green circles mark where the acceptor and anticodon stems should be.'><figcaption>Predicted folding for all 22 tRNAs, each folded on its own. Dark pixels are predicted contacts; blue and green circles mark where the acceptor and anticodon stems should be.</figcaption></figure>
 <figure><img src='step2_trna_maps_genome.png' alt='The same tRNAs read out of the whole-genome pass. Most of the signal is gone.'><figcaption>The same tRNAs read out of the whole-genome pass. Most of the signal is gone.</figcaption></figure></section>
-<section id='s03'><h2>Step 3 — break every letter <span class='badge' style='background:#b8860b'>in progress</span></h2><p>Now the actual experiment. For all 22 tRNAs, change every letter to each of the
+<section id='s03'><h2>Step 3 — break every letter <span class='badge' style='background:#1a7f5a'>done</span></h2><p>Now the actual experiment. For all 22 tRNAs, change every letter to each of the
 three alternatives and measure the damage. That is roughly 4,600 mutations.</p>
 <p>Each one gets <strong>two independent scores</strong>:</p>
 <ol>
@@ -178,7 +178,29 @@ three alternatives and measure the damage. That is roughly 4,600 mutations.</p>
    This is the real reason to use an AI model.</li>
 </ol>
 <p>These two can disagree, and that is the interesting part: a mutation might
-leave the shape intact but still look deeply wrong to the model, or vice versa.</p></section>
+leave the shape intact but still look deeply wrong to the model, or vice versa.</p>
+<h2>Done — 4,524 mutations in about two minutes</h2>
+<p>On a laptop, no GPU.</p>
+<p><strong>The two scores barely agree with each other</strong> (correlation 0.19). That is the
+encouraging part: they are not measuring the same thing twice. Shape damage and
+surprise are genuinely separate signals, so combining them should beat either
+one alone.</p>
+<p><strong>First look at the famous one.</strong> m.3243A&gt;G — the mutation behind MELAS, a
+serious mitochondrial disease — lands in the <strong>96th percentile for surprise</strong>
+across all 4,524 mutations. The model strongly expects the original letter
+there.</p>
+<p>On shape damage alone it is only middling, 56th percentile. So the shape score
+by itself would have missed it, and the surprise score caught it.</p>
+<p>One data point is not evidence. Step 4 is the real test.</p><p><strong>4,524 mutations</strong> scored across 22 tRNAs.</p><p>The best-known mitochondrial disease mutation, <span class='mono'>m.3243A&gt;G</span>, scores in the <strong>58th percentile</strong> for shape damage out of all 4,524 mutations tested.</p><h4>Most shape-damaging mutations found</h4><table><thead><tr><th>mutation</th><th>tRNA</th><th>folding lost</th><th>surprise</th></tr></thead><tbody><tr><td class='mono'>m.14725A&gt;C</td><td>TRNE</td><td>100%</td><td>-0.4</td></tr>
+<tr><td class='mono'>m.14724C&gt;G</td><td>TRNE</td><td>100%</td><td>0.2</td></tr>
+<tr><td class='mono'>m.4372G&gt;A</td><td>TRNQ</td><td>91%</td><td>-4.9</td></tr>
+<tr><td class='mono'>m.4372G&gt;C</td><td>TRNQ</td><td>91%</td><td>-8.9</td></tr>
+<tr><td class='mono'>m.4372G&gt;T</td><td>TRNQ</td><td>91%</td><td>-5.5</td></tr>
+<tr><td class='mono'>m.4361T&gt;G</td><td>TRNQ</td><td>91%</td><td>-5.2</td></tr>
+<tr><td class='mono'>m.4360C&gt;G</td><td>TRNQ</td><td>91%</td><td>-8.3</td></tr>
+<tr><td class='mono'>m.14726T&gt;C</td><td>TRNE</td><td>89%</td><td>-1.7</td></tr>
+<tr><td class='mono'>m.14725A&gt;T</td><td>TRNE</td><td>89%</td><td>-0.1</td></tr>
+<tr><td class='mono'>m.14724C&gt;A</td><td>TRNE</td><td>89%</td><td>0.6</td></tr></tbody></table><p class='note'>Surprise is a log-ratio: more negative means the model is more confident the original letter belongs there.</p></section>
 <section id='s04'><h2>Step 4 — check against real disease <span class='badge' style='background:#8a8a8a'>not started</span></h2><p>The final test. Do our scores actually pick out real disease mutations?</p>
 <p>We compare against MITOMAP, a curated catalogue of mitochondrial variants,
 which separates known disease-causing mutations from harmless ones found in
@@ -192,11 +214,12 @@ the honest answer is to use physics.</p>
   <p class="note">Each row is one commit. The notebook above is rebuilt from the
   repository after every step, so it never drifts from the code.</p>
   <table><thead><tr><th>commit</th><th>date</th><th>what changed</th></tr></thead>
-  <tbody><tr><td class='mono'>2d68488</td><td class='mono'>2026-09-28</td><td>Step 2: Minerva folds mitochondrial tRNAs, but not in genomic context</td></tr>
+  <tbody><tr><td class='mono'>fc9838e</td><td class='mono'>2026-09-28</td><td>Add step 3 mutation scan and the lab-notebook site</td></tr>
+<tr><td class='mono'>2d68488</td><td class='mono'>2026-09-28</td><td>Step 2: Minerva folds mitochondrial tRNAs, but not in genomic context</td></tr>
 <tr><td class='mono'>dcfc635</td><td class='mono'>2026-09-28</td><td>Full window runs on CPU in 3 minutes; no GPU needed for step 2</td></tr>
 <tr><td class='mono'>c73fda4</td><td class='mono'>2026-09-28</td><td>Step 1: rCRS to Minerva mixed-token input</td></tr></tbody></table>
 </section>
-<footer>Last updated 28 September 2026. </footer>
+<footer>Last updated 28 September 2026. <a href='https://github.com/sathvikask0/mito-minerva'>source on GitHub</a></footer>
 </div>
 </body>
 </html>

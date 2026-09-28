@@ -1,0 +1,1714 @@
+{
+  "trnas": [
+    {
+      "name": "TRNF",
+      "strand": "+",
+      "length": 71,
+      "iso_acc": 5,
+      "gen_acc": 0,
+      "vie_acc": 7,
+      "iso_ant": 0,
+      "vie_ant": 0,
+      "n_ant": 5,
+      "iso_dot": ".(((((....(.............)........................(((.......)).).)))))..",
+      "vienna_dot": "(((((((..((((.........))))......(((((....)))))..(((.........)))))))))).",
+      "canonical_fraction": 0.8888888888888888
+    },
+    {
+      "name": "TRNV",
+      "strand": "+",
+      "length": 69,
+      "iso_acc": 2,
+      "gen_acc": 0,
+      "vie_acc": 0,
+      "iso_ant": 1,
+      "vie_ant": 0,
+      "n_ant": 5,
+      "iso_dot": "(.(..(((..((........))..[.......))).....]........................).).",
+      "vienna_dot": "..(((((((((((......))))........))))))).((((...((((......))))...))))..",
+      "canonical_fraction": 1.0
+    },
+    {
+      "name": "TRNL1",
+      "strand": "+",
+      "length": 75,
+      "iso_acc": 7,
+      "gen_acc": 7,
+      "vie_acc": 7,
+      "iso_ant": 5,
+      "vie_ant": 0,
+      "n_ant": 5,
+      "iso_dot": "(((((((..(((.([....{...))))((((((.......))))))...]((((((.}...))))))))))))).",
+      "vienna_dot": "(((((((.(((...)))..((((...................))))....(((((.......)))))))))))).",
+      "canonical_fraction": 0.8461538461538461
+    },
+    {
+      "name": "TRNI",
+      "strand": "+",
+      "length": 69,
+      "iso_acc": 6,
+      "gen_acc": 0,
+      "vie_acc": 7,
+      "iso_ant": 4,
+      "vie_ant": 5,
+      "n_ant": 5,
+      "iso_dot": ".(((.[..........[......((((.].....)))).(....(((.(.(..).).).)).]))))..",
+      "vienna_dot": "(((((((..(((......))).(((((((...))))))).....(((...........)))))))))).",
+      "canonical_fraction": 1.0
+    },
+    {
+      "name": "TRNQ",
+      "strand": "-",
+      "length": 72,
+      "iso_acc": 5,
+      "gen_acc": 7,
+      "vie_acc": 6,
+      "iso_ant": 5,
+      "vie_ant": 0,
+      "n_ant": 5,
+      "iso_dot": "(((((.....((((......))))((((((((.....))))))))..(((((.......)))))..))))).",
+      "vienna_dot": "((((((...((((........)))).(((((((..((((((........)))))))))))))...)))))).",
+      "canonical_fraction": 0.9090909090909091
+    },
+    {
+      "name": "TRNM",
+      "strand": "+",
+      "length": 68,
+      "iso_acc": 5,
+      "gen_acc": 0,
+      "vie_acc": 6,
+      "iso_ant": 5,
+      "vie_ant": 5,
+      "n_ant": 5,
+      "iso_dot": "((((([.....((.....))...(((((.......))))).................)...].)))).",
+      "vienna_dot": "((((.((..((((.....)))).(((((.......))))).......(((...)))....)).)))).",
+      "canonical_fraction": 1.0
+    },
+    {
+      "name": "TRNW",
+      "strand": "+",
+      "length": 68,
+      "iso_acc": 5,
+      "gen_acc": 0,
+      "vie_acc": 7,
+      "iso_ant": 5,
+      "vie_ant": 4,
+      "n_ant": 5,
+      "iso_dot": ".(((((................((((((((.(...).))))))))...(((..)..))...)))))..",
+      "vienna_dot": "(((((((.((((.....((..((..((.((.......)).))..))..))......))))))))))).",
+      "canonical_fraction": 0.8235294117647058
+    },
+    {
+      "name": "TRNA",
+      "strand": "-",
+      "length": 69,
+      "iso_acc": 4,
+      "gen_acc": 0,
+      "vie_acc": 7,
+      "iso_ant": 0,
+      "vie_ant": 0,
+      "n_ant": 5,
+      "iso_dot": ".((..(.....(.......)..........(((..[........))).].............)..))..",
+      "vienna_dot": "(((((((..((..((((.......((..((((((((.....))))))))..))))))..))))))))).",
+      "canonical_fraction": 1.0
+    },
+    {
+      "name": "TRNN",
+      "strand": "-",
+      "length": 73,
+      "iso_acc": 6,
+      "gen_acc": 7,
+      "vie_acc": 0,
+      "iso_ant": 5,
+      "vie_ant": 0,
+      "n_ant": 5,
+      "iso_dot": "(((((.(...(((....[...)))((((((((.....))))))))...(((((((].).))))))).))))).",
+      "vienna_dot": ".........((((((......(((.((((((((...(((.....)))....)).)))))))))))))))....",
+      "canonical_fraction": 0.88
+    },
+    {
+      "name": "TRNC",
+      "strand": "-",
+      "length": 66,
+      "iso_acc": 6,
+      "gen_acc": 0,
+      "vie_acc": 7,
+      "iso_ant": 1,
+      "vie_ant": 0,
+      "n_ant": 5,
+      "iso_dot": "(((.(((..................(.(..)..)(..).......(........)...))).))).",
+      "vienna_dot": "(((((((((((..........(((((((((............)))).)))))))))..))))))).",
+      "canonical_fraction": 1.0
+    },
+    {
+      "name": "TRNY",
+      "strand": "-",
+      "length": 66,
+      "iso_acc": 5,
+      "gen_acc": 0,
+      "vie_acc": 7,
+      "iso_ant": 2,
+      "vie_ant": 5,
+      "n_ant": 5,
+      "iso_dot": ".(((((....((......)).....((.......))........(.((.....)).)..)))))..",
+      "vienna_dot": "(((((((..(((......))).(((((.......)))))....((((((...))))))))))))).",
+      "canonical_fraction": 1.0
+    },
+    {
+      "name": "TRNS1",
+      "strand": "-",
+      "length": 69,
+      "iso_acc": 2,
+      "gen_acc": 5,
+      "vie_acc": 0,
+      "iso_ant": 5,
+      "vie_ant": 0,
+      "n_ant": 5,
+      "iso_dot": "..((....([(.......).)..(((((.......)))))....(((((.....].)))))...))...",
+      "vienna_dot": "...(((((..(((((((((......))))))....))))))))((((((.......)))))).......",
+      "canonical_fraction": 1.0
+    },
+    {
+      "name": "TRND",
+      "strand": "+",
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 6,
+      "iso_ant": 4,
+      "vie_ant": 5,
+      "n_ant": 5,
+      "iso_dot": ".(((((.......)))))......((((((...)))))).....((((((....))))))........",
+      "vienna_dot": "((((((...((((.....)))).(((((((...)))))))...((((((......)))))))))))).",
+      "canonical_fraction": 0.8235294117647058
+    },
+    {
+      "name": "TRNK",
+      "strand": "+",
+      "length": 70,
+      "iso_acc": 7,
+      "gen_acc": 3,
+      "vie_acc": 7,
+      "iso_ant": 5,
+      "vie_ant": 0,
+      "n_ant": 5,
+      "iso_dot": "(((((((((((((...)))...[([[(((....]].])))..)................)))))))))).",
+      "vienna_dot": "(((((((((((((...))))......(((((((........)))))))............))))))))).",
+      "canonical_fraction": 1.0
+    },
+    {
+      "name": "TRNG",
+      "strand": "+",
+      "length": 68,
+      "iso_acc": 7,
+      "gen_acc": 0,
+      "vie_acc": 7,
+      "iso_ant": 2,
+      "vie_ant": 5,
+      "n_ant": 5,
+      "iso_dot": "(((((((...................((.......))..(..)..(((........))).))))))).",
+      "vienna_dot": "((((((((.((((.....)))).(((((.......))))).....((((......)))))))))))).",
+      "canonical_fraction": 1.0
+    },
+    {
+      "name": "TRNR",
+      "strand": "+",
+      "length": 65,
+      "iso_acc": 5,
+      "gen_acc": 0,
+      "vie_acc": 5,
+      "iso_ant": 0,
+      "vie_ant": 0,
+      "n_ant": 5,
+      "iso_dot": "((((.(...(((..))).............................(((...)))...).)))).",
+      "vienna_dot": "(((((((((((((((......((((....)))).....))))))))))...........))))).",
+      "canonical_fraction": 0.9090909090909091
+    },
+    {
+      "name": "TRNH",
+      "strand": "+",
+      "length": 69,
+      "iso_acc": 5,
+      "gen_acc": 0,
+      "vie_acc": 7,
+      "iso_ant": 4,
+      "vie_ant": 5,
+      "n_ant": 5,
+      "iso_dot": "((.((...................(((((.....)))))......(.(.(....)..).)...)).)).",
+      "vienna_dot": "(((((((..((((((((......(((((((...))))))).......)).))).)))....))))))).",
+      "canonical_fraction": 1.0
+    },
+    {
+      "name": "TRNS2",
+      "strand": "+",
+      "length": 59,
+      "iso_acc": 7,
+      "gen_acc": 3,
+      "vie_acc": 7,
+      "iso_ant": 0,
+      "vie_ant": 0,
+      "n_ant": 5,
+      "iso_dot": "(((((((....(.......)..............((((((....)))))).))))))).",
+      "vienna_dot": "((((((((...........((........))...(((((......))))))))))))).",
+      "canonical_fraction": 0.9285714285714286
+    },
+    {
+      "name": "TRNL2",
+      "strand": "+",
+      "length": 71,
+      "iso_acc": 6,
+      "gen_acc": 0,
+      "vie_acc": 7,
+      "iso_ant": 0,
+      "vie_ant": 0,
+      "n_ant": 5,
+      "iso_dot": "((((((...((((((...))))))....(.......).(((((...)))))(.....)......)))))).",
+      "vienna_dot": "(((((((..(((((.....))))).((((......((.(((((...))))).))....)))).))))))).",
+      "canonical_fraction": 0.8947368421052632
+    },
+    {
+      "name": "TRNE",
+      "strand": "-",
+      "length": 69,
+      "iso_acc": 2,
+      "gen_acc": 0,
+      "vie_acc": 7,
+      "iso_ant": 0,
+      "vie_ant": 0,
+      "n_ant": 5,
+      "iso_dot": "(.[)(.........[..(..((........]..............)...)..)..........).]...",
+      "vienna_dot": "(((((((((...((..((((((.((((....(((......))))))).)))))).))..))))))))).",
+      "canonical_fraction": 1.0
+    },
+    {
+      "name": "TRNT",
+      "strand": "+",
+      "length": 66,
+      "iso_acc": 7,
+      "gen_acc": 5,
+      "vie_acc": 7,
+      "iso_ant": 3,
+      "vie_ant": 0,
+      "n_ant": 5,
+      "iso_dot": "(((((((..(......).......((.(.........).)).................))))))).",
+      "vienna_dot": "(((((((..((((......))))....(((((........)))))(((((...)))))))))))).",
+      "canonical_fraction": 1.0
+    },
+    {
+      "name": "TRNP",
+      "strand": "-",
+      "length": 68,
+      "iso_acc": 7,
+      "gen_acc": 0,
+      "vie_acc": 7,
+      "iso_ant": 4,
+      "vie_ant": 5,
+      "n_ant": 5,
+      "iso_dot": "((((((((.(.(..).)(...[.[..((.....].].))).............(...).)))))))).",
+      "vienna_dot": "(((((((.(((((.((((...((((((((.......))))).)))..))))..)))))..))))))).",
+      "canonical_fraction": 0.9375
+    }
+  ],
+  "decoys": [
+    {
+      "start": 1207,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 831,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1093,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1012,
+      "length": 73,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2487,
+      "length": 71,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2654,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1868,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1477,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2887,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1376,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1972,
+      "length": 66,
+      "iso_acc": 3,
+      "gen_acc": 0,
+      "vie_acc": 6
+    },
+    {
+      "start": 2199,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2343,
+      "length": 72,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 803,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2864,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1200,
+      "length": 65,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1013,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 822,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2491,
+      "length": 75,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2814,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1239,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 730,
+      "length": 75,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1785,
+      "length": 75,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2528,
+      "length": 59,
+      "iso_acc": 2,
+      "gen_acc": 0,
+      "vie_acc": 4
+    },
+    {
+      "start": 1491,
+      "length": 73,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2749,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 3145,
+      "length": 71,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1944,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 675,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1688,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1926,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2536,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1708,
+      "length": 70,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2002,
+      "length": 72,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1912,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2308,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2712,
+      "length": 72,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2020,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1711,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2463,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1195,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2535,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1899,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 946,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 763,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1710,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2914,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2676,
+      "length": 69,
+      "iso_acc": 4,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1694,
+      "length": 72,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 852,
+      "length": 70,
+      "iso_acc": 2,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2229,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1850,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1201,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1910,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2034,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2265,
+      "length": 71,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 4
+    },
+    {
+      "start": 2977,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 3111,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1319,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2385,
+      "length": 73,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1732,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1827,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 763,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2775,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 788,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2920,
+      "length": 59,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2844,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2880,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2451,
+      "length": 66,
+      "iso_acc": 4,
+      "gen_acc": 0,
+      "vie_acc": 4
+    },
+    {
+      "start": 1752,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 3125,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 924,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1880,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2584,
+      "length": 71,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1864,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 671,
+      "length": 70,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2349,
+      "length": 73,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 678,
+      "length": 71,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2406,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2788,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 1
+    },
+    {
+      "start": 2680,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 965,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2377,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1738,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 721,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2574,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1046,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1004,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2871,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1921,
+      "length": 65,
+      "iso_acc": 3,
+      "gen_acc": 0,
+      "vie_acc": 6
+    },
+    {
+      "start": 2936,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 800,
+      "length": 75,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2459,
+      "length": 65,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2489,
+      "length": 75,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2619,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1106,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2478,
+      "length": 73,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2679,
+      "length": 59,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2957,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1955,
+      "length": 75,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 793,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2294,
+      "length": 75,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 760,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 3
+    },
+    {
+      "start": 1861,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1736,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 820,
+      "length": 71,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2577,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2506,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1077,
+      "length": 72,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 813,
+      "length": 73,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1279,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 953,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1889,
+      "length": 70,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1011,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2006,
+      "length": 71,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 783,
+      "length": 59,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1800,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2205,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1760,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2475,
+      "length": 65,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1284,
+      "length": 71,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2464,
+      "length": 71,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2219,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1710,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 907,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1777,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 3112,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 777,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1338,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1216,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1718,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2864,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2036,
+      "length": 59,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2657,
+      "length": 71,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 4
+    },
+    {
+      "start": 2317,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1203,
+      "length": 65,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1970,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2265,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2296,
+      "length": 70,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 887,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2517,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2661,
+      "length": 72,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2848,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 847,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2573,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2224,
+      "length": 59,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2053,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2754,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1518,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2829,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1389,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1881,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2408,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 782,
+      "length": 70,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2072,
+      "length": 75,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1102,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2626,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 728,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2217,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 833,
+      "length": 71,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 3113,
+      "length": 71,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1841,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2934,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1350,
+      "length": 75,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1524,
+      "length": 59,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2595,
+      "length": 70,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1443,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1065,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1936,
+      "length": 59,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1229,
+      "length": 65,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1201,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1734,
+      "length": 59,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 968,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2670,
+      "length": 70,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2908,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 780,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 688,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2199,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2163,
+      "length": 71,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 995,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1823,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2755,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2712,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1829,
+      "length": 66,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1932,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1378,
+      "length": 59,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1858,
+      "length": 65,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2893,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2499,
+      "length": 59,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1083,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1204,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 804,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2705,
+      "length": 65,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1430,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1003,
+      "length": 71,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 2505,
+      "length": 59,
+      "iso_acc": 5,
+      "gen_acc": 0,
+      "vie_acc": 6
+    },
+    {
+      "start": 2733,
+      "length": 69,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1120,
+      "length": 70,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1127,
+      "length": 68,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    },
+    {
+      "start": 1159,
+      "length": 59,
+      "iso_acc": 0,
+      "gen_acc": 0,
+      "vie_acc": 0
+    }
+  ]
+}
