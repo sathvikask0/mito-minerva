@@ -1,0 +1,6382 @@
+[
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 636,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TF):m.636A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 591,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TF):m.591C>T",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 590,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TF):m.590A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 647,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TF):m.647A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 644,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TF):m.644A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 643,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TF):m.643A>G",
+    "review": "criteria provided, multiple submitters, no conflicts"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 635,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TF):m.635C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 634,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TF):m.634T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 634,
+    "ref": "T",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TF):m.634T>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 633,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TF):m.633A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 630,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TF):m.630C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 629,
+    "ref": "T",
+    "alt": "A",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TF):m.629T>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 629,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign/Likely benign",
+    "title": "NC_012920.1(MT-TF):m.629T>C",
+    "review": "criteria provided, multiple submitters, no conflicts"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 628,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TF):m.628C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 624,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TF):m.624C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 621,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TF):m.621A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 619,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TF):m.619T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 618,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TF):m.618T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 606,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TF):m.606A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 603,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TF):m.603A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 597,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TF):m.597C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 596,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TF):m.596T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 595,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TF):m.595C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 595,
+    "ref": "C",
+    "alt": "A",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TF):m.595C>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 593,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TF):m.593T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 592,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TF):m.592C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 588,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Conflicting classifications of pathogenicity",
+    "title": "NC_012920.1(MT-TF):m.588T>C",
+    "review": "criteria provided, conflicting classifications"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 579,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TF):m.579T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 578,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TF):m.578T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 608,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TF):m.608A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 586,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TF):m.586G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 616,
+    "ref": "T",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TF):m.616T>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 616,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TF):m.616T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 622,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TF):m.622G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 611,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TF):m.611G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNF",
+    "symbol": "MT-TF",
+    "pos": 583,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TF):m.583G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1621,
+    "ref": "A",
+    "alt": "C",
+    "clinvar": "Pathogenic",
+    "title": "NC_012920.1(MT-TV):m.1621A>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1642,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TV):m.1642G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1616,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TV):m.1616A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1670,
+    "ref": "A",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TV):m.1670A>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1664,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TV):m.1664G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1659,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TV):m.1659T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1658,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TV):m.1658T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1657,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TV):m.1657C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1654,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TV):m.1654T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1646,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TV):m.1646T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1644,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TV):m.1644G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1641,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TV):m.1641G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1640,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TV):m.1640A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1638,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TV):m.1638T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1636,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TV):m.1636A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1631,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TV):m.1631C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1630,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TV):m.1630A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1629,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TV):m.1629A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1628,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TV):m.1628C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1618,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TV):m.1618A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1617,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TV):m.1617C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1608,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TV):m.1608G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1607,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TV):m.1607T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1643,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TV):m.1643A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1619,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TV):m.1619C>T",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1655,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TV):m.1655A>G",
+    "review": "no assertion criteria provided"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1661,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TV):m.1661A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1644,
+    "ref": "G",
+    "alt": "T",
+    "clinvar": "not provided",
+    "title": "NC_012920.1(MT-TV):m.1644G>T",
+    "review": "no classification provided"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1624,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TV):m.1624C>T",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNV",
+    "symbol": "MT-TV",
+    "pos": 1606,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TV):m.1606G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3276,
+    "ref": "A",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL1):m.3276A>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3264,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL1):m.3264T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3244,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL1):m.3244G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3280,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL1):m.3280A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3258,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TL1):m.3258T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3290,
+    "ref": "T",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL1):m.3290T>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3302,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TL1):m.3302A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3288,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL1):m.3288A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3278,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TL1):m.3278T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3277,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TL1):m.3277G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3275,
+    "ref": "C",
+    "alt": "A",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TL1):m.3275C>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3275,
+    "ref": "C",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TL1):m.3275C>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3272,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL1):m.3272T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3269,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL1):m.3269A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3263,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL1):m.3263C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3261,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TL1):m.3261A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3255,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TL1):m.3255G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3254,
+    "ref": "C",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TL1):m.3254C>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3254,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TL1):m.3254C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3252,
+    "ref": "A",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL1):m.3252A>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3248,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL1):m.3248G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3243,
+    "ref": "A",
+    "alt": "T",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TL1):m.3243A>T",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3236,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TL1):m.3236A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3275,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TL1):m.3275C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3276,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL1):m.3276A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3291,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TL1):m.3291T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3242,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TL1):m.3242G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3249,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL1):m.3249G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3274,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL1):m.3274A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3290,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TL1):m.3290T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3260,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TL1):m.3260A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3251,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TL1):m.3251A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3252,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TL1):m.3252A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3250,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL1):m.3250T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3303,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TL1):m.3303C>T",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3256,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TL1):m.3256C>T",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3271,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Pathogenic",
+    "title": "NC_012920.1(MT-TL1):m.3271T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL1",
+    "symbol": "MT-TL1",
+    "pos": 3243,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Pathogenic",
+    "title": "NC_012920.1(MT-TL1):m.3243A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4275,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Pathogenic",
+    "title": "NC_012920.1(MT-TI):m.4275G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4311,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TI):m.4311G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4327,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TI):m.4327T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4320,
+    "ref": "C",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TI):m.4320C>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4320,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TI):m.4320C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4318,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TI):m.4318C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4314,
+    "ref": "T",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TI):m.4314T>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4314,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TI):m.4314T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4313,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TI):m.4313T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4312,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TI):m.4312C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4310,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TI):m.4310A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4308,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TI):m.4308G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4298,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TI):m.4298G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4296,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TI):m.4296G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4264,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TI):m.4264G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4305,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1:m.4305A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4316,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Conflicting classifications of pathogenicity",
+    "title": "NC_012920.1(MT-TI):m.4316A>G",
+    "review": "criteria provided, conflicting classifications"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4315,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TI):m.4315A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4277,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Conflicting classifications of pathogenicity",
+    "title": "NC_012920.1(MT-TI):m.4277T>C",
+    "review": "criteria provided, conflicting classifications"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4291,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TI):m.4291T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4300,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TI):m.4300A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4290,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TI):m.4290T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4284,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TI):m.4284G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4295,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TI):m.4295A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4269,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TI):m.4269A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNI",
+    "symbol": "MT-TI",
+    "pos": 4317,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TI):m.4317A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4400,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TQ):m.4400A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4399,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TQ):m.4399T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4395,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TQ):m.4395A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4394,
+    "ref": "C",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TQ):m.4394C>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4387,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TQ):m.4387C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4386,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TQ):m.4386T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4385,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TQ):m.4385A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4385,
+    "ref": "A",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TQ):m.4385A>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4384,
+    "ref": "T",
+    "alt": "A",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TQ):m.4384T>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4384,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TQ):m.4384T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4381,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TQ):m.4381A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4375,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TQ):m.4375C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4373,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TQ):m.4373T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4372,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TQ):m.4372C>T",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4371,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TQ):m.4371T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4370,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TQ):m.4370T>C",
+    "review": "criteria provided, multiple submitters, no conflicts"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4360,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TQ):m.4360G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4353,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TQ):m.4353T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4350,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TQ):m.4350C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4343,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TQ):m.4343A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4340,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TQ):m.4340A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4339,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TQ):m.4339G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4335,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TQ):m.4335C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4388,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Conflicting classifications of pathogenicity",
+    "title": "NC_012920.1(MT-TQ):m.4388A>G",
+    "review": "criteria provided, conflicting classifications"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4363,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Conflicting classifications of pathogenicity",
+    "title": "NC_012920.1(MT-TQ):m.4363T>C",
+    "review": "criteria provided, conflicting classifications"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4332,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TQ):m.4332G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNQ",
+    "symbol": "MT-TQ",
+    "pos": 4336,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TQ):m.4336T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNM",
+    "symbol": "MT-TM",
+    "pos": 4450,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TM):m.4450G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNM",
+    "symbol": "MT-TM",
+    "pos": 4466,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TM):m.4466A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNM",
+    "symbol": "MT-TM",
+    "pos": 4464,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TM):m.4464G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNM",
+    "symbol": "MT-TM",
+    "pos": 4456,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TM):m.4456C>T",
+    "review": "criteria provided, multiple submitters, no conflicts"
+  },
+  {
+    "trna": "TRNM",
+    "symbol": "MT-TM",
+    "pos": 4455,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TM):m.4455A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNM",
+    "symbol": "MT-TM",
+    "pos": 4454,
+    "ref": "T",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TM):m.4454T>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNM",
+    "symbol": "MT-TM",
+    "pos": 4454,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TM):m.4454T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNM",
+    "symbol": "MT-TM",
+    "pos": 4452,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign/Likely benign",
+    "title": "NC_012920.1(MT-TM):m.4452T>C",
+    "review": "criteria provided, multiple submitters, no conflicts"
+  },
+  {
+    "trna": "TRNM",
+    "symbol": "MT-TM",
+    "pos": 4451,
+    "ref": "T",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TM):m.4451T>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNM",
+    "symbol": "MT-TM",
+    "pos": 4437,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TM):m.4437C>T",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNM",
+    "symbol": "MT-TM",
+    "pos": 4435,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TM):m.4435A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNM",
+    "symbol": "MT-TM",
+    "pos": 4429,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TM):m.4429G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNM",
+    "symbol": "MT-TM",
+    "pos": 4418,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TM):m.4418T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNM",
+    "symbol": "MT-TM",
+    "pos": 4417,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TM):m.4417A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNM",
+    "symbol": "MT-TM",
+    "pos": 4409,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TM):m.4409T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5535,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TW):m.5535C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5513,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TW):m.5513G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5575,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TW):m.5575T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5573,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TW):m.5573A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5568,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TW):m.5568A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5567,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TW):m.5567T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5566,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TW):m.5566A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5563,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TW):m.5563G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5560,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TW):m.5560G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5558,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TW):m.5558A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5557,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TW):m.5557T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5554,
+    "ref": "C",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TW):m.5554C>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5553,
+    "ref": "T",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TW):m.5553T>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5550,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TW):m.5550C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5544,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TW):m.5544T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5543,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TW):m.5543T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5542,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TW):m.5542C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5540,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TW):m.5540G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5539,
+    "ref": "A",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TW):m.5539A>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5539,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TW):m.5539A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5538,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TW):m.5538G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5530,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TW):m.5530C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5528,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TW):m.5528T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5527,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TW):m.5527A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5524,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TW):m.5524T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5516,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TW):m.5516A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5515,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TW):m.5515A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5514,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TW):m.5514A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5561,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TW):m.5561T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5553,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign/Likely benign",
+    "title": "NC_012920.1(MT-TW):m.5553T>C",
+    "review": "criteria provided, multiple submitters, no conflicts"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5559,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TW):m.5559A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5523,
+    "ref": "T",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TW):m.5523T>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5556,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TW):m.5556G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5545,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TW):m.5545C>T",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5532,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TW):m.5532G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5521,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TW):m.5521G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNW",
+    "symbol": "MT-TW",
+    "pos": 5549,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TW):m.5549G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNA",
+    "symbol": "MT-TA",
+    "pos": 5613,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TA):m.5613T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNA",
+    "symbol": "MT-TA",
+    "pos": 5655,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TA):m.5655T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNA",
+    "symbol": "MT-TA",
+    "pos": 5654,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TA):m.5654T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNA",
+    "symbol": "MT-TA",
+    "pos": 5645,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TA):m.5645G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNA",
+    "symbol": "MT-TA",
+    "pos": 5640,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TA):m.5640A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNA",
+    "symbol": "MT-TA",
+    "pos": 5633,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TA):m.5633C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNA",
+    "symbol": "MT-TA",
+    "pos": 5628,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TA):m.5628T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNA",
+    "symbol": "MT-TA",
+    "pos": 5619,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TA):m.5619G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNA",
+    "symbol": "MT-TA",
+    "pos": 5618,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TA):m.5618T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNA",
+    "symbol": "MT-TA",
+    "pos": 5609,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TA):m.5609T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNA",
+    "symbol": "MT-TA",
+    "pos": 5608,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TA):m.5608C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNA",
+    "symbol": "MT-TA",
+    "pos": 5607,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TA):m.5607T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNA",
+    "symbol": "MT-TA",
+    "pos": 5605,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TA):m.5605A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNA",
+    "symbol": "MT-TA",
+    "pos": 5604,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TA):m.5604C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNA",
+    "symbol": "MT-TA",
+    "pos": 5603,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TA):m.5603C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNA",
+    "symbol": "MT-TA",
+    "pos": 5601,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TA):m.5601C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNA",
+    "symbol": "MT-TA",
+    "pos": 5600,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TA):m.5600A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNA",
+    "symbol": "MT-TA",
+    "pos": 5592,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TA):m.5592A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNA",
+    "symbol": "MT-TA",
+    "pos": 5590,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TA):m.5590G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNA",
+    "symbol": "MT-TA",
+    "pos": 5610,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TA):m.5610G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNA",
+    "symbol": "MT-TA",
+    "pos": 5631,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TA):m.5631G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNA",
+    "symbol": "MT-TA",
+    "pos": 5591,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TA):m.5591G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNA",
+    "symbol": "MT-TA",
+    "pos": 5650,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TA):m.5650G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNN",
+    "symbol": "MT-TN",
+    "pos": 5698,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TN):m.5698G>A",
+    "review": "no assertion criteria provided"
+  },
+  {
+    "trna": "TRNN",
+    "symbol": "MT-TN",
+    "pos": 5690,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TN):m.5690A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNN",
+    "symbol": "MT-TN",
+    "pos": 5702,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TN):m.5702A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNN",
+    "symbol": "MT-TN",
+    "pos": 5715,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TN):m.5715A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNN",
+    "symbol": "MT-TN",
+    "pos": 5711,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TN):m.5711A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNN",
+    "symbol": "MT-TN",
+    "pos": 5708,
+    "ref": "C",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TN):m.5708C>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNN",
+    "symbol": "MT-TN",
+    "pos": 5705,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TN):m.5705A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNN",
+    "symbol": "MT-TN",
+    "pos": 5693,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TN):m.5693T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNN",
+    "symbol": "MT-TN",
+    "pos": 5686,
+    "ref": "A",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TN):m.5686A>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNN",
+    "symbol": "MT-TN",
+    "pos": 5673,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TN):m.5673T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNN",
+    "symbol": "MT-TN",
+    "pos": 5672,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TN):m.5672T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNN",
+    "symbol": "MT-TN",
+    "pos": 5669,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TN):m.5669G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNN",
+    "symbol": "MT-TN",
+    "pos": 5665,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TN):m.5665A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNN",
+    "symbol": "MT-TN",
+    "pos": 5664,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TN):m.5664A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNN",
+    "symbol": "MT-TN",
+    "pos": 5663,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TN):m.5663C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNN",
+    "symbol": "MT-TN",
+    "pos": 5662,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TN):m.5662C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNN",
+    "symbol": "MT-TN",
+    "pos": 5661,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TN):m.5661A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNN",
+    "symbol": "MT-TN",
+    "pos": 5667,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TN):m.5667G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNN",
+    "symbol": "MT-TN",
+    "pos": 5728,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TN):m.5728T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNN",
+    "symbol": "MT-TN",
+    "pos": 5692,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TN):m.5692T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNN",
+    "symbol": "MT-TN",
+    "pos": 5703,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Pathogenic",
+    "title": "NC_012920.1(MT-TN):m.5703G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5805,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "not provided",
+    "title": "NC_012920.1(MT-TC):m.5805A>G",
+    "review": "no classification provided"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5824,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TC):m.5824G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5823,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TC):m.5823A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5822,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TC):m.5822G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5821,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TC):m.5821G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5819,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TC):m.5819T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5817,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TC):m.5817C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5814,
+    "ref": "T",
+    "alt": "A",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TC):m.5814T>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5811,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TC):m.5811A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5809,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TC):m.5809G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5807,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TC):m.5807A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5806,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TC):m.5806T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5804,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TC):m.5804A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5802,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TC):m.5802T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5800,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TC):m.5800A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5794,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TC):m.5794T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5793,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TC):m.5793A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5791,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TC):m.5791G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5788,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TC):m.5788T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5786,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TC):m.5786T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5785,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TC):m.5785T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5783,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TC):m.5783G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5780,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TC):m.5780G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5775,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TC):m.5775T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5774,
+    "ref": "T",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TC):m.5774T>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5774,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TC):m.5774T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5773,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TC):m.5773G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5772,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TC):m.5772G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5816,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TC):m.5816A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNC",
+    "symbol": "MT-TC",
+    "pos": 5814,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TC):m.5814T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNY",
+    "symbol": "MT-TY",
+    "pos": 5828,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Pathogenic",
+    "title": "NC_012920.1(MT-TY):m.5828G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNY",
+    "symbol": "MT-TY",
+    "pos": 5889,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TY):m.5889A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNY",
+    "symbol": "MT-TY",
+    "pos": 5885,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TY):m.5885T>C",
+    "review": "criteria provided, multiple submitters, no conflicts"
+  },
+  {
+    "trna": "TRNY",
+    "symbol": "MT-TY",
+    "pos": 5876,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TY):m.5876A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNY",
+    "symbol": "MT-TY",
+    "pos": 5875,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TY):m.5875C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNY",
+    "symbol": "MT-TY",
+    "pos": 5867,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TY):m.5867C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNY",
+    "symbol": "MT-TY",
+    "pos": 5865,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TY):m.5865T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNY",
+    "symbol": "MT-TY",
+    "pos": 5864,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TY):m.5864G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNY",
+    "symbol": "MT-TY",
+    "pos": 5858,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TY):m.5858T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNY",
+    "symbol": "MT-TY",
+    "pos": 5855,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TY):m.5855A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNY",
+    "symbol": "MT-TY",
+    "pos": 5852,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TY):m.5852T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNY",
+    "symbol": "MT-TY",
+    "pos": 5846,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TY):m.5846C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNY",
+    "symbol": "MT-TY",
+    "pos": 5841,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TY):m.5841T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNY",
+    "symbol": "MT-TY",
+    "pos": 5840,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TY):m.5840C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNY",
+    "symbol": "MT-TY",
+    "pos": 5840,
+    "ref": "C",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TY):m.5840C>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNY",
+    "symbol": "MT-TY",
+    "pos": 5839,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TY):m.5839C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNY",
+    "symbol": "MT-TY",
+    "pos": 5837,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TY):m.5837G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNY",
+    "symbol": "MT-TY",
+    "pos": 5836,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TY):m.5836A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNY",
+    "symbol": "MT-TY",
+    "pos": 5843,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TY):m.5843A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNY",
+    "symbol": "MT-TY",
+    "pos": 5877,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TY):m.5877C>T",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNY",
+    "symbol": "MT-TY",
+    "pos": 5874,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TY):m.5874T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7501,
+    "ref": "T",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TS1):m.7501T>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7472,
+    "ref": "A",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TS1):m.7472A>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7453,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TS1):m.7453G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7501,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TS1):m.7501T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7499,
+    "ref": "C",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TS1):m.7499C>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7490,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TS1):m.7490A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7487,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TS1):m.7487C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7479,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TS1):m.7479G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7478,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TS1):m.7478G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7471,
+    "ref": "C",
+    "alt": "A",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TS1):m.7471C>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7469,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TS1):m.7469C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7460,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TS1):m.7460A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7462,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TS1):m.7462C>T",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7472,
+    "ref": "A",
+    "alt": "T",
+    "clinvar": "Benign/Likely benign",
+    "title": "NC_012920.1(MT-TS1):m.7472A>T",
+    "review": "criteria provided, multiple submitters, no conflicts"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7486,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TS1):m.7486G>A",
+    "review": "no assertion criteria provided"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7496,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TS1):m.7496T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7502,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TS1):m.7502C>T",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7498,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TS1):m.7498G>A",
+    "review": "criteria provided, multiple submitters, no conflicts"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7493,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TS1):m.7493C>T",
+    "review": "criteria provided, multiple submitters, no conflicts"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7476,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TS1):m.7476C>T",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7471,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign/Likely benign",
+    "title": "NC_012920.1(MT-TS1):m.7471C>T",
+    "review": "criteria provided, multiple submitters, no conflicts"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7468,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Conflicting classifications of pathogenicity",
+    "title": "NC_012920.1(MT-TS1):m.7468C>T",
+    "review": "criteria provided, conflicting classifications"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7505,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TS1):m.7505T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7497,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TS1):m.7497G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7511,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TS1):m.7511T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7510,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TS1):m.7510T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNS1",
+    "symbol": "MT-TS1",
+    "pos": 7512,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TS1):m.7512T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7554,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TD):m.7554G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7585,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TD):m.7585A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7582,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TD):m.7582C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7581,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TD):m.7581T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7577,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TD):m.7577T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7576,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TD):m.7576A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7572,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TD):m.7572T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7570,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TD):m.7570A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7569,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TD):m.7569A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7568,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TD):m.7568T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7567,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TD):m.7567C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7566,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TD):m.7566G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7562,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TD):m.7562A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7561,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TD):m.7561T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7559,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TD):m.7559A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7555,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TD):m.7555T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7552,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TD):m.7552A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7547,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TD):m.7547T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7546,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TD):m.7546T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7543,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TD):m.7543A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7538,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TD):m.7538T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7534,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TD):m.7534C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7533,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TD):m.7533C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7525,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TD):m.7525T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7521,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TD):m.7521G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7520,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TD):m.7520G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7518,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TD):m.7518A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRND",
+    "symbol": "MT-TD",
+    "pos": 7526,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TD):m.7526A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8316,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "not provided",
+    "title": "NC_012920.1(MT-TK):m.8316T>C",
+    "review": "no classification provided"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8302,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TK):m.8302A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8328,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TK):m.8328G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8326,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TK):m.8326A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8340,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TK):m.8340G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8306,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TK):m.8306T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8364,
+    "ref": "A",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TK):m.8364A>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8362,
+    "ref": "T",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TK):m.8362T>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8360,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TK):m.8360A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8358,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TK):m.8358A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8350,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TK):m.8350A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8349,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TK):m.8349C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8348,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign/Likely benign",
+    "title": "NC_012920.1(MT-TK):m.8348A>G",
+    "review": "criteria provided, multiple submitters, no conflicts"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8347,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TK):m.8347A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8346,
+    "ref": "C",
+    "alt": "A",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TK):m.8346C>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8345,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TK):m.8345C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8343,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TK):m.8343A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8338,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TK):m.8338A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8337,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TK):m.8337T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8331,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TK):m.8331A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8319,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TK):m.8319A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8315,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TK):m.8315A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8311,
+    "ref": "T",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TK):m.8311T>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8311,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TK):m.8311T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8308,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TK):m.8308A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8301,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TK):m.8301A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8300,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TK):m.8300T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8299,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TK):m.8299G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8298,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TK):m.8298T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8361,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TK):m.8361G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8296,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TK):m.8296A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8313,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TK):m.8313G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8342,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TK):m.8342G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8363,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TK):m.8363G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8356,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TK):m.8356T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNK",
+    "symbol": "MT-TK",
+    "pos": 8344,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Pathogenic",
+    "title": "NC_012920.1(MT-TK):m.8344A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 10055,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TG):m.10055A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 10048,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TG):m.10048A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 10045,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TG):m.10045T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 10042,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TG):m.10042A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 10040,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TG):m.10040C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 10034,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TG):m.10034T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 10031,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TG):m.10031T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 10029,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TG):m.10029A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 10027,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TG):m.10027T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 10020,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TG):m.10020T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 10015,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TG):m.10015T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 10014,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TG):m.10014G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 10013,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TG):m.10013C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 10008,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TG):m.10008A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 10007,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign/Likely benign",
+    "title": "NC_012920.1(MT-TG):m.10007T>C",
+    "review": "criteria provided, multiple submitters, no conflicts"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 10006,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TG):m.10006A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 10005,
+    "ref": "A",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TG):m.10005A>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 10005,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TG):m.10005A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 10003,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TG):m.10003T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 9997,
+    "ref": "T",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TG):m.9997T>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 9996,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TG):m.9996T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 9995,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TG):m.9995T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 9993,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TG):m.9993T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 9991,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TG):m.9991A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 10018,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TG):m.10018A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 10046,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Conflicting classifications of pathogenicity",
+    "title": "NC_012920.1(MT-TG):m.10046T>C",
+    "review": "criteria provided, conflicting classifications"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 10044,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TG):m.10044A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 10010,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TG):m.10010T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNG",
+    "symbol": "MT-TG",
+    "pos": 9997,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TG):m.9997T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNR",
+    "symbol": "MT-TR",
+    "pos": 10407,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Pathogenic",
+    "title": "NC_012920.1(MT-TR):m.10407G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNR",
+    "symbol": "MT-TR",
+    "pos": 10437,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TR):m.10437G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNR",
+    "symbol": "MT-TR",
+    "pos": 10463,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign/Likely benign",
+    "title": "NC_012920.1(MT-TR):m.10463T>C",
+    "review": "criteria provided, multiple submitters, no conflicts"
+  },
+  {
+    "trna": "TRNR",
+    "symbol": "MT-TR",
+    "pos": 10462,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TR):m.10462T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNR",
+    "symbol": "MT-TR",
+    "pos": 10460,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TR):m.10460T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNR",
+    "symbol": "MT-TR",
+    "pos": 10457,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TR):m.10457T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNR",
+    "symbol": "MT-TR",
+    "pos": 10456,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TR):m.10456A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNR",
+    "symbol": "MT-TR",
+    "pos": 10455,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TR):m.10455A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNR",
+    "symbol": "MT-TR",
+    "pos": 10454,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TR):m.10454T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNR",
+    "symbol": "MT-TR",
+    "pos": 10448,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TR):m.10448T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNR",
+    "symbol": "MT-TR",
+    "pos": 10446,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TR):m.10446A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNR",
+    "symbol": "MT-TR",
+    "pos": 10440,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TR):m.10440T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNR",
+    "symbol": "MT-TR",
+    "pos": 10427,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TR):m.10427G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNR",
+    "symbol": "MT-TR",
+    "pos": 10420,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TR):m.10420A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNR",
+    "symbol": "MT-TR",
+    "pos": 10411,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TR):m.10411A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNR",
+    "symbol": "MT-TR",
+    "pos": 10410,
+    "ref": "T",
+    "alt": "A",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TR):m.10410T>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNR",
+    "symbol": "MT-TR",
+    "pos": 10410,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TR):m.10410T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNR",
+    "symbol": "MT-TR",
+    "pos": 10408,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TR):m.10408T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNR",
+    "symbol": "MT-TR",
+    "pos": 10406,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TR):m.10406G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNR",
+    "symbol": "MT-TR",
+    "pos": 10405,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TR):m.10405T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNR",
+    "symbol": "MT-TR",
+    "pos": 10450,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TR):m.10450A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNR",
+    "symbol": "MT-TR",
+    "pos": 10438,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TR):m.10438A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12187,
+    "ref": "C",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TH):m.12187C>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12146,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TH):m.12146A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12187,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "not provided",
+    "title": "NC_012920.1(MT-TH):m.12187C>T",
+    "review": "no classification provided"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12205,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TH):m.12205C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12204,
+    "ref": "A",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TH):m.12204A>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12202,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TH):m.12202T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12196,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TH):m.12196C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12193,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TH):m.12193A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12191,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TH):m.12191C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12189,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TH):m.12189T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12188,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TH):m.12188T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12185,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TH):m.12185G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12184,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TH):m.12184A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12181,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TH):m.12181C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12178,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TH):m.12178C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12176,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TH):m.12176G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12173,
+    "ref": "T",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TH):m.12173T>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12173,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TH):m.12173T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12172,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TH):m.12172A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12171,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TH):m.12171A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12166,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TH):m.12166T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12164,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TH):m.12164G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12163,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TH):m.12163A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12161,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TH):m.12161T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12160,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TH):m.12160A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12151,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TH):m.12151A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12150,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TH):m.12150T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12148,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TH):m.12148T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12144,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TH):m.12144A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12143,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TH):m.12143T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12142,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TH):m.12142A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12141,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TH):m.12141A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12177,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1:m.12177A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12170,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "not provided",
+    "title": "NC_012920.1(MT-TH):m.12170G>A",
+    "review": "no classification provided"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12153,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Conflicting classifications of pathogenicity",
+    "title": "NC_012920.1(MT-TH):m.12153C>T",
+    "review": "criteria provided, conflicting classifications"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12175,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Conflicting classifications of pathogenicity",
+    "title": "NC_012920.1(MT-TH):m.12175T>C",
+    "review": "criteria provided, conflicting classifications"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12201,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TH):m.12201T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12147,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TH):m.12147G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12183,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TH):m.12183G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNH",
+    "symbol": "MT-TH",
+    "pos": 12192,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TH):m.12192G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12257,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TS2):m.12257G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12246,
+    "ref": "C",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TS2):m.12246C>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12265,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TS2):m.12265A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12264,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TS2):m.12264C>T",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12258,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TS2):m.12258C>T",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12255,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TS2):m.12255T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12250,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TS2):m.12250C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12248,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TS2):m.12248A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12247,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TS2):m.12247T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12246,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TS2):m.12246C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12245,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TS2):m.12245T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12237,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TS2):m.12237C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12235,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TS2):m.12235T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12234,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TS2):m.12234A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12231,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TS2):m.12231C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12230,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TS2):m.12230A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12223,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TS2):m.12223A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12218,
+    "ref": "C",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TS2):m.12218C>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12217,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TS2):m.12217A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12216,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TS2):m.12216C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12215,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TS2):m.12215T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12213,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TS2):m.12213G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12236,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Conflicting classifications of pathogenicity",
+    "title": "NC_012920.1(MT-TS2):m.12236G>A",
+    "review": "criteria provided, conflicting classifications"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12239,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TS2):m.12239C>T",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12207,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TS2):m.12207G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNS2",
+    "symbol": "MT-TS2",
+    "pos": 12258,
+    "ref": "C",
+    "alt": "A",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TS2):m.12258C>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12299,
+    "ref": "A",
+    "alt": "C",
+    "clinvar": "not provided",
+    "title": "NC_012920.1(MT-TL2):m.12299A>C",
+    "review": "no classification provided"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12317,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL2):m.12317T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12316,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL2):m.12316G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12294,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL2):m.12294G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12335,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL2):m.12335T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12318,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL2):m.12318G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12311,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TL2):m.12311T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12308,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TL2):m.12308A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12302,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL2):m.12302C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12302,
+    "ref": "C",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL2):m.12302C>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12295,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TL2):m.12295T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12293,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL2):m.12293G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12291,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL2):m.12291T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12285,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TL2):m.12285T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12281,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TL2):m.12281C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12280,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TL2):m.12280A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12279,
+    "ref": "A",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TL2):m.12279A>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12279,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TL2):m.12279A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12278,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Conflicting classifications of pathogenicity",
+    "title": "NC_012920.1(MT-TL2):m.12278T>C",
+    "review": "criteria provided, conflicting classifications"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12276,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TL2):m.12276G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12273,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TL2):m.12273A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12283,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL2):m.12283G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12271,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL2):m.12271T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12297,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TL2):m.12297T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12320,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TL2):m.12320A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNL2",
+    "symbol": "MT-TL2",
+    "pos": 12315,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TL2):m.12315G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNE",
+    "symbol": "MT-TE",
+    "pos": 14680,
+    "ref": "C",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TE):m.14680C>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNE",
+    "symbol": "MT-TE",
+    "pos": 14724,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TE):m.14724G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNE",
+    "symbol": "MT-TE",
+    "pos": 14739,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TE):m.14739G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNE",
+    "symbol": "MT-TE",
+    "pos": 14729,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TE):m.14729T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNE",
+    "symbol": "MT-TE",
+    "pos": 14727,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TE):m.14727T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNE",
+    "symbol": "MT-TE",
+    "pos": 14716,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TE):m.14716C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNE",
+    "symbol": "MT-TE",
+    "pos": 14710,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TE):m.14710G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNE",
+    "symbol": "MT-TE",
+    "pos": 14696,
+    "ref": "A",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TE):m.14696A>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNE",
+    "symbol": "MT-TE",
+    "pos": 14696,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TE):m.14696A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNE",
+    "symbol": "MT-TE",
+    "pos": 14693,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TE):m.14693A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNE",
+    "symbol": "MT-TE",
+    "pos": 14691,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TE):m.14691C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNE",
+    "symbol": "MT-TE",
+    "pos": 14690,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TE):m.14690A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNE",
+    "symbol": "MT-TE",
+    "pos": 14687,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TE):m.14687A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNE",
+    "symbol": "MT-TE",
+    "pos": 14684,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign/Likely benign",
+    "title": "NC_012920.1(MT-TE):m.14684C>T",
+    "review": "criteria provided, multiple submitters, no conflicts"
+  },
+  {
+    "trna": "TRNE",
+    "symbol": "MT-TE",
+    "pos": 14683,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TE):m.14683A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNE",
+    "symbol": "MT-TE",
+    "pos": 14681,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TE):m.14681G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNE",
+    "symbol": "MT-TE",
+    "pos": 14701,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TE):m.14701C>T",
+    "review": "criteria provided, multiple submitters, no conflicts"
+  },
+  {
+    "trna": "TRNE",
+    "symbol": "MT-TE",
+    "pos": 14706,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TE):m.14706A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNE",
+    "symbol": "MT-TE",
+    "pos": 14692,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TE):m.14692A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNE",
+    "symbol": "MT-TE",
+    "pos": 14732,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TE):m.14732A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNE",
+    "symbol": "MT-TE",
+    "pos": 14674,
+    "ref": "T",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TE):m.14674T>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNE",
+    "symbol": "MT-TE",
+    "pos": 14674,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TE):m.14674T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNE",
+    "symbol": "MT-TE",
+    "pos": 14709,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TE):m.14709T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15917,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "not provided",
+    "title": "NC_012920.1(MT-TT):m.15917C>T",
+    "review": "no classification provided"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15952,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TT):m.15952C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15951,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15951A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15949,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15949G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15947,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15947A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15946,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15946C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15944,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TT):m.15944T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15942,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15942T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15941,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15941T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15940,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15940T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15939,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15939C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15938,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15938C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15937,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15937A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15937,
+    "ref": "A",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TT):m.15937A>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15936,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TT):m.15936A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15936,
+    "ref": "A",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15936A>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15935,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15935A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15932,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15932T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15930,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15930G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15929,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15929A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15926,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15926C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15925,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TT):m.15925C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15924,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign/Likely benign",
+    "title": "NC_012920.1(MT-TT):m.15924A>G",
+    "review": "criteria provided, multiple submitters, no conflicts"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15921,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TT):m.15921T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15916,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15916T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15915,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TT):m.15915G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15914,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15914A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15913,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15913C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15911,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TT):m.15911A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15909,
+    "ref": "A",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TT):m.15909A>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15909,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TT):m.15909A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15908,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15908T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15907,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign/Likely benign",
+    "title": "NC_012920.1(MT-TT):m.15907A>G",
+    "review": "criteria provided, multiple submitters, no conflicts"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15905,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15905T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15904,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign/Likely benign",
+    "title": "NC_012920.1(MT-TT):m.15904C>T",
+    "review": "criteria provided, multiple submitters, no conflicts"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15903,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15903A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15902,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15902A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15900,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15900T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15897,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TT):m.15897G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15895,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TT):m.15895T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15894,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Benign/Likely benign",
+    "title": "NC_012920.1(MT-TT):m.15894G>A",
+    "review": "criteria provided, multiple submitters, no conflicts"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15893,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TT):m.15893T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15892,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15892T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15891,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15891C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15890,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TT):m.15890C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15889,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15889T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15888,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TT):m.15888G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15928,
+    "ref": "G",
+    "alt": "T",
+    "clinvar": "not provided",
+    "title": "NC_012920.1(MT-TT):m.15928G>T",
+    "review": "no classification provided"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15943,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15943T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15932,
+    "ref": "T",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TT):m.15932T>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15928,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Benign/Likely benign",
+    "title": "NC_012920.1(MT-TT):m.15928G>A",
+    "review": "criteria provided, multiple submitters, no conflicts"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15927,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TT):m.15927G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15890,
+    "ref": "C",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TT):m.15890C>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15923,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TT):m.15923A>G",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNT",
+    "symbol": "MT-TT",
+    "pos": 15950,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TT):m.15950G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNP",
+    "symbol": "MT-TP",
+    "pos": 16015,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TP):m.16015T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNP",
+    "symbol": "MT-TP",
+    "pos": 16023,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TP):m.16023G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNP",
+    "symbol": "MT-TP",
+    "pos": 15958,
+    "ref": "A",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TP):m.15958A>T",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNP",
+    "symbol": "MT-TP",
+    "pos": 16021,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TP):m.16021C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNP",
+    "symbol": "MT-TP",
+    "pos": 16017,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TP):m.16017T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNP",
+    "symbol": "MT-TP",
+    "pos": 16013,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TP):m.16013A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNP",
+    "symbol": "MT-TP",
+    "pos": 16011,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TP):m.16011A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNP",
+    "symbol": "MT-TP",
+    "pos": 16003,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TP):m.16003T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNP",
+    "symbol": "MT-TP",
+    "pos": 16002,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TP):m.16002T>C",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNP",
+    "symbol": "MT-TP",
+    "pos": 15995,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TP):m.15995G>A",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNP",
+    "symbol": "MT-TP",
+    "pos": 15994,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TP):m.15994A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNP",
+    "symbol": "MT-TP",
+    "pos": 15992,
+    "ref": "A",
+    "alt": "T",
+    "clinvar": "Likely benign",
+    "title": "NC_012920.1(MT-TP):m.15992A>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNP",
+    "symbol": "MT-TP",
+    "pos": 15984,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TP):m.15984T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNP",
+    "symbol": "MT-TP",
+    "pos": 15983,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TP):m.15983T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNP",
+    "symbol": "MT-TP",
+    "pos": 15978,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TP):m.15978C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNP",
+    "symbol": "MT-TP",
+    "pos": 15977,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TP):m.15977C>T",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNP",
+    "symbol": "MT-TP",
+    "pos": 15976,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TP):m.15976T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNP",
+    "symbol": "MT-TP",
+    "pos": 15970,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TP):m.15970T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNP",
+    "symbol": "MT-TP",
+    "pos": 15968,
+    "ref": "T",
+    "alt": "C",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TP):m.15968T>C",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNP",
+    "symbol": "MT-TP",
+    "pos": 15967,
+    "ref": "G",
+    "alt": "A",
+    "clinvar": "Uncertain significance",
+    "title": "NC_012920.1(MT-TP):m.15967G>A",
+    "review": "reviewed by expert panel"
+  },
+  {
+    "trna": "TRNP",
+    "symbol": "MT-TP",
+    "pos": 15965,
+    "ref": "A",
+    "alt": "G",
+    "clinvar": "Benign",
+    "title": "NC_012920.1(MT-TP):m.15965A>G",
+    "review": "criteria provided, single submitter"
+  },
+  {
+    "trna": "TRNP",
+    "symbol": "MT-TP",
+    "pos": 15990,
+    "ref": "C",
+    "alt": "T",
+    "clinvar": "Likely pathogenic",
+    "title": "NC_012920.1(MT-TP):m.15990C>T",
+    "review": "reviewed by expert panel"
+  }
+]

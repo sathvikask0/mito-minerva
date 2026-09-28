@@ -14,10 +14,9 @@ mitochondrial tRNA — without alignments, and without a structure.
    format under the vertebrate mitochondrial code, and check it fits the context. ✅
 2. **Go / no-go.** Does the `base_pairing` head recover the cloverleaf folds of
    the 22 mitochondrial tRNAs? ✅ yes, but only on near-isolated genes — see below.
-3. **Mutate.** Change each tRNA base in turn; score the disruption to the
-   predicted fold and to the model's likelihood.
-4. **Validate.** Compare those scores against MITOMAP pathogenic variants
-   (e.g. m.3243A>G in tRNA-Leu(UUR)) versus benign population variants.
+3. **Mutate.** ✅ 4,524 point mutations scored two ways.
+4. **Validate.** ❌ Against ClinVar, Minerva does not beat ViennaRNA and
+   neither is accurate enough to use. See below.
 
 ## Setup
 
@@ -169,6 +168,70 @@ whole-window pass is the regime where the model does *worst*. Steps 3 and 4 have
 to fold tRNAs on their own, which is cheap: 70-token inputs run in milliseconds,
 so no GPU is needed for the mutation scan either.
 
+## Steps 3 and 4 — mutate, then validate
+
+```bash
+.venv/bin/python scripts/step3_mutate.py         # 4,524 mutants, ~2 min
+.venv/bin/python scripts/step3b_context_llr.py   # likelihood with flanks
+.venv/bin/python scripts/step4_fetch_clinvar.py  # labels from NCBI
+.venv/bin/python scripts/step4_evaluate.py
+```
+
+Every base of every tRNA was changed to each alternative and scored two ways:
+the fraction of wild-type base pairs lost on refolding, and the masked
+log-likelihood ratio against the wild-type base. The second has no ViennaRNA
+equivalent and was the reason to reach for a language model.
+
+MITOMAP is behind a bot wall, so labels come from ClinVar via the same
+E-utilities API used for the reference: **363 substitutions inside the 22
+tRNAs, 52 pathogenic and 311 benign.**
+
+### Result: no separation worth having
+
+AUC, with bootstrap 95% CIs over 2,000 resamples:
+
+| score | AUC | 95% CI |
+| --- | --- | --- |
+| Minerva, pairs lost | 0.526 | 0.441–0.609 |
+| Minerva, stem pairs lost | 0.574 | 0.505–0.643 |
+| Minerva, masked LLR | 0.578 | 0.489–0.674 |
+| Minerva, LLR in ±300 nt context | 0.485 | 0.391–0.584 |
+| **Minerva, best combination** | **0.601** | 0.524–0.674 |
+| ViennaRNA, base-pair distance | 0.524 | 0.446–0.605 |
+| **ViennaRNA, ΔΔG** | **0.664** | 0.581–0.741 |
+
+Best Minerva minus best ViennaRNA: **−0.063**, CI −0.164 to +0.043. So Minerva
+is not ahead; whether it is genuinely behind is not resolved at this sample
+size. Restricting to `Pathogenic` and `Benign` only (dropping every "Likely")
+gives the same ordering with wider intervals.
+
+Published predictors for this task report AUCs near 0.9, so neither number here
+is usable.
+
+### Why
+
+The pitch was alignment-free scoring from a single sequence. The tools that
+reach 0.9 are conservation-based — they ask whether a base held still across
+evolutionary time — and that appears to carry most of the signal. Minerva has
+no access to it.
+
+Adding genomic context made the likelihood score *worse*, down to chance. That
+is the same fragility step 2 found in the folding head, now in the language
+modelling head, and it is the clearest sign that mitochondrial DNA is out of
+distribution for a bacterially-trained model.
+
+### What is actually true here
+
+Step 2 is a real positive: a model trained only on bacteria folds human
+mitochondrial tRNAs it has never seen, and beats thermodynamics at the
+anticodon arm. Step 4 is a real negative: that ability does not transfer to
+ranking mutations by pathogenicity. Both results are reproducible from this
+repo.
+
+The obvious next move, if continuing, is the fallback from the original plan —
+finetune on animal mitochondrial genomes, of which thousands are public — and
+to obtain the larger MITOMAP label set so the test has more power.
+
 ## Layout
 
 ```
@@ -180,7 +243,14 @@ scripts/step2_predict.py    whole-window inference, cached to outputs/
 scripts/step2_benchmark.py  Minerva vs ViennaRNA vs decoys -- the go / no-go
 scripts/step2_context.py    how recovery decays with flanking sequence
 scripts/step2_plot.py       contact maps for all 22 tRNAs
+scripts/step3_mutate.py     every point mutation, scored two ways
+scripts/step3b_context_llr.py  the likelihood score with flanking sequence
+scripts/step4_fetch_clinvar.py labelled variants from NCBI
+scripts/step4_evaluate.py   AUC against ClinVar, with ViennaRNA as baseline
+scripts/build_site.py       rebuilds docs/ from notes/ and outputs/
 scripts/bench_device.py     how long an input this machine can handle
+notes/                      the plain-language write-up behind the site
+docs/                       the published site (GitHub Pages)
 tests/test_mito.py          the token string really is the rCRS, base for base
 data/processed/             the mixed-token string and the tRNA token spans
 ```
