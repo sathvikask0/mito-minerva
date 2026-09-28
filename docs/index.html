@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mitochondrial tRNA lab notebook</title>
+<meta name="description" content="Using a bacterial DNA language model to predict which mutations break human mitochondrial tRNAs.">
+<style>
+  :root {
+    --bg: #fbfaf7; --fg: #1c1b19; --muted: #5f5c57; --rule: #e0ddd6;
+    --accent: #1a5f7a; --card: #ffffff; --code: #f2f0eb;
+  }
+  :root:not([data-theme="light"]) {
+    @media (prefers-color-scheme: dark) {
+      --bg: #16181a; --fg: #e8e6e3; --muted: #a09d98; --rule: #2e3133;
+      --accent: #6fb3d0; --card: #1d2022; --code: #24272a;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #16181a; --fg: #e8e6e3; --muted: #a09d98; --rule: #2e3133;
+    --accent: #6fb3d0; --card: #1d2022; --code: #24272a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 17px/1.65 ui-serif, Georgia, "Times New Roman", serif;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 16px 80px; }
+  header { padding: 56px 0 8px; border-bottom: 1px solid var(--rule); margin-bottom: 8px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; letter-spacing: -0.01em; }
+  .sub { color: var(--muted); margin: 0; font-size: 1.02rem; }
+  nav { display: flex; flex-wrap: wrap; gap: 14px; padding: 14px 0 6px;
+         border-bottom: 1px solid var(--rule); margin-bottom: 28px;
+         font-family: ui-sans-serif, system-ui, sans-serif; font-size: 0.86rem; }
+  nav a { color: var(--accent); text-decoration: none; }
+  nav a:hover { text-decoration: underline; }
+  section { margin: 0 0 44px; }
+  h2 { font-size: 1.38rem; margin: 36px 0 12px; letter-spacing: -0.01em; }
+  h3, h4 { font-size: 1.05rem; margin: 26px 0 8px;
+            font-family: ui-sans-serif, system-ui, sans-serif; }
+  p { margin: 0 0 14px; }
+  a { color: var(--accent); }
+  .badge { display: inline-block; vertical-align: middle; color: #fff;
+            font: 600 11px/1 ui-sans-serif, system-ui, sans-serif;
+            padding: 5px 9px; border-radius: 999px; margin-left: 6px;
+            text-transform: uppercase; letter-spacing: 0.06em; }
+  table { width: 100%; border-collapse: collapse; margin: 18px 0;
+           font: 14px/1.5 ui-sans-serif, system-ui, sans-serif; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--rule); }
+  th { font-weight: 600; color: var(--muted); font-size: 12px;
+        text-transform: uppercase; letter-spacing: 0.05em; }
+  .mono, code { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 0.88em; }
+  code { background: var(--code); padding: 1px 5px; border-radius: 4px; }
+  pre { background: var(--code); padding: 14px; border-radius: 8px; overflow-x: auto; }
+  pre code { background: none; padding: 0; }
+  figure { margin: 22px 0; }
+  figure img { width: 100%; height: auto; border: 1px solid var(--rule);
+                border-radius: 8px; background: #fff; }
+  figcaption { color: var(--muted); font-size: 0.86rem; margin-top: 8px;
+                font-family: ui-sans-serif, system-ui, sans-serif; }
+  .note { color: var(--muted); font-size: 0.9rem; }
+  blockquote { margin: 0 0 14px; padding-left: 16px; border-left: 3px solid var(--rule);
+                color: var(--muted); }
+  footer { border-top: 1px solid var(--rule); padding-top: 18px; color: var(--muted);
+            font: 14px/1.6 ui-sans-serif, system-ui, sans-serif; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>Can an AI trained on bacteria predict mitochondrial disease?</h1>
+  <p class="sub">A working lab notebook. Updated as we go.</p>
+</header>
+<nav><a href='#s00'>The idea</a>
+<a href='#s01'>Step 1</a>
+<a href='#s02'>Step 2</a>
+<a href='#s03'>Step 3</a>
+<a href='#s04'>Step 4</a></nav>
+<section id='s00'><h2>The idea </h2><h2>What we're trying to do</h2>
+<p>Your cells have a second, tiny genome inside the <strong>mitochondria</strong> — the parts of
+the cell that make energy. It is about 16,500 letters long, versus 3 billion in
+the main genome.</p>
+<p>That small genome picks up damage as you age. A lot of that damage lands on
+<strong>tRNAs</strong> — 22 little molecules that ferry protein building blocks around.</p>
+<p>A tRNA is a strand of letters that folds back on itself into a shape like a
+four-leaf clover. <strong>The shape is the whole point.</strong> Wrong shape, broken tRNA,
+and the cell loses the ability to build proteins properly. Several well-known
+diseases work exactly this way.</p>
+<p>The question: <strong>can we predict which letter changes wreck the shape?</strong></p>
+<p>If we can, we get a way to sort harmless variation from real damage — without
+needing a lab.</p>
+<h2>Why Minerva</h2>
+<p><a href="https://github.com/garykbrixi/minerva">Minerva</a> is an AI model trained on
+bacterial DNA. It learned to spot which parts of a genome touch each other when
+it folds up.</p>
+<p>Mitochondria used to be free-living bacteria, billions of years ago. They still
+carry their own bacterial-ish genome. So a bacterial model might just work on
+them — untested, which is what makes it interesting.</p></section>
+<section id='s01'><h2>Step 1 — build the input <span class='badge' style='background:#1a7f5a'>done</span></h2><p>Minerva does not read raw DNA. It wants a specific format: genes written out as
+protein, everything else as lowercase DNA, with markers saying which direction
+each piece runs.</p>
+<p>We took the standard human mitochondrial reference sequence
+(rCRS, NC_012920.1) and converted it.</p>
+<p><strong>The problem:</strong> the model can only read 8,192 units at a time. The full
+circular genome came to <strong>9,040</strong> — about 10% too long.</p>
+<p><strong>The fix:</strong> mitochondrial DNA is a loop, so it has no natural start or end. We
+cut the loop at the <strong>control region</strong>, a stretch that contains no genes at all.
+That dropped it to <strong>7,918</strong> units, which fits, and we lost nothing we care
+about — all 22 tRNAs are still there.</p>
+<p>We also built a lookup table mapping every character back to its exact position
+in the reference, so later steps can point at a specific letter. Tests check
+this against the real sequence letter by letter.</p>
+<p><strong>Two oddities worth knowing:</strong> position 3,107 of the reference is a
+placeholder letter that does not really exist (it is kept so the numbering
+matches the original 1981 sequence). And two pairs of genes physically overlap,
+sharing the same letters in different reading frames.</p></section>
+<section id='s02'><h2>Step 2 — does it work? <span class='badge' style='background:#1a7f5a'>done</span></h2><p>This was the go/no-go. If the model could not find the clover shape, the whole
+project was dead and we would have had to retrain it from scratch.</p>
+<p><strong>How we checked.</strong> We did not use a hand-curated answer key. Instead we used
+two features every clover must have, which we know from the sequence alone:</p>
+<ul>
+<li>the <strong>acceptor stem</strong> — the two ends of the strand stick to each other,
+  7 pairs deep</li>
+<li>the <strong>anticodon stem</strong> — 5 pairs around the business end that reads the
+  genetic code</li>
+</ul>
+<p>We also ran <strong>200 decoys</strong>: random chunks of the same genome, same length, that
+are <em>not</em> tRNAs. If the model calls those clovers too, it is just guessing.</p>
+<p><strong>Results:</strong></p>
+<table>
+<thead>
+<tr>
+<th>what we fed it</th>
+<th>acceptor stem found</th>
+<th>tRNAs mostly right</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>one tRNA on its own</td>
+<td><strong>72%</strong></td>
+<td>17 of 22</td>
+</tr>
+<tr>
+<td>the whole genome at once</td>
+<td>24%</td>
+<td>5 of 22</td>
+</tr>
+<tr>
+<td>ViennaRNA (the standard old tool)</td>
+<td>83%</td>
+<td>19 of 22</td>
+</tr>
+</tbody>
+</table>
+<p>Decoys scored essentially zero. So when Minerva calls a clover, it means it —
+it is not just sticking the ends of any short sequence together.</p>
+<p><strong>The twist: context breaks it.</strong> Give the model the tRNA plus just 50 letters
+of its real neighbours and performance collapses from 69% to 30%.</p>
+<p>That is the opposite of what we expected. We chose mitochondrial DNA <em>because</em>
+the whole thing fits in one window — and one big window turns out to be the
+model's worst setting.</p>
+<p><strong>Verdict: go, with a change of plan.</strong> Feed tRNAs one at a time. On the
+anticodon stem — the part that matters most for disease — Minerva actually
+beats the old tool, 55% to 35%. And the tRNA behind the most famous
+mitochondrial disease mutation comes out perfect in every setting.</p>
+<p>Side benefit: single tRNAs are tiny, so everything runs in milliseconds. <strong>No
+GPU needed.</strong></p><figure><img src='step2_trna_maps_isolated.png' alt='Predicted folding for all 22 tRNAs, each folded on its own. Dark pixels are predicted contacts; blue and green circles mark where the acceptor and anticodon stems should be.'><figcaption>Predicted folding for all 22 tRNAs, each folded on its own. Dark pixels are predicted contacts; blue and green circles mark where the acceptor and anticodon stems should be.</figcaption></figure>
+<figure><img src='step2_trna_maps_genome.png' alt='The same tRNAs read out of the whole-genome pass. Most of the signal is gone.'><figcaption>The same tRNAs read out of the whole-genome pass. Most of the signal is gone.</figcaption></figure></section>
+<section id='s03'><h2>Step 3 — break every letter <span class='badge' style='background:#b8860b'>in progress</span></h2><p>Now the actual experiment. For all 22 tRNAs, change every letter to each of the
+three alternatives and measure the damage. That is roughly 4,600 mutations.</p>
+<p>Each one gets <strong>two independent scores</strong>:</p>
+<ol>
+<li><strong>Shape damage</strong> — refold the mutant and count how much of the original
+   folding is lost. The old tool can do this too.</li>
+<li><strong>Surprise</strong> — hide the letter, ask the model what belongs there, and see
+   how strongly it prefers the original. The old tool <em>cannot</em> do this at all.
+   This is the real reason to use an AI model.</li>
+</ol>
+<p>These two can disagree, and that is the interesting part: a mutation might
+leave the shape intact but still look deeply wrong to the model, or vice versa.</p></section>
+<section id='s04'><h2>Step 4 — check against real disease <span class='badge' style='background:#8a8a8a'>not started</span></h2><p>The final test. Do our scores actually pick out real disease mutations?</p>
+<p>We compare against MITOMAP, a curated catalogue of mitochondrial variants,
+which separates known disease-causing mutations from harmless ones found in
+healthy people.</p>
+<p>The benchmark to beat is ViennaRNA, the standard physics-based tool. If
+Minerva's scores do not separate sick from healthy better than physics does,
+the honest answer is to use physics.</p>
+<p><em>Not started yet.</em></p></section>
+<section id="log">
+  <h2>Every step, as it happened</h2>
+  <p class="note">Each row is one commit. The notebook above is rebuilt from the
+  repository after every step, so it never drifts from the code.</p>
+  <table><thead><tr><th>commit</th><th>date</th><th>what changed</th></tr></thead>
+  <tbody><tr><td class='mono'>2d68488</td><td class='mono'>2026-09-28</td><td>Step 2: Minerva folds mitochondrial tRNAs, but not in genomic context</td></tr>
+<tr><td class='mono'>dcfc635</td><td class='mono'>2026-09-28</td><td>Full window runs on CPU in 3 minutes; no GPU needed for step 2</td></tr>
+<tr><td class='mono'>c73fda4</td><td class='mono'>2026-09-28</td><td>Step 1: rCRS to Minerva mixed-token input</td></tr></tbody></table>
+</section>
+<footer>Last updated 28 September 2026. </footer>
+</div>
+</body>
+</html>
