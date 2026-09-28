@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/raw/*.gb
+data/raw/*.fasta
+outputs/
+*.npy
+*.npz
+*.pt
+.ipynb_checkpoints/

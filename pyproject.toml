@@ -1,0 +1,19 @@
+[project]
+name = "mito-minerva"
+version = "0.1.0"
+description = "Probing mitochondrial DNA structure with the Minerva genome language model"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    "minerva-dna>=0.1.0",
+    "biopython>=1.80",
+    "numpy>=1.23",
+    "matplotlib>=3.7",
+    "requests>=2.31",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mitominerva"]

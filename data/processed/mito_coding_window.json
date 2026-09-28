@@ -1,0 +1,366 @@
+{
+  "window": [
+    577,
+    16023
+  ],
+  "n_tokens": 7918,
+  "features": [
+    {
+      "type": "tRNA",
+      "name": "TRNF",
+      "product": "tRNA-Phe",
+      "start": 577,
+      "end": 647,
+      "strand": 1,
+      "token_start": 1,
+      "token_end": 72,
+      "seq": "gtttatgtagcttacctcctcaaagcaatacactgaaaatgtttagacgggctcacatcaccccataaaca"
+    },
+    {
+      "type": "rRNA",
+      "name": "RNR1",
+      "product": "s-rRNA",
+      "start": 648,
+      "end": 1601,
+      "strand": 1,
+      "token_start": 72,
+      "token_end": 1026,
+      "seq": "aataggtttggtcctagcctttctattagctcttagtaagattacacatgcaagcatccccgttccagtgagttcaccctctaaatcaccacgatcaaaaggaacaagcatcaagcacgcagcaatgcagctcaaaacgcttagcctagccacacccccacgggaaacagcagtgattaacctttagcaataaacgaaagtttaactaagctatactaaccccagggttggtcaatttcgtgccagccaccgcggtcacacgattaacccaagtcaatagaagccggcgtaaagagtgttttagatcaccccctccccaataaagctaaaactcacctgagttgtaaaaaactccagttgacacaaaatagactacgaaagtggctttaacatatctgaacacacaatagctaagacccaaactgggattagataccccactatgcttagccctaaacctcaacagttaaatcaacaaaactgctcgccagaacactacgagccacagcttaaaactcaaaggacctggcggtgcttcatatccctctagaggagcctgttctgtaatcgataaaccccgatcaacctcaccacctcttgctcagcctatataccgccatcttcagcaaaccctgatgaaggctacaaagtaagcgcaagtacccacgtaaagacgttaggtcaaggtgtagcccatgaggtggcaagaaatgggctacattttctaccccagaaaactacgatagcccttatgaaacttaagggtcgaaggtggatttagcagtaaactaagagtagagtgcttagttgaacagggccctgaagcgcgtacacaccgcccgtcaccctcctcaagtatacttcaaaggacatttaactaaaacccctacgcatttatatagaggagacaagtcgtaacatggtaagtgtactggaaagtgcacttggacgaac"
+    },
+    {
+      "type": "tRNA",
+      "name": "TRNV",
+      "product": "tRNA-Val",
+      "start": 1602,
+      "end": 1670,
+      "strand": 1,
+      "token_start": 1026,
+      "token_end": 1095,
+      "seq": "cagagtgtagcttaacacaaagcacccaacttacacttaggagatttcaacttaacttgaccgctctga"
+    },
+    {
+      "type": "rRNA",
+      "name": "RNR2",
+      "product": "l-rRNA",
+      "start": 1671,
+      "end": 3229,
+      "strand": 1,
+      "token_start": 1095,
+      "token_end": 2654,
+      "seq": "gctaaacctagccccaaacccactccaccttactaccagacaaccttagccaaaccatttacccaaataaagtataggcgatagaaattgaaacctggcgcaatagatatagtaccgcaagggaaagatgaaaaattataaccaagcataatatagcaaggactaacccctataccttctgcataatgaattaactagaaataactttgcaaggagagccaaagctaagacccccgaaaccagacgagctacctaagaacagctaaaagagcacacccgtctatgtagcaaaatagtgggaagatttataggtagaggcgacaaacctaccgagcctggtgatagctggttgtccaagatagaatcttagttcaactttaaatttgcccacagaaccctctaaatccccttgtaaatttaactgttagtccaaagaggaacagctctttggacactaggaaaaaaccttgtagagagagtaaaaaatttaacacccatagtaggcctaaaagcagccaccaattaagaaagcgttcaagctcaacacccactacctaaaaaatcccaaacatataactgaactcctcacacccaattggaccaatctatcaccctatagaagaactaatgttagtataagtaacatgaaaacattctcctccgcataagcctgcgtcagattaaaacactgaactgacaattaacagcccaatatctacaatcaaccaacaagtcattattaccctcactgtcaacccaacacaggcatgctcataaggaaaggttaaaaaaagtaaaaggaactcggcaaatcttaccccgcctgtttaccaaaaacatcacctctagcatcaccagtattagaggcaccgcctgcccagtgacacatgtttaacggccgcggtaccctaaccgtgcaaaggtagcataatcacttgttccttaaatagggacctgtatgaatggctccacgagggttcagctgtctcttacttttaaccagtgaaattgacctgcccgtgaagaggcgggcataacacagcaagacgagaagaccctatggagctttaatttattaatgcaaacagtacctaacaaacccacaggtcctaaactaccaaacctgcattaaaaatttcggttggggcgacctcggagcagaacccaacctccgagcagtacatgctaagacttcaccagtcaaagcgaactactatactcaattgatccaataacttgaccaacggaacaagttaccctagggataacagcgcaatcctattctagagtccatatcaacaatagggtttacgacctcgatgttggatcaggacatcccgatggtgcagccgctattaaaggttcgtttgttcaacgattaaagtcctacgtgatctgagttcagaccggagtaatccaggtcggtttctatctacnttcaaattcctccctgtacgaaaggacaagagaaataaggcctacttcacaaagcgccttcccccgtaaatgatatcatctcaacttagtattatacccacacccacccaagaacagggttt"
+    },
+    {
+      "type": "tRNA",
+      "name": "TRNL1",
+      "product": "tRNA-Leu",
+      "start": 3230,
+      "end": 3304,
+      "strand": 1,
+      "token_start": 2654,
+      "token_end": 2729,
+      "seq": "gttaagatggcagagcccggtaatcgcataaaacttaaaactttacagtcagaggttcaattcctcttcttaaca"
+    },
+    {
+      "type": "tRNA",
+      "name": "TRNI",
+      "product": "tRNA-Ile",
+      "start": 4263,
+      "end": 4331,
+      "strand": 1,
+      "token_start": 3051,
+      "token_end": 3120,
+      "seq": "agaaatatgtctgataaaagagttactttgatagagtaaataataggagcttaaacccccttatttcta"
+    },
+    {
+      "type": "tRNA",
+      "name": "TRNQ",
+      "product": "tRNA-Gln",
+      "start": 4329,
+      "end": 4400,
+      "strand": -1,
+      "token_start": 3117,
+      "token_end": 3189,
+      "seq": "ctaggactatgagaatcgaacccatccctgagaatccaaaattctccgtgccacctatcacaccccatccta"
+    },
+    {
+      "type": "tRNA",
+      "name": "TRNM",
+      "product": "tRNA-Met",
+      "start": 4402,
+      "end": 4469,
+      "strand": 1,
+      "token_start": 3190,
+      "token_end": 3258,
+      "seq": "agtaaggtcagctaaataagctatcgggcccataccccgaaaatgttggttatacccttcccgtacta"
+    },
+    {
+      "type": "tRNA",
+      "name": "TRNW",
+      "product": "tRNA-Trp",
+      "start": 5512,
+      "end": 5579,
+      "strand": 1,
+      "token_start": 3607,
+      "token_end": 3675,
+      "seq": "agaaatttaggttaaatacagaccaagagccttcaaagccctcagtaagttgcaatacttaatttctg"
+    },
+    {
+      "type": "tRNA",
+      "name": "TRNA",
+      "product": "tRNA-Ala",
+      "start": 5587,
+      "end": 5655,
+      "strand": -1,
+      "token_start": 3682,
+      "token_end": 3751,
+      "seq": "taaggactgcaaaaccccactctgcatcaactgaacgcaaatcagccactttaattaagctaagccctt"
+    },
+    {
+      "type": "tRNA",
+      "name": "TRNN",
+      "product": "tRNA-Asn",
+      "start": 5657,
+      "end": 5729,
+      "strand": -1,
+      "token_start": 3752,
+      "token_end": 3825,
+      "seq": "ctagaccaatgggacttaaacccacaaacacttagttaacagctaagcaccctaatcaactggcttcaatcta"
+    },
+    {
+      "type": "tRNA",
+      "name": "TRNC",
+      "product": "tRNA-Cys",
+      "start": 5761,
+      "end": 5826,
+      "strand": -1,
+      "token_start": 3856,
+      "token_end": 3922,
+      "seq": "aagccccggcaggtttgaagctgcttcttcgaatttgcaattcaatatgaaaatcacctcggagct"
+    },
+    {
+      "type": "tRNA",
+      "name": "TRNY",
+      "product": "tRNA-Tyr",
+      "start": 5826,
+      "end": 5891,
+      "strand": -1,
+      "token_start": 3921,
+      "token_end": 3987,
+      "seq": "tggtaaaaagaggcctaacccctgtctttagatttacagtccaatgcttcactcagccattttacc"
+    },
+    {
+      "type": "tRNA",
+      "name": "TRNS1",
+      "product": "tRNA-Ser",
+      "start": 7446,
+      "end": 7514,
+      "strand": -1,
+      "token_start": 4514,
+      "token_end": 4583,
+      "seq": "caaaaaaggaaggaatcgaaccccccaaagctggtttcaagccaaccccatggcctccatgactttttc"
+    },
+    {
+      "type": "tRNA",
+      "name": "TRND",
+      "product": "tRNA-Asp",
+      "start": 7518,
+      "end": 7585,
+      "strand": 1,
+      "token_start": 4586,
+      "token_end": 4654,
+      "seq": "aaggtattagaaaaaccatttcataactttgtcaaagttaaattataggctaaatcctatatatctta"
+    },
+    {
+      "type": "tRNA",
+      "name": "TRNK",
+      "product": "tRNA-Lys",
+      "start": 8295,
+      "end": 8364,
+      "strand": 1,
+      "token_start": 4908,
+      "token_end": 4978,
+      "seq": "cactgtaaagctaacttagcattaaccttttaagttaaagattaagagaaccaacacctctttacagtga"
+    },
+    {
+      "type": "tRNA",
+      "name": "TRNG",
+      "product": "tRNA-Gly",
+      "start": 9991,
+      "end": 10058,
+      "strand": 1,
+      "token_start": 5538,
+      "token_end": 5606,
+      "seq": "actcttttagtataaatagtaccgttaacttccaattaactagttttgacaacattcaaaaaagagta"
+    },
+    {
+      "type": "tRNA",
+      "name": "TRNR",
+      "product": "tRNA-Arg",
+      "start": 10405,
+      "end": 10469,
+      "strand": 1,
+      "token_start": 5723,
+      "token_end": 5788,
+      "seq": "tggtatatagtttaaacaaaacgaatgatttcgactcattaaattatgataatcatatttaccaa"
+    },
+    {
+      "type": "tRNA",
+      "name": "TRNH",
+      "product": "tRNA-His",
+      "start": 12138,
+      "end": 12206,
+      "strand": 1,
+      "token_start": 6348,
+      "token_end": 6417,
+      "seq": "gtaaatatagtttaaccaaaacatcagattgtgaatctgacaacagaggcttacgaccccttatttacc"
+    },
+    {
+      "type": "tRNA",
+      "name": "TRNS2",
+      "product": "tRNA-Ser",
+      "start": 12207,
+      "end": 12265,
+      "strand": 1,
+      "token_start": 6417,
+      "token_end": 6476,
+      "seq": "gagaaagctcacaagaactgctaactcatgcccccatgtctaacaacatggctttctca"
+    },
+    {
+      "type": "tRNA",
+      "name": "TRNL2",
+      "product": "tRNA-Leu",
+      "start": 12266,
+      "end": 12336,
+      "strand": 1,
+      "token_start": 6476,
+      "token_end": 6547,
+      "seq": "acttttaaaggataacagctatccattggtcttaggccccaaaaattttggtgcaactccaaataaaagta"
+    },
+    {
+      "type": "tRNA",
+      "name": "TRNE",
+      "product": "tRNA-Glu",
+      "start": 14674,
+      "end": 14742,
+      "strand": -1,
+      "token_start": 7327,
+      "token_end": 7396,
+      "seq": "tattctcgcacggactacaaccacgaccaatgatatgaaaaaccatcgttgtatttcaactacaagaac"
+    },
+    {
+      "type": "tRNA",
+      "name": "TRNT",
+      "product": "tRNA-Thr",
+      "start": 15888,
+      "end": 15953,
+      "strand": 1,
+      "token_start": 7782,
+      "token_end": 7848,
+      "seq": "gtccttgtagtataaactaatacaccagtcttgtaaaccggagatgaaaacctttttccaaggaca"
+    },
+    {
+      "type": "tRNA",
+      "name": "TRNP",
+      "product": "tRNA-Pro",
+      "start": 15956,
+      "end": 16023,
+      "strand": -1,
+      "token_start": 7850,
+      "token_end": 7918,
+      "seq": "tcagagaaaaagtctttaactccaccattagcacccaaagctaagattctaatttaaactattctctg"
+    }
+  ],
+  "cds": [
+    {
+      "name": "ND1",
+      "start": 3307,
+      "end": 4262,
+      "strand": "+",
+      "n_aa": 318
+    },
+    {
+      "name": "ND2",
+      "start": 4470,
+      "end": 5511,
+      "strand": "+",
+      "n_aa": 347
+    },
+    {
+      "name": "COX1",
+      "start": 5904,
+      "end": 7445,
+      "strand": "+",
+      "n_aa": 513
+    },
+    {
+      "name": "COX2",
+      "start": 7586,
+      "end": 8269,
+      "strand": "+",
+      "n_aa": 227
+    },
+    {
+      "name": "ATP8",
+      "start": 8366,
+      "end": 8572,
+      "strand": "+",
+      "n_aa": 68
+    },
+    {
+      "name": "ATP6",
+      "start": 8527,
+      "end": 9207,
+      "strand": "+",
+      "n_aa": 226
+    },
+    {
+      "name": "COX3",
+      "start": 9207,
+      "end": 9990,
+      "strand": "+",
+      "n_aa": 261
+    },
+    {
+      "name": "ND3",
+      "start": 10059,
+      "end": 10404,
+      "strand": "+",
+      "n_aa": 115
+    },
+    {
+      "name": "ND4L",
+      "start": 10470,
+      "end": 10766,
+      "strand": "+",
+      "n_aa": 98
+    },
+    {
+      "name": "ND4",
+      "start": 10760,
+      "end": 12137,
+      "strand": "+",
+      "n_aa": 459
+    },
+    {
+      "name": "ND5",
+      "start": 12337,
+      "end": 14148,
+      "strand": "+",
+      "n_aa": 603
+    },
+    {
+      "name": "ND6",
+      "start": 14149,
+      "end": 14673,
+      "strand": "-",
+      "n_aa": 174
+    },
+    {
+      "name": "CYTB",
+      "start": 14747,
+      "end": 15887,
+      "strand": "+",
+      "n_aa": 380
+    }
+  ]
+}
