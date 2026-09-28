@@ -56,6 +56,13 @@ def commit_rows(n=25):
     return "\n".join(rows)
 
 
+def demote(html):
+    """Push note headings one level down so section titles stay dominant."""
+    for lvl in (4, 3, 2):
+        html = re.sub(rf"<(/?)h{lvl}>", rf"<\g<1>h{lvl + 1}>", html)
+    return html
+
+
 def esc(s):
     return (s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
 
@@ -121,7 +128,7 @@ def main():
         if not os.path.exists(path):
             continue
         md.reset()
-        body = md.convert(open(path).read())
+        body = demote(md.convert(open(path).read()))
         label, colour = BADGE[status]
         badge = (f"<span class='badge' style='background:{colour}'>{label}</span>"
                  if label else "")

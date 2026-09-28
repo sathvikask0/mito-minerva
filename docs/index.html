@@ -76,7 +76,7 @@
 <a href='#s02'>Step 2</a>
 <a href='#s03'>Step 3</a>
 <a href='#s04'>Step 4</a></nav>
-<section id='s00'><h2>The idea </h2><h2>What we're trying to do</h2>
+<section id='s00'><h2>The idea </h2><h3>What we're trying to do</h3>
 <p>Your cells have a second, tiny genome inside the <strong>mitochondria</strong> — the parts of
 the cell that make energy. It is about 16,500 letters long, versus 3 billion in
 the main genome.</p>
@@ -89,7 +89,7 @@ diseases work exactly this way.</p>
 <p>The question: <strong>can we predict which letter changes wreck the shape?</strong></p>
 <p>If we can, we get a way to sort harmless variation from real damage — without
 needing a lab.</p>
-<h2>Why Minerva</h2>
+<h3>Why Minerva</h3>
 <p><a href="https://github.com/garykbrixi/minerva">Minerva</a> is an AI model trained on
 bacterial DNA. It learned to spot which parts of a genome touch each other when
 it folds up.</p>
@@ -179,7 +179,7 @@ three alternatives and measure the damage. That is roughly 4,600 mutations.</p>
 </ol>
 <p>These two can disagree, and that is the interesting part: a mutation might
 leave the shape intact but still look deeply wrong to the model, or vice versa.</p>
-<h2>Done — 4,524 mutations in about two minutes</h2>
+<h3>Done — 4,524 mutations in about two minutes</h3>
 <p>On a laptop, no GPU.</p>
 <p><strong>The two scores barely agree with each other</strong> (correlation 0.19). That is the
 encouraging part: they are not measuring the same thing twice. Shape damage and
@@ -214,7 +214,8 @@ the honest answer is to use physics.</p>
   <p class="note">Each row is one commit. The notebook above is rebuilt from the
   repository after every step, so it never drifts from the code.</p>
   <table><thead><tr><th>commit</th><th>date</th><th>what changed</th></tr></thead>
-  <tbody><tr><td class='mono'>fc9838e</td><td class='mono'>2026-09-28</td><td>Add step 3 mutation scan and the lab-notebook site</td></tr>
+  <tbody><tr><td class='mono'>47c2baa</td><td class='mono'>2026-09-28</td><td>Step 3: 4,524 mutations scored across all 22 tRNAs</td></tr>
+<tr><td class='mono'>fc9838e</td><td class='mono'>2026-09-28</td><td>Add step 3 mutation scan and the lab-notebook site</td></tr>
 <tr><td class='mono'>2d68488</td><td class='mono'>2026-09-28</td><td>Step 2: Minerva folds mitochondrial tRNAs, but not in genomic context</td></tr>
 <tr><td class='mono'>dcfc635</td><td class='mono'>2026-09-28</td><td>Full window runs on CPU in 3 minutes; no GPU needed for step 2</td></tr>
 <tr><td class='mono'>c73fda4</td><td class='mono'>2026-09-28</td><td>Step 1: rCRS to Minerva mixed-token input</td></tr></tbody></table>
