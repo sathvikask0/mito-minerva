@@ -295,6 +295,38 @@ between them.</p>
 mitochondrial genomes free to download. We fine-tune on those, hold out human,
 then re-run steps 2 through 4 and see if anything moved.</p>
 <p><strong>Human is held out</strong> so we never train on what we test on.</p>
+<h3>The corpus</h3>
+<p>Downloaded from NCBI's RefSeq collection, filtered to animals only:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>genomes</td>
+<td><strong>15,589</strong></td>
+</tr>
+<tr>
+<td>total text</td>
+<td>137.8 million units</td>
+</tr>
+<tr>
+<td>typical size</td>
+<td>16,469 units each</td>
+</tr>
+<tr>
+<td>human</td>
+<td>removed</td>
+</tr>
+</tbody>
+</table>
+<p>It spans the animal kingdom — about 7,800 vertebrates, 5,700 crustaceans and
+insects, 858 molluscs, and a long tail of worms, spiders and sea urchins. Wide
+variety is the point: we want the model to learn what mitochondrial DNA looks
+like in general, not to memorise one animal.</p>
 <h3>Laptop or rented GPU?</h3>
 <p>We measured it rather than guessed.</p>
 <p>Training is far heavier than the prediction work so far, because the computer
@@ -303,7 +335,7 @@ the model. On your laptop:</p>
 <table>
 <thead>
 <tr>
-<th>sequence length</th>
+<th>chunk size</th>
 <th>speed</th>
 </tr>
 </thead>
@@ -322,27 +354,52 @@ the model. On your laptop:</p>
 </tr>
 </tbody>
 </table>
-<p>The corpus is roughly 120 million units of text. One pass over it, at the
-biggest chunk size that fits, would take about <strong>48 hours</strong> — and it would be
-processing one sequence at a time, which is the slowest possible way to do it.</p>
-<p>A rented A100 GPU does the same pass in <strong>about an hour</strong>, with four times the
-chunk size and eight sequences at once. Three passes is a few hours and
-roughly <strong>$10</strong>.</p>
-<p><strong>So: rented GPU for the training.</strong> Everything else stays on the laptop —
+<p>One pass over 137.8 million units, at the biggest chunk that fits, would take
+about <strong>48 hours</strong> — processing one sequence at a time, the slowest possible
+way.</p>
+<p>So we rented an A100 GPU. Measured there: <strong>5.5 seconds per step, 2,626 steps,
+just under 4 hours</strong> for one pass, at four times the chunk size and eight
+sequences at once. That is about <strong>$10</strong>.</p>
+<p>An earlier estimate here said one hour per pass and $10 for three passes. That
+was a guess and it was wrong by roughly three times. The numbers above are
+measured.</p>
+<p><strong>So: one pass on a rented GPU.</strong> Everything else stays on the laptop —
 building the data, and all the scoring afterwards, which we already know runs
-in minutes.</p>
+in minutes. If the model is still visibly improving when the pass ends, we can
+pay for another.</p>
+<h3>A bug worth recording</h3>
+<p>The first launch reported a training error of 2.954 while the held-out error
+was 1.476 — exactly double. Not a coincidence, and not the model misbehaving.</p>
+<p>To save memory, the trainer processes two batches before each adjustment and
+averages them. A recent change to the training library skips that averaging
+when the model's code is written a certain way — which Minerva's is — because
+it assumes the model does the averaging itself. Minerva doesn't. So every
+adjustment was twice as large as intended, quietly doubling the learning rate.</p>
+<p>Caught it ten minutes into a four-hour run, cost about fifty cents. After the
+fix the training error reads 1.468, right where the held-out error sits.</p>
+<p>The general lesson: when a number is off by exactly 2, suspect arithmetic
+before biology.</p>
 <h3>What success looks like</h3>
 <p>We are not looking for a small nudge. Step 2 found the model is fragile: real
 genomic neighbours break it. If fine-tuning fixes that fragility, we should see
 folding hold up in context instead of collapsing. If it only moves the disease
 scores from 0.60 to 0.63, that is noise, not a result.</p>
-<p><em>In progress: building the corpus.</em></p></section>
+<p>The number to beat is <strong>1.4764</strong> — how well the untrained model predicts
+held-out mitochondrial DNA. For reference, pure guessing among the four DNA
+letters scores 1.386, so the bacterial model starts off barely better than
+chance on this material. That gap is the whole reason for this step.</p>
+<p><em>In progress: one pass over the corpus, about four hours.</em></p></section>
 <section id="log">
   <h2>Every step, as it happened</h2>
   <p class="note">Each row is one commit. The notebook above is rebuilt from the
   repository after every step, so it never drifts from the code.</p>
   <table><thead><tr><th>commit</th><th>date</th><th>what changed</th></tr></thead>
-  <tbody><tr><td class='mono'>2d30fa9</td><td class='mono'>2026-09-28</td><td>Step 4: Minerva does not beat ViennaRNA at ranking tRNA pathogenicity</td></tr>
+  <tbody><tr><td class='mono'>be82250</td><td class='mono'>2026-09-28</td><td>Fix loss inflated by gradient accumulation</td></tr>
+<tr><td class='mono'>e68279d</td><td class='mono'>2026-09-28</td><td>Step 5: LoRA finetuning job on Modal</td></tr>
+<tr><td class='mono'>70bff9f</td><td class='mono'>2026-09-28</td><td>Ignore the corpus builder's scratch GenBank file</td></tr>
+<tr><td class='mono'>e5d5224</td><td class='mono'>2026-09-28</td><td>Stop tracking the RefSeq download; it is fetched by script</td></tr>
+<tr><td class='mono'>270e0e6</td><td class='mono'>2026-09-28</td><td>Step 5 setup: animal mitochondrial corpus and the compute decision</td></tr>
+<tr><td class='mono'>2d30fa9</td><td class='mono'>2026-09-28</td><td>Step 4: Minerva does not beat ViennaRNA at ranking tRNA pathogenicity</td></tr>
 <tr><td class='mono'>0b9293f</td><td class='mono'>2026-09-28</td><td>Demote note headings so step titles stay dominant on the site</td></tr>
 <tr><td class='mono'>47c2baa</td><td class='mono'>2026-09-28</td><td>Step 3: 4,524 mutations scored across all 22 tRNAs</td></tr>
 <tr><td class='mono'>fc9838e</td><td class='mono'>2026-09-28</td><td>Add step 3 mutation scan and the lab-notebook site</td></tr>
