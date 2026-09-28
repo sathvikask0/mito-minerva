@@ -219,6 +219,15 @@ def train(
         ignore_token_id=tok.pad_token_id,
     )
 
+    # transformers >= 4.46 skips its own loss/gradient_accumulation_steps
+    # normalisation whenever the model's forward takes **kwargs (Minerva's
+    # does), on the assumption that compute_loss handles num_items_in_batch
+    # itself. MinervaTrainer.compute_loss ignores it and returns a plain mean,
+    # so both the logged loss and the accumulated gradient come out inflated by
+    # exactly grad_accum. Declaring the model as not accepting loss kwargs puts
+    # the normalisation back.
+    trainer.model_accepts_loss_kwargs = False
+
     t0 = time.time()
     baseline = trainer.evaluate()
     print(f"before training: {baseline}", flush=True)
