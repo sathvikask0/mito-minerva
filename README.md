@@ -74,21 +74,24 @@ The tests check that mapping against the reference base by base.
 of the two layers the head reads, so memory grows with L². Measured on an M3 Pro
 with 18 GB unified memory, `minerva-mlm-8k`:
 
-| tokens | float32 | float16 |
-| --- | --- | --- |
-| 4,096 | 2.9 s | 2.3 s |
-| 6,144 | 15.5 s | 3.6 s |
-| 7,168 | out of memory | 5.3 s |
-| 7,552 | out of memory | out of memory |
-| 7,918 (full window) | out of memory | out of memory |
+| tokens | MPS float32 | MPS float16 | CPU float32 |
+| --- | --- | --- | --- |
+| 4,096 | 2.9 s | 2.3 s | 15.2 s |
+| 6,144 | 15.5 s | 3.6 s | |
+| 7,168 | out of memory | 5.3 s | |
+| 7,552 | out of memory | out of memory | |
+| **7,918 (full window)** | out of memory | out of memory | **187 s** |
 
-float16 tracks float32 closely (correlation 0.99998, max difference 0.03 at
-L=4096); bfloat16 does not (max difference 0.26) and should not be used.
+float16 tracks float32 closely on MPS (correlation 0.99998, max difference 0.03
+at L=4096); bfloat16 does not (max difference 0.26) and should not be used. The
+CPU path agrees with MPS to correlation 0.999985, with 1018 of 1020 confident
+pairs identical, so it is a trustworthy fallback and not just a slower one.
 
-**The full 7,918-token window does not fit on this machine — the ceiling is
-about 7,168 tokens.** So the local plan is to run step 2 on overlapping
-half-windows, which gives every tRNA well over 1,000 tokens of flanking context
-and takes a few seconds, and to move the whole-genome run to a GPU.
+**The whole-genome run does fit on this machine, on the CPU, in about three
+minutes.** GPU memory tops out near 7,168 tokens, but the CPU is not bound by
+it. So step 2 needs no GPU: run the full 7,918-token window on the CPU once.
+A GPU is still worth having for step 3, where roughly 4,600 forward passes over
+mutated tRNAs would take hours locally.
 
 ### MPS fails silently
 
