@@ -164,6 +164,18 @@ def scan(limit: int | None = None, batch_size: int = 128, flank: int = 0,
 
 
 @app.local_entrypoint()
-def main(limit: int = 0, flank: int = 0, batch_size: int = 128):
-    r = scan.remote(limit=limit or None, flank=flank, batch_size=batch_size)
-    print(f"\n{r['species']} species, {r['per_species']:.2f} s/species")
+def main(limit: int = 0, flank: int = 0, batch_size: int = 128, wait: bool = False):
+    """Spawn the scan so it outlives this client.
+
+    .remote() blocks on the call, and when the local client died -- laptop
+    asleep, shell closed -- Modal cancelled the in-flight input even under
+    --detach. That killed two full runs, at 520 and 95 species. A spawned
+    call is not tied to its caller.
+    """
+    kw = dict(limit=limit or None, flank=flank, batch_size=batch_size)
+    if wait:
+        r = scan.remote(**kw)
+        print(f"\n{r['species']} species, {r['per_species']:.2f} s/species")
+    else:
+        call = scan.spawn(**kw)
+        print(f"spawned {call.object_id}; safe to disconnect")
