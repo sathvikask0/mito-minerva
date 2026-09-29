@@ -1,0 +1,2615 @@
+{
+  "genomes": 16080,
+  "min_wc": 0.9,
+  "min_species": 200,
+  "genes": {
+    "TRNA": {
+      "human_seq": "AAGGGCTTAGCTTAATTAAAGTGGCTGATTTGCGTTCAGTTGATGCAGAGTGGGGTTTTGCAGTCCTTA",
+      "length": 69,
+      "n_species": 9849,
+      "pairs": [
+        {
+          "i": 28,
+          "j": 36,
+          "mi_apc": 0.657,
+          "wc_fraction": 0.983
+        },
+        {
+          "i": 6,
+          "j": 63,
+          "mi_apc": 0.5148,
+          "wc_fraction": 0.905
+        },
+        {
+          "i": 11,
+          "j": 21,
+          "mi_apc": 0.4554,
+          "wc_fraction": 0.975
+        },
+        {
+          "i": 48,
+          "j": 58,
+          "mi_apc": 0.3579,
+          "wc_fraction": 0.917
+        },
+        {
+          "i": 25,
+          "j": 39,
+          "mi_apc": 0.2843,
+          "wc_fraction": 0.929
+        },
+        {
+          "i": 3,
+          "j": 66,
+          "mi_apc": 0.2305,
+          "wc_fraction": 0.985
+        },
+        {
+          "i": 47,
+          "j": 59,
+          "mi_apc": 0.2071,
+          "wc_fraction": 0.919
+        },
+        {
+          "i": 46,
+          "j": 60,
+          "mi_apc": 0.1763,
+          "wc_fraction": 0.921
+        },
+        {
+          "i": 10,
+          "j": 22,
+          "mi_apc": 0.1292,
+          "wc_fraction": 0.963
+        },
+        {
+          "i": 26,
+          "j": 38,
+          "mi_apc": 0.1134,
+          "wc_fraction": 0.983
+        },
+        {
+          "i": 2,
+          "j": 67,
+          "mi_apc": 0.1054,
+          "wc_fraction": 0.994
+        },
+        {
+          "i": 19,
+          "j": 44,
+          "mi_apc": 0.0955,
+          "wc_fraction": 0.942
+        },
+        {
+          "i": 27,
+          "j": 37,
+          "mi_apc": 0.0809,
+          "wc_fraction": 0.982
+        },
+        {
+          "i": 45,
+          "j": 57,
+          "mi_apc": 0.0792,
+          "wc_fraction": 0.909
+        },
+        {
+          "i": 1,
+          "j": 68,
+          "mi_apc": 0.0441,
+          "wc_fraction": 0.985
+        },
+        {
+          "i": 13,
+          "j": 20,
+          "mi_apc": 0.0354,
+          "wc_fraction": 0.981
+        },
+        {
+          "i": 18,
+          "j": 30,
+          "mi_apc": 0.0213,
+          "wc_fraction": 0.985
+        },
+        {
+          "i": 4,
+          "j": 65,
+          "mi_apc": 0.0186,
+          "wc_fraction": 0.972
+        },
+        {
+          "i": 16,
+          "j": 42,
+          "mi_apc": 0.0165,
+          "wc_fraction": 0.903
+        },
+        {
+          "i": 8,
+          "j": 49,
+          "mi_apc": 0.0134,
+          "wc_fraction": 0.926
+        },
+        {
+          "i": 51,
+          "j": 69,
+          "mi_apc": 0.0039,
+          "wc_fraction": 0.944
+        },
+        {
+          "i": 12,
+          "j": 34,
+          "mi_apc": 0.0014,
+          "wc_fraction": 0.991
+        },
+        {
+          "i": 31,
+          "j": 62,
+          "mi_apc": 0.0008,
+          "wc_fraction": 0.938
+        }
+      ]
+    },
+    "TRNC": {
+      "human_seq": "AGCTCCGAGGTGATTTTCATATTGAATTGCAAATTCGAAGAAGCAGCTTCAAACCTGCCGGGGCTT",
+      "length": 66,
+      "n_species": 11054,
+      "pairs": [
+        {
+          "i": 23,
+          "j": 37,
+          "mi_apc": 0.7586,
+          "wc_fraction": 0.91
+        },
+        {
+          "i": 24,
+          "j": 36,
+          "mi_apc": 0.6404,
+          "wc_fraction": 0.949
+        },
+        {
+          "i": 25,
+          "j": 35,
+          "mi_apc": 0.5983,
+          "wc_fraction": 0.982
+        },
+        {
+          "i": 44,
+          "j": 57,
+          "mi_apc": 0.493,
+          "wc_fraction": 0.918
+        },
+        {
+          "i": 26,
+          "j": 34,
+          "mi_apc": 0.4084,
+          "wc_fraction": 0.954
+        },
+        {
+          "i": 5,
+          "j": 61,
+          "mi_apc": 0.2663,
+          "wc_fraction": 0.959
+        },
+        {
+          "i": 6,
+          "j": 10,
+          "mi_apc": 0.2447,
+          "wc_fraction": 0.908
+        },
+        {
+          "i": 22,
+          "j": 38,
+          "mi_apc": 0.2444,
+          "wc_fraction": 0.911
+        },
+        {
+          "i": 2,
+          "j": 64,
+          "mi_apc": 0.2114,
+          "wc_fraction": 0.969
+        },
+        {
+          "i": 1,
+          "j": 65,
+          "mi_apc": 0.206,
+          "wc_fraction": 0.978
+        },
+        {
+          "i": 43,
+          "j": 58,
+          "mi_apc": 0.1831,
+          "wc_fraction": 0.969
+        },
+        {
+          "i": 4,
+          "j": 62,
+          "mi_apc": 0.1782,
+          "wc_fraction": 0.988
+        },
+        {
+          "i": 3,
+          "j": 63,
+          "mi_apc": 0.1478,
+          "wc_fraction": 0.949
+        },
+        {
+          "i": 45,
+          "j": 56,
+          "mi_apc": 0.1321,
+          "wc_fraction": 0.916
+        },
+        {
+          "i": 27,
+          "j": 33,
+          "mi_apc": 0.0849,
+          "wc_fraction": 0.901
+        },
+        {
+          "i": 20,
+          "j": 40,
+          "mi_apc": 0.044,
+          "wc_fraction": 0.923
+        },
+        {
+          "i": 28,
+          "j": 32,
+          "mi_apc": 0.0041,
+          "wc_fraction": 0.997
+        },
+        {
+          "i": 11,
+          "j": 29,
+          "mi_apc": 0.0013,
+          "wc_fraction": 0.976
+        },
+        {
+          "i": 19,
+          "j": 66,
+          "mi_apc": 0.0005,
+          "wc_fraction": 0.976
+        }
+      ]
+    },
+    "TRND": {
+      "human_seq": "AAGGTATTAGAAAAACCATTTCATAACTTTGTCAAAGTTAAATTATAGGCTAAATCCTATATATCTTA",
+      "length": 68,
+      "n_species": 13788,
+      "pairs": [
+        {
+          "i": 25,
+          "j": 39,
+          "mi_apc": 1.0501,
+          "wc_fraction": 0.928
+        },
+        {
+          "i": 6,
+          "j": 62,
+          "mi_apc": 0.7858,
+          "wc_fraction": 0.937
+        },
+        {
+          "i": 26,
+          "j": 38,
+          "mi_apc": 0.681,
+          "wc_fraction": 0.96
+        },
+        {
+          "i": 7,
+          "j": 61,
+          "mi_apc": 0.6037,
+          "wc_fraction": 0.96
+        },
+        {
+          "i": 45,
+          "j": 60,
+          "mi_apc": 0.5168,
+          "wc_fraction": 0.964
+        },
+        {
+          "i": 3,
+          "j": 65,
+          "mi_apc": 0.4846,
+          "wc_fraction": 0.958
+        },
+        {
+          "i": 28,
+          "j": 36,
+          "mi_apc": 0.4496,
+          "wc_fraction": 0.907
+        },
+        {
+          "i": 1,
+          "j": 67,
+          "mi_apc": 0.4398,
+          "wc_fraction": 0.976
+        },
+        {
+          "i": 4,
+          "j": 64,
+          "mi_apc": 0.4266,
+          "wc_fraction": 0.935
+        },
+        {
+          "i": 24,
+          "j": 40,
+          "mi_apc": 0.3543,
+          "wc_fraction": 0.921
+        },
+        {
+          "i": 2,
+          "j": 66,
+          "mi_apc": 0.1752,
+          "wc_fraction": 0.982
+        },
+        {
+          "i": 13,
+          "j": 19,
+          "mi_apc": 0.1219,
+          "wc_fraction": 0.914
+        },
+        {
+          "i": 10,
+          "j": 22,
+          "mi_apc": 0.0229,
+          "wc_fraction": 0.965
+        },
+        {
+          "i": 21,
+          "j": 32,
+          "mi_apc": 0.0033,
+          "wc_fraction": 0.947
+        },
+        {
+          "i": 9,
+          "j": 43,
+          "mi_apc": 0.0027,
+          "wc_fraction": 0.904
+        },
+        {
+          "i": 8,
+          "j": 14,
+          "mi_apc": 0.002,
+          "wc_fraction": 0.939
+        },
+        {
+          "i": 30,
+          "j": 42,
+          "mi_apc": 0.0014,
+          "wc_fraction": 0.968
+        },
+        {
+          "i": 31,
+          "j": 46,
+          "mi_apc": 0.0007,
+          "wc_fraction": 0.962
+        }
+      ]
+    },
+    "TRNE": {
+      "human_seq": "GTTCTTGTAGTTGAAATACAACGATGGTTTTTCATATCATTGGTCGTGGTTGTAGTCCGTGCGAGAATA",
+      "length": 69,
+      "n_species": 8772,
+      "pairs": [
+        {
+          "i": 46,
+          "j": 60,
+          "mi_apc": 0.7779,
+          "wc_fraction": 0.954
+        },
+        {
+          "i": 4,
+          "j": 65,
+          "mi_apc": 0.5359,
+          "wc_fraction": 0.981
+        },
+        {
+          "i": 26,
+          "j": 38,
+          "mi_apc": 0.431,
+          "wc_fraction": 0.95
+        },
+        {
+          "i": 13,
+          "j": 19,
+          "mi_apc": 0.3814,
+          "wc_fraction": 0.959
+        },
+        {
+          "i": 7,
+          "j": 62,
+          "mi_apc": 0.3778,
+          "wc_fraction": 0.952
+        },
+        {
+          "i": 25,
+          "j": 39,
+          "mi_apc": 0.2947,
+          "wc_fraction": 0.966
+        },
+        {
+          "i": 48,
+          "j": 58,
+          "mi_apc": 0.2501,
+          "wc_fraction": 0.952
+        },
+        {
+          "i": 24,
+          "j": 40,
+          "mi_apc": 0.2338,
+          "wc_fraction": 0.93
+        },
+        {
+          "i": 5,
+          "j": 64,
+          "mi_apc": 0.2212,
+          "wc_fraction": 0.962
+        },
+        {
+          "i": 45,
+          "j": 61,
+          "mi_apc": 0.2097,
+          "wc_fraction": 0.966
+        },
+        {
+          "i": 27,
+          "j": 37,
+          "mi_apc": 0.1879,
+          "wc_fraction": 0.95
+        },
+        {
+          "i": 12,
+          "j": 20,
+          "mi_apc": 0.1322,
+          "wc_fraction": 0.972
+        },
+        {
+          "i": 6,
+          "j": 63,
+          "mi_apc": 0.1266,
+          "wc_fraction": 0.956
+        },
+        {
+          "i": 2,
+          "j": 67,
+          "mi_apc": 0.0852,
+          "wc_fraction": 0.991
+        },
+        {
+          "i": 15,
+          "j": 44,
+          "mi_apc": 0.0826,
+          "wc_fraction": 0.913
+        },
+        {
+          "i": 28,
+          "j": 36,
+          "mi_apc": 0.0782,
+          "wc_fraction": 0.924
+        },
+        {
+          "i": 49,
+          "j": 57,
+          "mi_apc": 0.0763,
+          "wc_fraction": 0.948
+        },
+        {
+          "i": 1,
+          "j": 68,
+          "mi_apc": 0.0423,
+          "wc_fraction": 0.969
+        },
+        {
+          "i": 30,
+          "j": 42,
+          "mi_apc": 0.0377,
+          "wc_fraction": 0.975
+        },
+        {
+          "i": 3,
+          "j": 66,
+          "mi_apc": 0.031,
+          "wc_fraction": 0.994
+        },
+        {
+          "i": 8,
+          "j": 14,
+          "mi_apc": 0.0188,
+          "wc_fraction": 0.977
+        },
+        {
+          "i": 10,
+          "j": 33,
+          "mi_apc": 0.0159,
+          "wc_fraction": 0.993
+        },
+        {
+          "i": 11,
+          "j": 18,
+          "mi_apc": 0.0111,
+          "wc_fraction": 0.963
+        },
+        {
+          "i": 32,
+          "j": 43,
+          "mi_apc": 0.0105,
+          "wc_fraction": 0.956
+        },
+        {
+          "i": 23,
+          "j": 31,
+          "mi_apc": 0.0088,
+          "wc_fraction": 0.976
+        },
+        {
+          "i": 29,
+          "j": 34,
+          "mi_apc": 0.004,
+          "wc_fraction": 0.983
+        }
+      ]
+    },
+    "TRNF": {
+      "human_seq": "GTTTATGTAGCTTACCTCCTCAAAGCAATACACTGAAAATGTTTAGACGGGCTCACATCACCCCATAAACA",
+      "length": 71,
+      "n_species": 10270,
+      "pairs": [
+        {
+          "i": 30,
+          "j": 42,
+          "mi_apc": 0.823,
+          "wc_fraction": 0.976
+        },
+        {
+          "i": 2,
+          "j": 69,
+          "mi_apc": 0.7282,
+          "wc_fraction": 0.982
+        },
+        {
+          "i": 6,
+          "j": 65,
+          "mi_apc": 0.608,
+          "wc_fraction": 0.928
+        },
+        {
+          "i": 28,
+          "j": 44,
+          "mi_apc": 0.5327,
+          "wc_fraction": 0.928
+        },
+        {
+          "i": 29,
+          "j": 43,
+          "mi_apc": 0.4905,
+          "wc_fraction": 0.977
+        },
+        {
+          "i": 7,
+          "j": 64,
+          "mi_apc": 0.4275,
+          "wc_fraction": 0.955
+        },
+        {
+          "i": 1,
+          "j": 70,
+          "mi_apc": 0.4232,
+          "wc_fraction": 0.984
+        },
+        {
+          "i": 31,
+          "j": 41,
+          "mi_apc": 0.359,
+          "wc_fraction": 0.996
+        },
+        {
+          "i": 50,
+          "j": 62,
+          "mi_apc": 0.2906,
+          "wc_fraction": 0.902
+        },
+        {
+          "i": 49,
+          "j": 63,
+          "mi_apc": 0.1725,
+          "wc_fraction": 0.941
+        },
+        {
+          "i": 11,
+          "j": 25,
+          "mi_apc": 0.1576,
+          "wc_fraction": 0.997
+        },
+        {
+          "i": 32,
+          "j": 40,
+          "mi_apc": 0.1239,
+          "wc_fraction": 0.971
+        },
+        {
+          "i": 10,
+          "j": 26,
+          "mi_apc": 0.0306,
+          "wc_fraction": 0.994
+        },
+        {
+          "i": 3,
+          "j": 46,
+          "mi_apc": 0.0173,
+          "wc_fraction": 0.932
+        },
+        {
+          "i": 12,
+          "j": 24,
+          "mi_apc": 0.0129,
+          "wc_fraction": 0.997
+        },
+        {
+          "i": 13,
+          "j": 23,
+          "mi_apc": 0.01,
+          "wc_fraction": 0.995
+        },
+        {
+          "i": 8,
+          "j": 22,
+          "mi_apc": 0.0084,
+          "wc_fraction": 0.997
+        },
+        {
+          "i": 34,
+          "j": 38,
+          "mi_apc": 0.001,
+          "wc_fraction": 1.0
+        }
+      ]
+    },
+    "TRNG": {
+      "human_seq": "ACTCTTTTAGTATAAATAGTACCGTTAACTTCCAATTAACTAGTTTTGACAACATTCAAAAAAGAGTA",
+      "length": 68,
+      "n_species": 14759,
+      "pairs": [
+        {
+          "i": 2,
+          "j": 66,
+          "mi_apc": 0.7103,
+          "wc_fraction": 0.967
+        },
+        {
+          "i": 28,
+          "j": 36,
+          "mi_apc": 0.5942,
+          "wc_fraction": 0.996
+        },
+        {
+          "i": 1,
+          "j": 67,
+          "mi_apc": 0.3409,
+          "wc_fraction": 0.976
+        },
+        {
+          "i": 27,
+          "j": 37,
+          "mi_apc": 0.2804,
+          "wc_fraction": 0.992
+        },
+        {
+          "i": 4,
+          "j": 64,
+          "mi_apc": 0.1778,
+          "wc_fraction": 0.958
+        },
+        {
+          "i": 10,
+          "j": 22,
+          "mi_apc": 0.161,
+          "wc_fraction": 0.985
+        },
+        {
+          "i": 8,
+          "j": 18,
+          "mi_apc": 0.0529,
+          "wc_fraction": 0.952
+        },
+        {
+          "i": 26,
+          "j": 59,
+          "mi_apc": 0.0427,
+          "wc_fraction": 0.932
+        },
+        {
+          "i": 12,
+          "j": 20,
+          "mi_apc": 0.0217,
+          "wc_fraction": 0.997
+        },
+        {
+          "i": 13,
+          "j": 43,
+          "mi_apc": 0.0118,
+          "wc_fraction": 0.936
+        },
+        {
+          "i": 11,
+          "j": 21,
+          "mi_apc": 0.0041,
+          "wc_fraction": 0.997
+        },
+        {
+          "i": 30,
+          "j": 65,
+          "mi_apc": 0.0014,
+          "wc_fraction": 0.972
+        },
+        {
+          "i": 31,
+          "j": 35,
+          "mi_apc": 0.001,
+          "wc_fraction": 0.982
+        }
+      ]
+    },
+    "TRNH": {
+      "human_seq": "GTAAATATAGTTTAACCAAAACATCAGATTGTGAATCTGACAACAGAGGCTTACGACCCCTTATTTACC",
+      "length": 69,
+      "n_species": 10636,
+      "pairs": [
+        {
+          "i": 5,
+          "j": 64,
+          "mi_apc": 0.5842,
+          "wc_fraction": 0.908
+        },
+        {
+          "i": 2,
+          "j": 67,
+          "mi_apc": 0.4346,
+          "wc_fraction": 0.965
+        },
+        {
+          "i": 1,
+          "j": 68,
+          "mi_apc": 0.3759,
+          "wc_fraction": 0.982
+        },
+        {
+          "i": 25,
+          "j": 39,
+          "mi_apc": 0.2292,
+          "wc_fraction": 0.946
+        },
+        {
+          "i": 7,
+          "j": 62,
+          "mi_apc": 0.1986,
+          "wc_fraction": 0.935
+        },
+        {
+          "i": 26,
+          "j": 38,
+          "mi_apc": 0.1041,
+          "wc_fraction": 0.952
+        },
+        {
+          "i": 10,
+          "j": 22,
+          "mi_apc": 0.0827,
+          "wc_fraction": 0.969
+        },
+        {
+          "i": 45,
+          "j": 61,
+          "mi_apc": 0.0576,
+          "wc_fraction": 0.923
+        },
+        {
+          "i": 11,
+          "j": 21,
+          "mi_apc": 0.0449,
+          "wc_fraction": 0.991
+        },
+        {
+          "i": 13,
+          "j": 19,
+          "mi_apc": 0.0354,
+          "wc_fraction": 0.99
+        },
+        {
+          "i": 12,
+          "j": 20,
+          "mi_apc": 0.0178,
+          "wc_fraction": 0.995
+        },
+        {
+          "i": 31,
+          "j": 37,
+          "mi_apc": 0.0034,
+          "wc_fraction": 0.938
+        },
+        {
+          "i": 8,
+          "j": 47,
+          "mi_apc": 0.0028,
+          "wc_fraction": 0.965
+        },
+        {
+          "i": 32,
+          "j": 43,
+          "mi_apc": 0.0014,
+          "wc_fraction": 0.932
+        },
+        {
+          "i": 30,
+          "j": 46,
+          "mi_apc": 0.001,
+          "wc_fraction": 0.915
+        },
+        {
+          "i": 33,
+          "j": 59,
+          "mi_apc": 0.0007,
+          "wc_fraction": 0.953
+        }
+      ]
+    },
+    "TRNI": {
+      "human_seq": "AGAAATATGTCTGATAAAAGAGTTACTTTGATAGAGTAAATAATAGGAGCTTAAACCCCCTTATTTCTA",
+      "length": 69,
+      "n_species": 14440,
+      "pairs": [
+        {
+          "i": 24,
+          "j": 38,
+          "mi_apc": 0.6679,
+          "wc_fraction": 0.974
+        },
+        {
+          "i": 26,
+          "j": 36,
+          "mi_apc": 0.5747,
+          "wc_fraction": 0.984
+        },
+        {
+          "i": 27,
+          "j": 35,
+          "mi_apc": 0.4254,
+          "wc_fraction": 0.959
+        },
+        {
+          "i": 1,
+          "j": 68,
+          "mi_apc": 0.3909,
+          "wc_fraction": 0.979
+        },
+        {
+          "i": 10,
+          "j": 21,
+          "mi_apc": 0.3569,
+          "wc_fraction": 0.937
+        },
+        {
+          "i": 2,
+          "j": 67,
+          "mi_apc": 0.3177,
+          "wc_fraction": 0.944
+        },
+        {
+          "i": 45,
+          "j": 61,
+          "mi_apc": 0.2686,
+          "wc_fraction": 0.905
+        },
+        {
+          "i": 12,
+          "j": 19,
+          "mi_apc": 0.2621,
+          "wc_fraction": 0.938
+        },
+        {
+          "i": 25,
+          "j": 37,
+          "mi_apc": 0.2176,
+          "wc_fraction": 0.977
+        },
+        {
+          "i": 8,
+          "j": 33,
+          "mi_apc": 0.0658,
+          "wc_fraction": 0.962
+        },
+        {
+          "i": 11,
+          "j": 20,
+          "mi_apc": 0.0528,
+          "wc_fraction": 0.981
+        },
+        {
+          "i": 9,
+          "j": 65,
+          "mi_apc": 0.007,
+          "wc_fraction": 0.941
+        },
+        {
+          "i": 29,
+          "j": 34,
+          "mi_apc": 0.0069,
+          "wc_fraction": 0.944
+        },
+        {
+          "i": 22,
+          "j": 32,
+          "mi_apc": 0.0022,
+          "wc_fraction": 0.98
+        },
+        {
+          "i": 13,
+          "j": 56,
+          "mi_apc": 0.0015,
+          "wc_fraction": 0.916
+        },
+        {
+          "i": 30,
+          "j": 59,
+          "mi_apc": 0.0007,
+          "wc_fraction": 0.941
+        }
+      ]
+    },
+    "TRNK": {
+      "human_seq": "CACTGTAAAGCTAACTTAGCATTAACCTTTTAAGTTAAAGATTAAGAGAACCAACACCTCTTTACAGTGA",
+      "length": 70,
+      "n_species": 10401,
+      "pairs": [
+        {
+          "i": 3,
+          "j": 67,
+          "mi_apc": 0.5858,
+          "wc_fraction": 0.971
+        },
+        {
+          "i": 24,
+          "j": 36,
+          "mi_apc": 0.5489,
+          "wc_fraction": 0.97
+        },
+        {
+          "i": 25,
+          "j": 35,
+          "mi_apc": 0.5186,
+          "wc_fraction": 0.988
+        },
+        {
+          "i": 26,
+          "j": 34,
+          "mi_apc": 0.4535,
+          "wc_fraction": 0.972
+        },
+        {
+          "i": 2,
+          "j": 68,
+          "mi_apc": 0.4197,
+          "wc_fraction": 0.982
+        },
+        {
+          "i": 23,
+          "j": 37,
+          "mi_apc": 0.3348,
+          "wc_fraction": 0.948
+        },
+        {
+          "i": 10,
+          "j": 20,
+          "mi_apc": 0.2927,
+          "wc_fraction": 0.96
+        },
+        {
+          "i": 4,
+          "j": 66,
+          "mi_apc": 0.1417,
+          "wc_fraction": 0.972
+        },
+        {
+          "i": 9,
+          "j": 29,
+          "mi_apc": 0.13,
+          "wc_fraction": 0.92
+        },
+        {
+          "i": 1,
+          "j": 69,
+          "mi_apc": 0.1249,
+          "wc_fraction": 0.987
+        },
+        {
+          "i": 7,
+          "j": 63,
+          "mi_apc": 0.1078,
+          "wc_fraction": 0.91
+        },
+        {
+          "i": 5,
+          "j": 12,
+          "mi_apc": 0.0493,
+          "wc_fraction": 0.943
+        },
+        {
+          "i": 28,
+          "j": 33,
+          "mi_apc": 0.0144,
+          "wc_fraction": 0.991
+        },
+        {
+          "i": 19,
+          "j": 27,
+          "mi_apc": 0.012,
+          "wc_fraction": 0.986
+        },
+        {
+          "i": 13,
+          "j": 30,
+          "mi_apc": 0.0025,
+          "wc_fraction": 0.912
+        },
+        {
+          "i": 21,
+          "j": 31,
+          "mi_apc": 0.0012,
+          "wc_fraction": 0.975
+        }
+      ]
+    },
+    "TRNL1": {
+      "human_seq": "GTTAAGATGGCAGAGCCCGGTAATCGCATAAAACTTAAAACTTTACAGTCAGAGGTTCAATTCCTCTTCTTAACA",
+      "length": 75,
+      "n_species": 12374,
+      "pairs": [
+        {
+          "i": 1,
+          "j": 74,
+          "mi_apc": 0.8182,
+          "wc_fraction": 0.976
+        },
+        {
+          "i": 2,
+          "j": 73,
+          "mi_apc": 0.7653,
+          "wc_fraction": 0.971
+        },
+        {
+          "i": 5,
+          "j": 70,
+          "mi_apc": 0.6142,
+          "wc_fraction": 0.967
+        },
+        {
+          "i": 7,
+          "j": 68,
+          "mi_apc": 0.5613,
+          "wc_fraction": 0.981
+        },
+        {
+          "i": 4,
+          "j": 71,
+          "mi_apc": 0.4376,
+          "wc_fraction": 0.974
+        },
+        {
+          "i": 52,
+          "j": 66,
+          "mi_apc": 0.3548,
+          "wc_fraction": 0.951
+        },
+        {
+          "i": 19,
+          "j": 25,
+          "mi_apc": 0.2485,
+          "wc_fraction": 0.967
+        },
+        {
+          "i": 15,
+          "j": 27,
+          "mi_apc": 0.237,
+          "wc_fraction": 0.92
+        },
+        {
+          "i": 32,
+          "j": 42,
+          "mi_apc": 0.2228,
+          "wc_fraction": 0.969
+        },
+        {
+          "i": 53,
+          "j": 65,
+          "mi_apc": 0.2211,
+          "wc_fraction": 0.978
+        },
+        {
+          "i": 54,
+          "j": 64,
+          "mi_apc": 0.2175,
+          "wc_fraction": 0.933
+        },
+        {
+          "i": 3,
+          "j": 72,
+          "mi_apc": 0.2022,
+          "wc_fraction": 0.982
+        },
+        {
+          "i": 55,
+          "j": 63,
+          "mi_apc": 0.1973,
+          "wc_fraction": 0.917
+        },
+        {
+          "i": 51,
+          "j": 67,
+          "mi_apc": 0.1864,
+          "wc_fraction": 0.963
+        },
+        {
+          "i": 20,
+          "j": 35,
+          "mi_apc": 0.0813,
+          "wc_fraction": 0.93
+        },
+        {
+          "i": 31,
+          "j": 57,
+          "mi_apc": 0.0271,
+          "wc_fraction": 0.911
+        },
+        {
+          "i": 26,
+          "j": 36,
+          "mi_apc": 0.0198,
+          "wc_fraction": 0.959
+        },
+        {
+          "i": 8,
+          "j": 13,
+          "mi_apc": 0.0112,
+          "wc_fraction": 0.987
+        },
+        {
+          "i": 9,
+          "j": 43,
+          "mi_apc": 0.0077,
+          "wc_fraction": 0.956
+        },
+        {
+          "i": 10,
+          "j": 41,
+          "mi_apc": 0.0075,
+          "wc_fraction": 0.98
+        },
+        {
+          "i": 33,
+          "j": 62,
+          "mi_apc": 0.0023,
+          "wc_fraction": 0.911
+        },
+        {
+          "i": 56,
+          "j": 60,
+          "mi_apc": 0.0011,
+          "wc_fraction": 0.911
+        }
+      ]
+    },
+    "TRNL2": {
+      "human_seq": "ACTTTTAAAGGATAACAGCTATCCATTGGTCTTAGGCCCCAAAAATTTTGGTGCAACTCCAAATAAAAGTA",
+      "length": 71,
+      "n_species": 8397,
+      "pairs": [
+        {
+          "i": 1,
+          "j": 70,
+          "mi_apc": 0.7262,
+          "wc_fraction": 0.992
+        },
+        {
+          "i": 5,
+          "j": 66,
+          "mi_apc": 0.588,
+          "wc_fraction": 0.974
+        },
+        {
+          "i": 6,
+          "j": 65,
+          "mi_apc": 0.3734,
+          "wc_fraction": 0.982
+        },
+        {
+          "i": 30,
+          "j": 38,
+          "mi_apc": 0.2527,
+          "wc_fraction": 0.959
+        },
+        {
+          "i": 7,
+          "j": 64,
+          "mi_apc": 0.2524,
+          "wc_fraction": 0.957
+        },
+        {
+          "i": 10,
+          "j": 24,
+          "mi_apc": 0.1528,
+          "wc_fraction": 0.989
+        },
+        {
+          "i": 15,
+          "j": 46,
+          "mi_apc": 0.1497,
+          "wc_fraction": 0.938
+        },
+        {
+          "i": 3,
+          "j": 68,
+          "mi_apc": 0.1476,
+          "wc_fraction": 0.984
+        },
+        {
+          "i": 11,
+          "j": 23,
+          "mi_apc": 0.1315,
+          "wc_fraction": 0.976
+        },
+        {
+          "i": 48,
+          "j": 62,
+          "mi_apc": 0.1189,
+          "wc_fraction": 0.965
+        },
+        {
+          "i": 29,
+          "j": 39,
+          "mi_apc": 0.1083,
+          "wc_fraction": 0.995
+        },
+        {
+          "i": 28,
+          "j": 40,
+          "mi_apc": 0.0877,
+          "wc_fraction": 0.986
+        },
+        {
+          "i": 2,
+          "j": 69,
+          "mi_apc": 0.087,
+          "wc_fraction": 0.991
+        },
+        {
+          "i": 36,
+          "j": 54,
+          "mi_apc": 0.077,
+          "wc_fraction": 0.967
+        },
+        {
+          "i": 19,
+          "j": 63,
+          "mi_apc": 0.0654,
+          "wc_fraction": 0.925
+        },
+        {
+          "i": 31,
+          "j": 51,
+          "mi_apc": 0.065,
+          "wc_fraction": 0.986
+        },
+        {
+          "i": 53,
+          "j": 59,
+          "mi_apc": 0.0534,
+          "wc_fraction": 0.978
+        },
+        {
+          "i": 13,
+          "j": 21,
+          "mi_apc": 0.0519,
+          "wc_fraction": 0.903
+        },
+        {
+          "i": 49,
+          "j": 61,
+          "mi_apc": 0.0514,
+          "wc_fraction": 0.96
+        },
+        {
+          "i": 27,
+          "j": 41,
+          "mi_apc": 0.0402,
+          "wc_fraction": 0.988
+        },
+        {
+          "i": 50,
+          "j": 60,
+          "mi_apc": 0.0374,
+          "wc_fraction": 0.986
+        },
+        {
+          "i": 12,
+          "j": 22,
+          "mi_apc": 0.0151,
+          "wc_fraction": 0.994
+        },
+        {
+          "i": 35,
+          "j": 58,
+          "mi_apc": 0.0103,
+          "wc_fraction": 0.992
+        },
+        {
+          "i": 9,
+          "j": 52,
+          "mi_apc": 0.0098,
+          "wc_fraction": 0.955
+        },
+        {
+          "i": 17,
+          "j": 33,
+          "mi_apc": 0.0042,
+          "wc_fraction": 0.994
+        },
+        {
+          "i": 32,
+          "j": 37,
+          "mi_apc": 0.0039,
+          "wc_fraction": 0.924
+        }
+      ]
+    },
+    "TRNM": {
+      "human_seq": "AGTAAGGTCAGCTAAATAAGCTATCGGGCCCATACCCCGAAAATGTTGGTTATACCCTTCCCGTACTA",
+      "length": 68,
+      "n_species": 15552,
+      "pairs": [
+        {
+          "i": 2,
+          "j": 66,
+          "mi_apc": 0.8018,
+          "wc_fraction": 0.975
+        },
+        {
+          "i": 25,
+          "j": 39,
+          "mi_apc": 0.5887,
+          "wc_fraction": 0.977
+        },
+        {
+          "i": 3,
+          "j": 65,
+          "mi_apc": 0.5356,
+          "wc_fraction": 0.941
+        },
+        {
+          "i": 7,
+          "j": 61,
+          "mi_apc": 0.5262,
+          "wc_fraction": 0.976
+        },
+        {
+          "i": 1,
+          "j": 67,
+          "mi_apc": 0.5034,
+          "wc_fraction": 0.926
+        },
+        {
+          "i": 6,
+          "j": 62,
+          "mi_apc": 0.4497,
+          "wc_fraction": 0.96
+        },
+        {
+          "i": 26,
+          "j": 38,
+          "mi_apc": 0.4436,
+          "wc_fraction": 0.992
+        },
+        {
+          "i": 45,
+          "j": 60,
+          "mi_apc": 0.3763,
+          "wc_fraction": 0.947
+        },
+        {
+          "i": 4,
+          "j": 64,
+          "mi_apc": 0.217,
+          "wc_fraction": 0.942
+        },
+        {
+          "i": 11,
+          "j": 21,
+          "mi_apc": 0.1914,
+          "wc_fraction": 0.994
+        },
+        {
+          "i": 28,
+          "j": 36,
+          "mi_apc": 0.1592,
+          "wc_fraction": 0.988
+        },
+        {
+          "i": 10,
+          "j": 22,
+          "mi_apc": 0.0893,
+          "wc_fraction": 0.995
+        },
+        {
+          "i": 12,
+          "j": 20,
+          "mi_apc": 0.0805,
+          "wc_fraction": 0.99
+        },
+        {
+          "i": 30,
+          "j": 49,
+          "mi_apc": 0.0688,
+          "wc_fraction": 0.941
+        },
+        {
+          "i": 15,
+          "j": 44,
+          "mi_apc": 0.0372,
+          "wc_fraction": 0.954
+        },
+        {
+          "i": 27,
+          "j": 37,
+          "mi_apc": 0.0306,
+          "wc_fraction": 0.998
+        },
+        {
+          "i": 8,
+          "j": 34,
+          "mi_apc": 0.0224,
+          "wc_fraction": 0.987
+        },
+        {
+          "i": 13,
+          "j": 68,
+          "mi_apc": 0.0142,
+          "wc_fraction": 0.953
+        },
+        {
+          "i": 29,
+          "j": 48,
+          "mi_apc": 0.0119,
+          "wc_fraction": 0.921
+        },
+        {
+          "i": 18,
+          "j": 33,
+          "mi_apc": 0.0009,
+          "wc_fraction": 0.995
+        }
+      ]
+    },
+    "TRNN": {
+      "human_seq": "TAGATTGAAGCCAGTTGATTAGGGTGCTTAGCTGTTAACTAAGTGTTTGTGGGTTTAAGTCCCATTGGTCTAG",
+      "length": 73,
+      "n_species": 10400,
+      "pairs": [
+        {
+          "i": 6,
+          "j": 67,
+          "mi_apc": 0.8099,
+          "wc_fraction": 0.956
+        },
+        {
+          "i": 5,
+          "j": 68,
+          "mi_apc": 0.542,
+          "wc_fraction": 0.966
+        },
+        {
+          "i": 28,
+          "j": 42,
+          "mi_apc": 0.4983,
+          "wc_fraction": 0.912
+        },
+        {
+          "i": 27,
+          "j": 43,
+          "mi_apc": 0.4761,
+          "wc_fraction": 0.903
+        },
+        {
+          "i": 2,
+          "j": 71,
+          "mi_apc": 0.3751,
+          "wc_fraction": 0.986
+        },
+        {
+          "i": 49,
+          "j": 65,
+          "mi_apc": 0.2949,
+          "wc_fraction": 0.95
+        },
+        {
+          "i": 7,
+          "j": 66,
+          "mi_apc": 0.2911,
+          "wc_fraction": 0.995
+        },
+        {
+          "i": 31,
+          "j": 39,
+          "mi_apc": 0.2617,
+          "wc_fraction": 0.977
+        },
+        {
+          "i": 3,
+          "j": 70,
+          "mi_apc": 0.2322,
+          "wc_fraction": 0.981
+        },
+        {
+          "i": 30,
+          "j": 40,
+          "mi_apc": 0.2284,
+          "wc_fraction": 0.919
+        },
+        {
+          "i": 4,
+          "j": 69,
+          "mi_apc": 0.2249,
+          "wc_fraction": 0.977
+        },
+        {
+          "i": 12,
+          "j": 23,
+          "mi_apc": 0.2101,
+          "wc_fraction": 0.927
+        },
+        {
+          "i": 15,
+          "j": 59,
+          "mi_apc": 0.2101,
+          "wc_fraction": 0.908
+        },
+        {
+          "i": 11,
+          "j": 24,
+          "mi_apc": 0.1733,
+          "wc_fraction": 0.924
+        },
+        {
+          "i": 14,
+          "j": 20,
+          "mi_apc": 0.0936,
+          "wc_fraction": 0.931
+        },
+        {
+          "i": 10,
+          "j": 25,
+          "mi_apc": 0.0778,
+          "wc_fraction": 0.94
+        },
+        {
+          "i": 1,
+          "j": 72,
+          "mi_apc": 0.0487,
+          "wc_fraction": 0.986
+        },
+        {
+          "i": 17,
+          "j": 55,
+          "mi_apc": 0.0484,
+          "wc_fraction": 0.902
+        },
+        {
+          "i": 8,
+          "j": 33,
+          "mi_apc": 0.0276,
+          "wc_fraction": 0.985
+        },
+        {
+          "i": 29,
+          "j": 41,
+          "mi_apc": 0.0214,
+          "wc_fraction": 0.987
+        },
+        {
+          "i": 34,
+          "j": 62,
+          "mi_apc": 0.0014,
+          "wc_fraction": 0.994
+        },
+        {
+          "i": 22,
+          "j": 36,
+          "mi_apc": 0.0006,
+          "wc_fraction": 0.979
+        },
+        {
+          "i": 26,
+          "j": 35,
+          "mi_apc": 0.0004,
+          "wc_fraction": 0.907
+        }
+      ]
+    },
+    "TRNP": {
+      "human_seq": "CAGAGAATAGTTTAAATTAGAATCTTAGCTTTGGGTGCTAATGGTGGAGTTAAAGACTTTTTCTCTGA",
+      "length": 68,
+      "n_species": 15112,
+      "pairs": [
+        {
+          "i": 25,
+          "j": 41,
+          "mi_apc": 0.6967,
+          "wc_fraction": 0.941
+        },
+        {
+          "i": 29,
+          "j": 37,
+          "mi_apc": 0.6224,
+          "wc_fraction": 0.967
+        },
+        {
+          "i": 26,
+          "j": 40,
+          "mi_apc": 0.5996,
+          "wc_fraction": 0.943
+        },
+        {
+          "i": 27,
+          "j": 39,
+          "mi_apc": 0.5171,
+          "wc_fraction": 0.974
+        },
+        {
+          "i": 4,
+          "j": 64,
+          "mi_apc": 0.4851,
+          "wc_fraction": 0.977
+        },
+        {
+          "i": 3,
+          "j": 65,
+          "mi_apc": 0.4801,
+          "wc_fraction": 0.952
+        },
+        {
+          "i": 6,
+          "j": 62,
+          "mi_apc": 0.2464,
+          "wc_fraction": 0.941
+        },
+        {
+          "i": 7,
+          "j": 61,
+          "mi_apc": 0.2442,
+          "wc_fraction": 0.938
+        },
+        {
+          "i": 28,
+          "j": 38,
+          "mi_apc": 0.1895,
+          "wc_fraction": 0.975
+        },
+        {
+          "i": 47,
+          "j": 59,
+          "mi_apc": 0.1771,
+          "wc_fraction": 0.924
+        },
+        {
+          "i": 46,
+          "j": 60,
+          "mi_apc": 0.1463,
+          "wc_fraction": 0.918
+        },
+        {
+          "i": 12,
+          "j": 21,
+          "mi_apc": 0.1322,
+          "wc_fraction": 0.991
+        },
+        {
+          "i": 2,
+          "j": 66,
+          "mi_apc": 0.0831,
+          "wc_fraction": 0.975
+        },
+        {
+          "i": 1,
+          "j": 67,
+          "mi_apc": 0.0812,
+          "wc_fraction": 0.979
+        },
+        {
+          "i": 23,
+          "j": 43,
+          "mi_apc": 0.0555,
+          "wc_fraction": 0.937
+        },
+        {
+          "i": 30,
+          "j": 35,
+          "mi_apc": 0.0364,
+          "wc_fraction": 0.966
+        },
+        {
+          "i": 8,
+          "j": 34,
+          "mi_apc": 0.0223,
+          "wc_fraction": 0.987
+        },
+        {
+          "i": 11,
+          "j": 22,
+          "mi_apc": 0.0168,
+          "wc_fraction": 0.987
+        },
+        {
+          "i": 19,
+          "j": 31,
+          "mi_apc": 0.0148,
+          "wc_fraction": 0.99
+        },
+        {
+          "i": 10,
+          "j": 63,
+          "mi_apc": 0.0135,
+          "wc_fraction": 0.925
+        },
+        {
+          "i": 32,
+          "j": 44,
+          "mi_apc": 0.0106,
+          "wc_fraction": 0.959
+        },
+        {
+          "i": 13,
+          "j": 20,
+          "mi_apc": 0.0078,
+          "wc_fraction": 0.966
+        }
+      ]
+    },
+    "TRNQ": {
+      "human_seq": "TAGGATGGGGTGTGATAGGTGGCACGGAGAATTTTGGATTCTCAGGGATGGGTTCGATTCTCATAGTCCTAG",
+      "length": 72,
+      "n_species": 11087,
+      "pairs": [
+        {
+          "i": 3,
+          "j": 69,
+          "mi_apc": 0.6164,
+          "wc_fraction": 0.975
+        },
+        {
+          "i": 50,
+          "j": 62,
+          "mi_apc": 0.5979,
+          "wc_fraction": 0.948
+        },
+        {
+          "i": 6,
+          "j": 66,
+          "mi_apc": 0.5398,
+          "wc_fraction": 0.922
+        },
+        {
+          "i": 12,
+          "j": 23,
+          "mi_apc": 0.5071,
+          "wc_fraction": 0.98
+        },
+        {
+          "i": 51,
+          "j": 61,
+          "mi_apc": 0.4285,
+          "wc_fraction": 0.991
+        },
+        {
+          "i": 5,
+          "j": 67,
+          "mi_apc": 0.4184,
+          "wc_fraction": 0.933
+        },
+        {
+          "i": 31,
+          "j": 39,
+          "mi_apc": 0.376,
+          "wc_fraction": 0.911
+        },
+        {
+          "i": 29,
+          "j": 41,
+          "mi_apc": 0.3655,
+          "wc_fraction": 0.942
+        },
+        {
+          "i": 28,
+          "j": 42,
+          "mi_apc": 0.3003,
+          "wc_fraction": 0.941
+        },
+        {
+          "i": 10,
+          "j": 25,
+          "mi_apc": 0.2869,
+          "wc_fraction": 0.977
+        },
+        {
+          "i": 4,
+          "j": 68,
+          "mi_apc": 0.145,
+          "wc_fraction": 0.963
+        },
+        {
+          "i": 30,
+          "j": 40,
+          "mi_apc": 0.1254,
+          "wc_fraction": 0.933
+        },
+        {
+          "i": 2,
+          "j": 70,
+          "mi_apc": 0.1053,
+          "wc_fraction": 0.978
+        },
+        {
+          "i": 52,
+          "j": 60,
+          "mi_apc": 0.0529,
+          "wc_fraction": 0.967
+        },
+        {
+          "i": 8,
+          "j": 19,
+          "mi_apc": 0.0192,
+          "wc_fraction": 0.906
+        },
+        {
+          "i": 9,
+          "j": 59,
+          "mi_apc": 0.0173,
+          "wc_fraction": 0.916
+        },
+        {
+          "i": 53,
+          "j": 57,
+          "mi_apc": 0.0171,
+          "wc_fraction": 0.973
+        },
+        {
+          "i": 13,
+          "j": 22,
+          "mi_apc": 0.0137,
+          "wc_fraction": 0.977
+        },
+        {
+          "i": 11,
+          "j": 24,
+          "mi_apc": 0.0118,
+          "wc_fraction": 0.984
+        },
+        {
+          "i": 32,
+          "j": 37,
+          "mi_apc": 0.0106,
+          "wc_fraction": 0.927
+        },
+        {
+          "i": 1,
+          "j": 71,
+          "mi_apc": 0.0105,
+          "wc_fraction": 0.991
+        },
+        {
+          "i": 33,
+          "j": 72,
+          "mi_apc": 0.0035,
+          "wc_fraction": 0.966
+        },
+        {
+          "i": 35,
+          "j": 45,
+          "mi_apc": 0.0007,
+          "wc_fraction": 0.914
+        },
+        {
+          "i": 34,
+          "j": 56,
+          "mi_apc": 0.0005,
+          "wc_fraction": 0.983
+        }
+      ]
+    },
+    "TRNR": {
+      "human_seq": "TGGTATATAGTTTAAACAAAACGAATGATTTCGACTCATTAAATTATGATAATCATATTTACCAA",
+      "length": 65,
+      "n_species": 10235,
+      "pairs": [
+        {
+          "i": 3,
+          "j": 62,
+          "mi_apc": 0.5137,
+          "wc_fraction": 0.904
+        },
+        {
+          "i": 2,
+          "j": 63,
+          "mi_apc": 0.4038,
+          "wc_fraction": 0.945
+        },
+        {
+          "i": 27,
+          "j": 37,
+          "mi_apc": 0.3516,
+          "wc_fraction": 0.909
+        },
+        {
+          "i": 28,
+          "j": 36,
+          "mi_apc": 0.2297,
+          "wc_fraction": 0.97
+        },
+        {
+          "i": 8,
+          "j": 20,
+          "mi_apc": 0.1262,
+          "wc_fraction": 0.92
+        },
+        {
+          "i": 11,
+          "j": 21,
+          "mi_apc": 0.1217,
+          "wc_fraction": 0.919
+        },
+        {
+          "i": 26,
+          "j": 38,
+          "mi_apc": 0.0526,
+          "wc_fraction": 0.923
+        },
+        {
+          "i": 29,
+          "j": 33,
+          "mi_apc": 0.0087,
+          "wc_fraction": 0.994
+        },
+        {
+          "i": 14,
+          "j": 31,
+          "mi_apc": 0.0051,
+          "wc_fraction": 0.961
+        },
+        {
+          "i": 18,
+          "j": 30,
+          "mi_apc": 0.0031,
+          "wc_fraction": 0.933
+        }
+      ]
+    },
+    "TRNS1": {
+      "human_seq": "GAAAAAGTCATGGAGGCCATGGGGTTGGCTTGAAACCAGCTTTGGGGGGTTCGATTCCTTCCTTTTTTG",
+      "length": 69,
+      "n_species": 9444,
+      "pairs": [
+        {
+          "i": 28,
+          "j": 36,
+          "mi_apc": 0.3468,
+          "wc_fraction": 0.972
+        },
+        {
+          "i": 24,
+          "j": 40,
+          "mi_apc": 0.2565,
+          "wc_fraction": 0.906
+        },
+        {
+          "i": 45,
+          "j": 61,
+          "mi_apc": 0.2301,
+          "wc_fraction": 0.931
+        },
+        {
+          "i": 48,
+          "j": 58,
+          "mi_apc": 0.2298,
+          "wc_fraction": 0.973
+        },
+        {
+          "i": 26,
+          "j": 38,
+          "mi_apc": 0.1777,
+          "wc_fraction": 0.936
+        },
+        {
+          "i": 4,
+          "j": 65,
+          "mi_apc": 0.1597,
+          "wc_fraction": 0.944
+        },
+        {
+          "i": 27,
+          "j": 37,
+          "mi_apc": 0.1352,
+          "wc_fraction": 0.95
+        },
+        {
+          "i": 46,
+          "j": 60,
+          "mi_apc": 0.1116,
+          "wc_fraction": 0.982
+        },
+        {
+          "i": 49,
+          "j": 57,
+          "mi_apc": 0.1058,
+          "wc_fraction": 0.989
+        },
+        {
+          "i": 5,
+          "j": 64,
+          "mi_apc": 0.1013,
+          "wc_fraction": 0.943
+        },
+        {
+          "i": 6,
+          "j": 63,
+          "mi_apc": 0.0937,
+          "wc_fraction": 0.928
+        },
+        {
+          "i": 47,
+          "j": 59,
+          "mi_apc": 0.0912,
+          "wc_fraction": 0.923
+        },
+        {
+          "i": 2,
+          "j": 67,
+          "mi_apc": 0.0722,
+          "wc_fraction": 0.958
+        },
+        {
+          "i": 32,
+          "j": 52,
+          "mi_apc": 0.0575,
+          "wc_fraction": 0.918
+        },
+        {
+          "i": 21,
+          "j": 66,
+          "mi_apc": 0.0553,
+          "wc_fraction": 0.92
+        },
+        {
+          "i": 10,
+          "j": 20,
+          "mi_apc": 0.0346,
+          "wc_fraction": 0.924
+        },
+        {
+          "i": 7,
+          "j": 68,
+          "mi_apc": 0.022,
+          "wc_fraction": 0.943
+        },
+        {
+          "i": 50,
+          "j": 54,
+          "mi_apc": 0.0115,
+          "wc_fraction": 0.987
+        },
+        {
+          "i": 15,
+          "j": 51,
+          "mi_apc": 0.0103,
+          "wc_fraction": 0.938
+        },
+        {
+          "i": 30,
+          "j": 34,
+          "mi_apc": 0.0058,
+          "wc_fraction": 0.995
+        },
+        {
+          "i": 19,
+          "j": 31,
+          "mi_apc": 0.0043,
+          "wc_fraction": 0.936
+        },
+        {
+          "i": 1,
+          "j": 56,
+          "mi_apc": 0.0013,
+          "wc_fraction": 0.963
+        }
+      ]
+    },
+    "TRNS2": {
+      "human_seq": "GAGAAAGCTCACAAGAACTGCTAACTCATGCCCCCATGTCTAACAACATGGCTTTCTCA",
+      "length": 59,
+      "n_species": 9715,
+      "pairs": [
+        {
+          "i": 3,
+          "j": 56,
+          "mi_apc": 0.3797,
+          "wc_fraction": 0.956
+        },
+        {
+          "i": 38,
+          "j": 47,
+          "mi_apc": 0.2162,
+          "wc_fraction": 0.927
+        },
+        {
+          "i": 1,
+          "j": 58,
+          "mi_apc": 0.2121,
+          "wc_fraction": 0.958
+        },
+        {
+          "i": 20,
+          "j": 34,
+          "mi_apc": 0.0343,
+          "wc_fraction": 0.915
+        },
+        {
+          "i": 2,
+          "j": 57,
+          "mi_apc": 0.0325,
+          "wc_fraction": 0.971
+        },
+        {
+          "i": 19,
+          "j": 24,
+          "mi_apc": 0.0069,
+          "wc_fraction": 0.975
+        },
+        {
+          "i": 22,
+          "j": 42,
+          "mi_apc": 0.0008,
+          "wc_fraction": 0.965
+        }
+      ]
+    },
+    "TRNT": {
+      "human_seq": "GTCCTTGTAGTATAAACTAATACACCAGTCTTGTAAACCGGAGATGAAAACCTTTTTCCAAGGACA",
+      "length": 66,
+      "n_species": 13594,
+      "pairs": [
+        {
+          "i": 25,
+          "j": 41,
+          "mi_apc": 0.5764,
+          "wc_fraction": 0.924
+        },
+        {
+          "i": 2,
+          "j": 64,
+          "mi_apc": 0.5682,
+          "wc_fraction": 0.93
+        },
+        {
+          "i": 26,
+          "j": 40,
+          "mi_apc": 0.5382,
+          "wc_fraction": 0.963
+        },
+        {
+          "i": 1,
+          "j": 65,
+          "mi_apc": 0.3575,
+          "wc_fraction": 0.979
+        },
+        {
+          "i": 10,
+          "j": 23,
+          "mi_apc": 0.3045,
+          "wc_fraction": 0.971
+        },
+        {
+          "i": 27,
+          "j": 39,
+          "mi_apc": 0.2695,
+          "wc_fraction": 0.968
+        },
+        {
+          "i": 7,
+          "j": 57,
+          "mi_apc": 0.1829,
+          "wc_fraction": 0.949
+        },
+        {
+          "i": 5,
+          "j": 61,
+          "mi_apc": 0.1549,
+          "wc_fraction": 0.904
+        },
+        {
+          "i": 28,
+          "j": 38,
+          "mi_apc": 0.1548,
+          "wc_fraction": 0.978
+        },
+        {
+          "i": 11,
+          "j": 43,
+          "mi_apc": 0.0931,
+          "wc_fraction": 0.929
+        },
+        {
+          "i": 8,
+          "j": 19,
+          "mi_apc": 0.0224,
+          "wc_fraction": 0.92
+        },
+        {
+          "i": 29,
+          "j": 42,
+          "mi_apc": 0.0053,
+          "wc_fraction": 0.911
+        },
+        {
+          "i": 22,
+          "j": 32,
+          "mi_apc": 0.0008,
+          "wc_fraction": 0.994
+        },
+        {
+          "i": 33,
+          "j": 56,
+          "mi_apc": 0.0005,
+          "wc_fraction": 0.964
+        },
+        {
+          "i": 31,
+          "j": 44,
+          "mi_apc": 0.0004,
+          "wc_fraction": 0.9
+        },
+        {
+          "i": 20,
+          "j": 34,
+          "mi_apc": 0.0001,
+          "wc_fraction": 0.932
+        }
+      ]
+    },
+    "TRNV": {
+      "human_seq": "CAGAGTGTAGCTTAACACAAAGCACCCAACTTACACTTAGGAGATTTCAACTTAACTTGACCGCTCTGA",
+      "length": 69,
+      "n_species": 11848,
+      "pairs": [
+        {
+          "i": 28,
+          "j": 38,
+          "mi_apc": 0.9367,
+          "wc_fraction": 0.926
+        },
+        {
+          "i": 26,
+          "j": 40,
+          "mi_apc": 0.6589,
+          "wc_fraction": 0.962
+        },
+        {
+          "i": 7,
+          "j": 62,
+          "mi_apc": 0.6584,
+          "wc_fraction": 0.939
+        },
+        {
+          "i": 3,
+          "j": 66,
+          "mi_apc": 0.6226,
+          "wc_fraction": 0.954
+        },
+        {
+          "i": 27,
+          "j": 39,
+          "mi_apc": 0.3906,
+          "wc_fraction": 0.951
+        },
+        {
+          "i": 1,
+          "j": 68,
+          "mi_apc": 0.2738,
+          "wc_fraction": 0.991
+        },
+        {
+          "i": 11,
+          "j": 22,
+          "mi_apc": 0.2224,
+          "wc_fraction": 0.986
+        },
+        {
+          "i": 12,
+          "j": 21,
+          "mi_apc": 0.175,
+          "wc_fraction": 0.975
+        },
+        {
+          "i": 37,
+          "j": 59,
+          "mi_apc": 0.1079,
+          "wc_fraction": 0.909
+        },
+        {
+          "i": 2,
+          "j": 67,
+          "mi_apc": 0.0895,
+          "wc_fraction": 0.991
+        },
+        {
+          "i": 10,
+          "j": 23,
+          "mi_apc": 0.081,
+          "wc_fraction": 0.982
+        },
+        {
+          "i": 31,
+          "j": 43,
+          "mi_apc": 0.0067,
+          "wc_fraction": 0.912
+        },
+        {
+          "i": 32,
+          "j": 63,
+          "mi_apc": 0.0015,
+          "wc_fraction": 0.901
+        }
+      ]
+    },
+    "TRNW": {
+      "human_seq": "AGAAATTTAGGTTAAATACAGACCAAGAGCCTTCAAAGCCCTCAGTAAGTTGCAATACTTAATTTCTG",
+      "length": 68,
+      "n_species": 14157,
+      "pairs": [
+        {
+          "i": 27,
+          "j": 41,
+          "mi_apc": 0.762,
+          "wc_fraction": 0.907
+        },
+        {
+          "i": 6,
+          "j": 62,
+          "mi_apc": 0.6679,
+          "wc_fraction": 0.951
+        },
+        {
+          "i": 4,
+          "j": 64,
+          "mi_apc": 0.6267,
+          "wc_fraction": 0.933
+        },
+        {
+          "i": 10,
+          "j": 24,
+          "mi_apc": 0.5191,
+          "wc_fraction": 0.984
+        },
+        {
+          "i": 2,
+          "j": 66,
+          "mi_apc": 0.5091,
+          "wc_fraction": 0.958
+        },
+        {
+          "i": 3,
+          "j": 65,
+          "mi_apc": 0.4945,
+          "wc_fraction": 0.919
+        },
+        {
+          "i": 47,
+          "j": 60,
+          "mi_apc": 0.3325,
+          "wc_fraction": 0.93
+        },
+        {
+          "i": 30,
+          "j": 38,
+          "mi_apc": 0.3015,
+          "wc_fraction": 0.985
+        },
+        {
+          "i": 29,
+          "j": 39,
+          "mi_apc": 0.2763,
+          "wc_fraction": 0.929
+        },
+        {
+          "i": 1,
+          "j": 67,
+          "mi_apc": 0.0514,
+          "wc_fraction": 0.973
+        },
+        {
+          "i": 40,
+          "j": 68,
+          "mi_apc": 0.0414,
+          "wc_fraction": 0.912
+        },
+        {
+          "i": 7,
+          "j": 61,
+          "mi_apc": 0.0385,
+          "wc_fraction": 0.94
+        },
+        {
+          "i": 49,
+          "j": 59,
+          "mi_apc": 0.037,
+          "wc_fraction": 0.904
+        },
+        {
+          "i": 11,
+          "j": 23,
+          "mi_apc": 0.0163,
+          "wc_fraction": 0.986
+        },
+        {
+          "i": 9,
+          "j": 13,
+          "mi_apc": 0.0105,
+          "wc_fraction": 0.989
+        },
+        {
+          "i": 8,
+          "j": 14,
+          "mi_apc": 0.0098,
+          "wc_fraction": 0.945
+        },
+        {
+          "i": 32,
+          "j": 36,
+          "mi_apc": 0.0009,
+          "wc_fraction": 1.0
+        },
+        {
+          "i": 33,
+          "j": 48,
+          "mi_apc": 0.0007,
+          "wc_fraction": 0.95
+        }
+      ]
+    },
+    "TRNY": {
+      "human_seq": "GGTAAAATGGCTGAGTGAAGCATTGGACTGTAAATCTAAAGACAGGGGTTAGGCCTCTTTTTACCA",
+      "length": 66,
+      "n_species": 14080,
+      "pairs": [
+        {
+          "i": 26,
+          "j": 36,
+          "mi_apc": 0.5835,
+          "wc_fraction": 0.989
+        },
+        {
+          "i": 6,
+          "j": 60,
+          "mi_apc": 0.5609,
+          "wc_fraction": 0.958
+        },
+        {
+          "i": 1,
+          "j": 65,
+          "mi_apc": 0.5395,
+          "wc_fraction": 0.978
+        },
+        {
+          "i": 25,
+          "j": 37,
+          "mi_apc": 0.5245,
+          "wc_fraction": 0.994
+        },
+        {
+          "i": 5,
+          "j": 61,
+          "mi_apc": 0.3777,
+          "wc_fraction": 0.962
+        },
+        {
+          "i": 4,
+          "j": 62,
+          "mi_apc": 0.3586,
+          "wc_fraction": 0.962
+        },
+        {
+          "i": 2,
+          "j": 64,
+          "mi_apc": 0.2693,
+          "wc_fraction": 0.973
+        },
+        {
+          "i": 7,
+          "j": 59,
+          "mi_apc": 0.2204,
+          "wc_fraction": 0.975
+        },
+        {
+          "i": 12,
+          "j": 19,
+          "mi_apc": 0.2118,
+          "wc_fraction": 0.966
+        },
+        {
+          "i": 10,
+          "j": 21,
+          "mi_apc": 0.1724,
+          "wc_fraction": 0.965
+        },
+        {
+          "i": 44,
+          "j": 58,
+          "mi_apc": 0.0974,
+          "wc_fraction": 0.924
+        },
+        {
+          "i": 46,
+          "j": 56,
+          "mi_apc": 0.0808,
+          "wc_fraction": 0.946
+        },
+        {
+          "i": 22,
+          "j": 35,
+          "mi_apc": 0.0799,
+          "wc_fraction": 0.95
+        },
+        {
+          "i": 3,
+          "j": 63,
+          "mi_apc": 0.0517,
+          "wc_fraction": 0.967
+        },
+        {
+          "i": 11,
+          "j": 20,
+          "mi_apc": 0.0498,
+          "wc_fraction": 0.992
+        },
+        {
+          "i": 8,
+          "j": 13,
+          "mi_apc": 0.0131,
+          "wc_fraction": 0.991
+        },
+        {
+          "i": 24,
+          "j": 33,
+          "mi_apc": 0.0093,
+          "wc_fraction": 0.952
+        },
+        {
+          "i": 18,
+          "j": 29,
+          "mi_apc": 0.0036,
+          "wc_fraction": 0.975
+        },
+        {
+          "i": 9,
+          "j": 28,
+          "mi_apc": 0.0028,
+          "wc_fraction": 0.991
+        },
+        {
+          "i": 31,
+          "j": 42,
+          "mi_apc": 0.0018,
+          "wc_fraction": 0.952
+        },
+        {
+          "i": 30,
+          "j": 57,
+          "mi_apc": 0.0011,
+          "wc_fraction": 0.988
+        }
+      ]
+    }
+  }
+}

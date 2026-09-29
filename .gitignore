@@ -13,3 +13,6 @@ outputs/*
 data/raw/*.gz
 data/processed/*.jsonl
 data/processed/*.one.gb
+
+# Modal skill docs, installed by `modal skills`, not project data
+.agents/

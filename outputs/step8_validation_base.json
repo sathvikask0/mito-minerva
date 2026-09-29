@@ -1,0 +1,210 @@
+{
+  "adapter": null,
+  "genome_map": "outputs/full_window/base_pairing.npy",
+  "total": {
+    "pairs": 409,
+    "iso": 162,
+    "gen": 114,
+    "vie": 167
+  },
+  "genes": [
+    {
+      "gene": "TRNA",
+      "n_pairs": 23,
+      "n_species": 9849,
+      "isolated": 4,
+      "genome": 2,
+      "vienna": 5,
+      "mean_prob": 0.14469045460345628
+    },
+    {
+      "gene": "TRNC",
+      "n_pairs": 19,
+      "n_species": 11054,
+      "isolated": 6,
+      "genome": 6,
+      "vienna": 5,
+      "mean_prob": 0.32265284537386735
+    },
+    {
+      "gene": "TRND",
+      "n_pairs": 18,
+      "n_species": 13788,
+      "isolated": 4,
+      "genome": 5,
+      "vienna": 12,
+      "mean_prob": 0.28051101160235703
+    },
+    {
+      "gene": "TRNE",
+      "n_pairs": 26,
+      "n_species": 8772,
+      "isolated": 2,
+      "genome": 0,
+      "vienna": 8,
+      "mean_prob": 0.12040239466855732
+    },
+    {
+      "gene": "TRNF",
+      "n_pairs": 18,
+      "n_species": 10270,
+      "isolated": 4,
+      "genome": 1,
+      "vienna": 10,
+      "mean_prob": 0.2320054690935649
+    },
+    {
+      "gene": "TRNG",
+      "n_pairs": 13,
+      "n_species": 14759,
+      "isolated": 5,
+      "genome": 2,
+      "vienna": 8,
+      "mean_prob": 0.3676088405146192
+    },
+    {
+      "gene": "TRNH",
+      "n_pairs": 16,
+      "n_species": 10636,
+      "isolated": 5,
+      "genome": 2,
+      "vienna": 6,
+      "mean_prob": 0.3293407768360339
+    },
+    {
+      "gene": "TRNI",
+      "n_pairs": 16,
+      "n_species": 14440,
+      "isolated": 8,
+      "genome": 4,
+      "vienna": 10,
+      "mean_prob": 0.39745288105041254
+    },
+    {
+      "gene": "TRNK",
+      "n_pairs": 16,
+      "n_species": 10401,
+      "isolated": 9,
+      "genome": 6,
+      "vienna": 6,
+      "mean_prob": 0.5649485388566973
+    },
+    {
+      "gene": "TRNL1",
+      "n_pairs": 22,
+      "n_species": 12374,
+      "isolated": 13,
+      "genome": 13,
+      "vienna": 11,
+      "mean_prob": 0.5745817017053593
+    },
+    {
+      "gene": "TRNL2",
+      "n_pairs": 26,
+      "n_species": 8397,
+      "isolated": 10,
+      "genome": 3,
+      "vienna": 11,
+      "mean_prob": 0.39575422363122925
+    },
+    {
+      "gene": "TRNM",
+      "n_pairs": 20,
+      "n_species": 15552,
+      "isolated": 10,
+      "genome": 5,
+      "vienna": 13,
+      "mean_prob": 0.4873366266663652
+    },
+    {
+      "gene": "TRNN",
+      "n_pairs": 23,
+      "n_species": 10400,
+      "isolated": 14,
+      "genome": 17,
+      "vienna": 0,
+      "mean_prob": 0.6266912054726044
+    },
+    {
+      "gene": "TRNP",
+      "n_pairs": 22,
+      "n_species": 15112,
+      "isolated": 10,
+      "genome": 3,
+      "vienna": 11,
+      "mean_prob": 0.41960720078681
+    },
+    {
+      "gene": "TRNQ",
+      "n_pairs": 24,
+      "n_species": 11087,
+      "isolated": 16,
+      "genome": 17,
+      "vienna": 10,
+      "mean_prob": 0.6419147533403399
+    },
+    {
+      "gene": "TRNR",
+      "n_pairs": 10,
+      "n_species": 10235,
+      "isolated": 2,
+      "genome": 0,
+      "vienna": 2,
+      "mean_prob": 0.2959563271375373
+    },
+    {
+      "gene": "TRNS1",
+      "n_pairs": 22,
+      "n_species": 9444,
+      "isolated": 10,
+      "genome": 14,
+      "vienna": 5,
+      "mean_prob": 0.48382698969428684
+    },
+    {
+      "gene": "TRNS2",
+      "n_pairs": 7,
+      "n_species": 9715,
+      "isolated": 4,
+      "genome": 3,
+      "vienna": 4,
+      "mean_prob": 0.640263884793967
+    },
+    {
+      "gene": "TRNT",
+      "n_pairs": 16,
+      "n_species": 13594,
+      "isolated": 6,
+      "genome": 6,
+      "vienna": 4,
+      "mean_prob": 0.37942985242261784
+    },
+    {
+      "gene": "TRNV",
+      "n_pairs": 13,
+      "n_species": 11848,
+      "isolated": 4,
+      "genome": 2,
+      "vienna": 3,
+      "mean_prob": 0.32059617693392706
+    },
+    {
+      "gene": "TRNW",
+      "n_pairs": 18,
+      "n_species": 14157,
+      "isolated": 8,
+      "genome": 2,
+      "vienna": 9,
+      "mean_prob": 0.46244610791715485
+    },
+    {
+      "gene": "TRNY",
+      "n_pairs": 21,
+      "n_species": 14080,
+      "isolated": 8,
+      "genome": 1,
+      "vienna": 14,
+      "mean_prob": 0.40508117222426726
+    }
+  ]
+}
