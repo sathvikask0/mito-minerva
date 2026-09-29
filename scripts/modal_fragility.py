@@ -47,7 +47,7 @@ def revcomp(s):
 
 @app.function(gpu="L4", volumes=VOLUMES, timeout=6 * 60 * 60)
 def scan(limit: int | None = None, batch_size: int = 128, flank: int = 0,
-         adapter_dir: str = "/runs/lora-r8/adapter", run_name: str = "fragility"):
+         adapter_dir: str = "/runs/lora-r8/adapter", run_name: str = "fragility-full"):
     import json, os, time
     import numpy as np
     import torch
@@ -78,12 +78,30 @@ def scan(limit: int | None = None, batch_size: int = 128, flank: int = 0,
             out.append(mat[:, lo:lo + core_len, lo:lo + core_len])
         return np.concatenate(out, axis=0)
 
-    records, t0 = [], time.time()
+    # Results are appended one species at a time and the volume is committed
+    # every few species. The first full run saved only at the end, so when it
+    # was cancelled 520 species in, all of that work was lost.
+    os.makedirs(f"/runs/{run_name}", exist_ok=True)
+    out_path = f"/runs/{run_name}/fragility.jsonl"
+    done = set()
+    if os.path.exists(out_path):
+        with open(out_path) as prev:
+            for l in prev:
+                try:
+                    done.add(json.loads(l)["accession"])
+                except Exception:
+                    pass  # a line cut off mid-write by a cancellation
+    print(f"resuming: {len(done)} species already done", flush=True)
+    out_fh = open(out_path, "a")
+
+    records, t0, new_n = [], time.time(), 0
     with open("/corpus/trna_windows.jsonl") as fh:
         for n, line in enumerate(fh):
             if limit and n >= limit:
                 break
             sp = json.loads(line)
+            if sp["accession"] in done:
+                continue
             per_trna, t_sp = [], time.time()
             for t in sp["trnas"]:
                 core = t["seq"]
@@ -113,28 +131,31 @@ def scan(limit: int | None = None, batch_size: int = 128, flank: int = 0,
                     "fraction_breaking": float(np.mean([x >= 0.5 for x in lost])),
                 })
             if per_trna:
-                records.append({
+                rec = {
                     "accession": sp["accession"], "organism": sp["organism"],
                     "lineage": sp["lineage"], "n_trnas": len(per_trna),
                     "fragility": float(np.mean([t["mean_fraction_lost"] for t in per_trna])),
                     "breaking": float(np.mean([t["fraction_breaking"] for t in per_trna])),
                     "gc": sp.get("gc"), "trnas": per_trna,
-                })
-            if (n + 1) % 10 == 0:
+                }
+                records.append(rec)
+                out_fh.write(json.dumps(rec) + "\n")
+                out_fh.flush()
+                new_n += 1
+                if new_n % 20 == 0:
+                    runs_vol.commit()
+            if new_n and new_n % 10 == 0:
                 el = time.time() - t0
-                print(f"  {n + 1} species, {el:.0f}s, {el / (n + 1):.2f}s/species",
-                      flush=True)
+                print(f"  {len(done) + new_n} species ({new_n} this run), {el:.0f}s, "
+                      f"{el / new_n:.2f}s/species", flush=True)
             elif limit and limit <= 10:
                 print(f"  {sp['organism']}: {time.time() - t_sp:.2f}s, "
                       f"{len(per_trna)} tRNAs", flush=True)
 
+    out_fh.close()
+    runs_vol.commit()
     elapsed = time.time() - t0
     per = elapsed / max(1, len(records))
-    os.makedirs(f"/runs/{run_name}", exist_ok=True)
-    with open(f"/runs/{run_name}/fragility.jsonl", "w") as fh:
-        for r in records:
-            fh.write(json.dumps(r) + "\n")
-    runs_vol.commit()
 
     print(f"\n{len(records)} species in {elapsed:.0f}s = {per:.2f}s/species")
     print(f"projected 1,334 species: {1334 * per / 3600:.2f} h "
