@@ -21,6 +21,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
 
 from mitominerva.cloverleaf import revcomp
 from mitominerva.mito import fetch_rcrs, load_record, tokenize_mito
+from mitominerva.loading import load_model
 
 BASES = "ACGT"
 
@@ -30,6 +31,7 @@ def main() -> int:
     ap.add_argument("--model", default="gbrixi/minerva-mlm-8k")
     ap.add_argument("--device", default="mps")
     ap.add_argument("--dtype", default="float16")
+    ap.add_argument("--adapter", help="directory holding a finetuned LoRA adapter")
     ap.add_argument("--flank", type=int, default=300)
     ap.add_argument("--batch", type=int, default=16)
     ap.add_argument("--out", default="outputs/step3b_context_llr.json")
@@ -41,10 +43,7 @@ def main() -> int:
     trnas = sorted([f for f in m.other_features if f["type"] == "tRNA"],
                    key=lambda f: f["start"])
 
-    tok = AutoTokenizer.from_pretrained(args.model, trust_remote_code=True)
-    model = AutoModelForMaskedLM.from_pretrained(
-        args.model, trust_remote_code=True, dtype=getattr(torch, args.dtype)
-    ).to(args.device).eval()
+    tok, model = load_model(args.model, args.device, args.dtype, args.adapter)
     vocab = tok.get_vocab()
     mask_id = vocab["<mask>"]
     base_ids = [vocab[b.lower()] for b in BASES]
