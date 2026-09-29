@@ -77,7 +77,8 @@
 <a href='#s03'>Step 3</a>
 <a href='#s04'>Step 4</a>
 <a href='#s05'>Step 5</a>
-<a href='#s06'>Step 6</a></nav>
+<a href='#s06'>Step 6</a>
+<a href='#s07'>Step 7</a></nav>
 <section id='s00'><h2>The idea </h2><h3>What we're trying to do</h3>
 <p>Your cells have a second, tiny genome inside the <strong>mitochondria</strong> — the parts of
 the cell that make energy. It is about 16,500 letters long, versus 3 billion in
@@ -494,12 +495,83 @@ not do, and which conservation counting cannot do at all — conservation tells
 you <em>whether</em> a position matters, never <em>what shape</em> the molecule takes.</p>
 <p>So the useful thing we have is a structure reader. The next question is what
 that is good for.</p></section>
+<section id='s07'><h2>Step 7 — letting evolution grade us <span class='badge' style='background:#1a7f5a'>done</span></h2><p>Every number in step 5 had a hidden weakness: we graded the model against a
+definition of "correct" that <strong>we wrote ourselves</strong>.</p>
+<p>A tRNA is drawn as a cloverleaf, and the textbook says which letters pair with
+which. We encoded that rule and marked the model right or wrong against it.
+But ViennaRNA was marked against the same rule. If the rule is wrong for some
+tRNAs, both tools were graded against a fiction.</p>
+<p>Human mitochondrial tRNAs are exactly where that matters. They are notorious
+oddballs — several are missing entire arms of the cloverleaf.</p>
+<h3>Letting evolution define the right answer</h3>
+<p>There is a way to find real base pairs without assuming anything.</p>
+<p>If two positions in a tRNA genuinely touch each other, they are stuck
+together. When one mutates, the molecule breaks — unless the partner mutates
+to match. So over millions of years you see the two positions <strong>changing
+together</strong>. A position that pairs with nothing changes freely.</p>
+<p>That pattern is physical evidence of contact, and it is how RNA structures
+were worked out decades before any software existed.</p>
+<p>We had the raw material already: 16,080 animal mitochondrial genomes. For each
+of the 22 human tRNAs we lined up its counterpart from <strong>8,397 to 15,552
+species</strong>, then looked for pairs of positions that change in lockstep and can
+always physically pair.</p>
+<h3>Two checks that this reference is trustworthy</h3>
+<p><strong>It found a known deformity by itself.</strong> One human tRNA, the one for serine
+called TRNS2, is famous for being broken — it is missing a whole arm of the
+cloverleaf. We did not tell the method this. It returned <strong>7 pairs for TRNS2
+and 10 to 26 for every other tRNA</strong>. It found the missing arm on its own.</p>
+<p><strong>It mostly agrees with the textbook rule</strong> — confirming 106 of our 154
+assumed pairs. The disagreements are expected rather than worrying: if a pair
+never changes in any species, there is nothing to observe, so this method is
+blind to the most conserved pairs. It undercounts; it does not misreport.</p>
+<h3>The result</h3>
+<p>Scored on 409 base pairs that evolution proves are real:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>before finetuning</th>
+<th><strong>after</strong></th>
+<th>ViennaRNA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>tRNA on its own</td>
+<td>39.6%</td>
+<td><strong>63.8%</strong></td>
+<td>40.8%</td>
+</tr>
+<tr>
+<td><strong>inside the genome</strong></td>
+<td>27.9%</td>
+<td><strong>62.8%</strong></td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p>Before, Minerva was no better than the standard physics tool, and fell apart
+once the tRNA sat in its real genomic surroundings. After, it finds <strong>1.56
+times more real base pairs than ViennaRNA</strong>, and it barely loses anything when
+you put the tRNA back where it lives.</p>
+<p>This is the claim that survived. It was measured against structure we did not
+define.</p>
+<h3>The one failure, and why it is interesting</h3>
+<p>TRNV gets 10 of 13 pairs right on its own and <strong>0 of 13</strong> inside the genome.
+We checked whether this was a bug in how we cut the genome up. It is not — the
+coordinates are exactly right.</p>
+<p>TRNV is the only tRNA sandwiched between the two large rRNA genes, which are
+themselves enormous folded structures. The most likely explanation is that
+their base pairing dominates that stretch and drowns out the small tRNA. A
+real limitation, and a specific one worth knowing about.</p></section>
 <section id="log">
   <h2>Every step, as it happened</h2>
   <p class="note">Each row is one commit. The notebook above is rebuilt from the
   repository after every step, so it never drifts from the code.</p>
   <table><thead><tr><th>commit</th><th>date</th><th>what changed</th></tr></thead>
-  <tbody><tr><td class='mono'>47158fb</td><td class='mono'>2026-09-29</td><td>Step 6: test whether the finetuned score is just conservation</td></tr>
+  <tbody><tr><td class='mono'>971cfc6</td><td class='mono'>2026-09-29</td><td>Validate against base pairs derived from evolution, not from my assumption</td></tr>
+<tr><td class='mono'>0cfd62d</td><td class='mono'>2026-09-29</td><td>Site: the result is structure, not disease prediction</td></tr>
+<tr><td class='mono'>47158fb</td><td class='mono'>2026-09-29</td><td>Step 6: test whether the finetuned score is just conservation</td></tr>
 <tr><td class='mono'>809b3c4</td><td class='mono'>2026-09-29</td><td>Step 5 result: finetuning fixes the context collapse</td></tr>
 <tr><td class='mono'>65d4cbf</td><td class='mono'>2026-09-28</td><td>Verify the adapter path before the real weights arrive</td></tr>
 <tr><td class='mono'>f20d389</td><td class='mono'>2026-09-28</td><td>Let steps 2 and 3 run against a finetuned adapter</td></tr>

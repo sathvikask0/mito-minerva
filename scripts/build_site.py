@@ -27,6 +27,7 @@ STEPS = [
     ("04-validation.md", "Step 4 — check against real disease", "done"),
     ("05-finetune.md", "Step 5 — teach it mitochondria", "done"),
     ("06-what-we-found.md", "Step 6 — what we actually found", "done"),
+    ("07-proving-it.md", "Step 7 — letting evolution grade us", "done"),
 ]
 
 BADGE = {"done": ("done", "#1a7f5a"), "running": ("in progress", "#b8860b"),
