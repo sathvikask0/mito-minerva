@@ -76,7 +76,8 @@
 <a href='#s02'>Step 2</a>
 <a href='#s03'>Step 3</a>
 <a href='#s04'>Step 4</a>
-<a href='#s05'>Step 5</a></nav>
+<a href='#s05'>Step 5</a>
+<a href='#s06'>Step 6</a></nav>
 <section id='s00'><h2>The idea </h2><h3>What we're trying to do</h3>
 <p>Your cells have a second, tiny genome inside the <strong>mitochondria</strong> — the parts of
 the cell that make energy. It is about 16,500 letters long, versus 3 billion in
@@ -287,7 +288,7 @@ building on it.</p>
    times more, which would make the test sharper.</li>
 <li><strong>Stop.</strong> The honest option. Conservation-based tools already do this well.</li>
 </ol></section>
-<section id='s05'><h2>Step 5 — teach it mitochondria <span class='badge' style='background:#b8860b'>in progress</span></h2><p>Step 4 said no. But it also said <em>why</em>: the model has never seen mitochondrial
+<section id='s05'><h2>Step 5 — teach it mitochondria <span class='badge' style='background:#1a7f5a'>done</span></h2><p>Step 4 said no. But it also said <em>why</em>: the model has never seen mitochondrial
 DNA. It was trained on bacteria, and mitochondrial genomes are packed far more
 tightly — genes butt up against each other, and the tRNAs sit in the cracks
 between them.</p>
@@ -388,13 +389,122 @@ scores from 0.60 to 0.63, that is noise, not a result.</p>
 held-out mitochondrial DNA. For reference, pure guessing among the four DNA
 letters scores 1.386, so the bacterial model starts off barely better than
 chance on this material. That gap is the whole reason for this step.</p>
-<p><em>In progress: one pass over the corpus, about four hours.</em></p></section>
+<p><em>Done: 2,626 steps, 3h51m on an A100, held-out loss 1.4764 -&gt; 0.7435, about $10.
+The validation curve fell monotonically and train and validation stayed on top
+of each other throughout, so nothing was memorised. See step 6 for what the
+finetuned model can actually do.</em></p></section>
+<section id='s06'><h2>Step 6 — what we actually found <span class='badge' style='background:#1a7f5a'>done</span></h2><p>Step 5 worked, but not in the way we expected. The result is about
+<strong>structure</strong>, not disease.</p>
+<h3>The real finding</h3>
+<p>Minerva can now read a mitochondrial genome and correctly work out how each
+tRNA folds — while it is still sitting inside the genome, surrounded by its
+real neighbours.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>before</th>
+<th>after</th>
+<th>ViennaRNA</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>acceptor stem, tRNA alone</td>
+<td>72%</td>
+<td><strong>93%</strong></td>
+<td>83%</td>
+</tr>
+<tr>
+<td>acceptor stem, <strong>inside the genome</strong></td>
+<td><strong>24%</strong></td>
+<td><strong>89%</strong></td>
+<td>—</td>
+</tr>
+<tr>
+<td>anticodon stem</td>
+<td>55%</td>
+<td><strong>95%</strong></td>
+<td>35%</td>
+</tr>
+<tr>
+<td>scrambled decoys wrongly accepted</td>
+<td>0%</td>
+<td>0%</td>
+<td>1.5%</td>
+</tr>
+</tbody>
+</table>
+<p>The 24% was the thing that nearly killed this project. Give the model a tRNA
+on its own and it folded it; put that same tRNA back where it actually lives
+and the answer fell apart. After one pass over 15,589 animal mitochondrial
+genomes, that collapse is gone.</p>
+<p>It also beats the standard physics-based tool on both measurements, and it
+still refuses to see a cloverleaf in scrambled sequence — so it has learned
+what a real tRNA looks like, not "say cloverleaf to everything".</p>
+<h3>The disease result did not hold up</h3>
+<p>Fine-tuning lifted disease prediction from 0.578 to 0.744 (where 0.5 is a coin
+flip). That looks good until you ask the obvious question: the model just read
+15,589 animal genomes, many of them mammals with tRNAs much like ours. Has it
+learned anything, or has it just memorised <strong>which letters rarely change
+across animals</strong>?</p>
+<p>So we measured that directly. From the same genomes we counted, for every
+position in every human tRNA, how often each letter appears across 259,964
+tRNAs from 16,080 species. Then we scored the same disease variants with
+nothing but that count.</p>
+<table>
+<thead>
+<tr>
+<th>score</th>
+<th>AUC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Minerva, fine-tuned</td>
+<td>0.744</td>
+</tr>
+<tr>
+<td><strong>Plain conservation counting</strong></td>
+<td><strong>0.706</strong></td>
+</tr>
+<tr>
+<td>ViennaRNA</td>
+<td>0.664</td>
+</tr>
+<tr>
+<td>Minerva, before fine-tuning</td>
+<td>0.578</td>
+</tr>
+</tbody>
+</table>
+<p>Minerva is ahead — by +0.038, with a confidence interval of −0.052 to +0.124.
+That interval crosses zero, so <strong>we cannot claim Minerva beats simple
+counting</strong>. Adding Minerva on top of conservation gains +0.026, which also
+crosses zero.</p>
+<p>The two scores only agree at a rank correlation of 0.42, so they are genuinely
+not the same signal. But with 52 disease variants to test on, we do not have
+the evidence to say Minerva is better. Reporting 0.744 without this check
+would have been the easiest kind of self-deception.</p>
+<h3>What this means</h3>
+<p>We set out to predict which mutations cause disease. We did not succeed at
+that. What we built instead is a tool that reads mitochondrial tRNA structure
+accurately in its native genomic context, which the previous approach could
+not do, and which conservation counting cannot do at all — conservation tells
+you <em>whether</em> a position matters, never <em>what shape</em> the molecule takes.</p>
+<p>So the useful thing we have is a structure reader. The next question is what
+that is good for.</p></section>
 <section id="log">
   <h2>Every step, as it happened</h2>
   <p class="note">Each row is one commit. The notebook above is rebuilt from the
   repository after every step, so it never drifts from the code.</p>
   <table><thead><tr><th>commit</th><th>date</th><th>what changed</th></tr></thead>
-  <tbody><tr><td class='mono'>be82250</td><td class='mono'>2026-09-28</td><td>Fix loss inflated by gradient accumulation</td></tr>
+  <tbody><tr><td class='mono'>47158fb</td><td class='mono'>2026-09-29</td><td>Step 6: test whether the finetuned score is just conservation</td></tr>
+<tr><td class='mono'>809b3c4</td><td class='mono'>2026-09-29</td><td>Step 5 result: finetuning fixes the context collapse</td></tr>
+<tr><td class='mono'>65d4cbf</td><td class='mono'>2026-09-28</td><td>Verify the adapter path before the real weights arrive</td></tr>
+<tr><td class='mono'>f20d389</td><td class='mono'>2026-09-28</td><td>Let steps 2 and 3 run against a finetuned adapter</td></tr>
+<tr><td class='mono'>26350a2</td><td class='mono'>2026-09-28</td><td>Step 5 notes: measured GPU cost and the doubled-loss bug</td></tr>
+<tr><td class='mono'>be82250</td><td class='mono'>2026-09-28</td><td>Fix loss inflated by gradient accumulation</td></tr>
 <tr><td class='mono'>e68279d</td><td class='mono'>2026-09-28</td><td>Step 5: LoRA finetuning job on Modal</td></tr>
 <tr><td class='mono'>70bff9f</td><td class='mono'>2026-09-28</td><td>Ignore the corpus builder's scratch GenBank file</td></tr>
 <tr><td class='mono'>e5d5224</td><td class='mono'>2026-09-28</td><td>Stop tracking the RefSeq download; it is fetched by script</td></tr>
@@ -407,7 +517,7 @@ chance on this material. That gap is the whole reason for this step.</p>
 <tr><td class='mono'>dcfc635</td><td class='mono'>2026-09-28</td><td>Full window runs on CPU in 3 minutes; no GPU needed for step 2</td></tr>
 <tr><td class='mono'>c73fda4</td><td class='mono'>2026-09-28</td><td>Step 1: rCRS to Minerva mixed-token input</td></tr></tbody></table>
 </section>
-<footer>Last updated 28 September 2026. <a href='https://github.com/sathvikask0/mito-minerva'>source on GitHub</a></footer>
+<footer>Last updated 29 September 2026. <a href='https://github.com/sathvikask0/mito-minerva'>source on GitHub</a></footer>
 </div>
 </body>
 </html>

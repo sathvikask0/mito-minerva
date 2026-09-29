@@ -85,4 +85,7 @@ held-out mitochondrial DNA. For reference, pure guessing among the four DNA
 letters scores 1.386, so the bacterial model starts off barely better than
 chance on this material. That gap is the whole reason for this step.
 
-*In progress: one pass over the corpus, about four hours.*
+*Done: 2,626 steps, 3h51m on an A100, held-out loss 1.4764 -> 0.7435, about $10.
+The validation curve fell monotonically and train and validation stayed on top
+of each other throughout, so nothing was memorised. See step 6 for what the
+finetuned model can actually do.*
