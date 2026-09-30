@@ -47,18 +47,20 @@ trust with only 52 known disease mutations.
 do not have sturdier tRNAs once you compare each animal with its close
 relatives.
 
-## The honest caveat
+## The caveat, and how we answered it
 
-Our "real" base pairs come from spotting letters that change together across
-thousands of species, and those are the same 15,589 genomes the model trained
-on. So the model may have learned exactly the pattern we then graded it on.
+Those "real" base pairs came from spotting letters that change together
+across thousands of species, the same genomes the model trained on. So the
+model might have learned exactly the pattern we graded it on.
 
-That doesn't make the result wrong. Learning which letters change together
-from raw DNA, with no alignment and no labels, is the same thing that makes
-protein AI models work. But it means the grading is independent of *our
-assumptions*, not of the *training data*. A fully independent test would use
-lab-solved 3D structures of human mitochondrial tRNAs. That's the next step if
-anyone picks this up.
+We tested that directly by grading against **lab-measured 3D structures** of
+8 human mitochondrial tRNAs, which owe nothing to our genomes (see the step
+above). The result held: fine-tuned Minerva finds **94% of the real pairs vs
+ViennaRNA's 68%** (+25.8 points, range +6.1 to +45.5). The refinement is that
+it wins by catching more real pairs, not by making fewer mistakes: its
+precision is about the same as ViennaRNA's, because it tends to extend a
+helix by one pair too many. Its overall F1 lead (0.78 vs 0.62) is likely real
+but borderline with only eight tRNAs.
 
 ## What we'd tell someone else
 

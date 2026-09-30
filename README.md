@@ -41,11 +41,33 @@ The negatives:
   not track maximum lifespan once phylogeny is controlled (within family
   r=+0.05, p=0.15; within order r=−0.01, p=0.76).
 
-**Caveat.** The covariation reference comes from the same genomes the model
-was finetuned on, so the model may have learned the very statistics it is
-graded against. That is independent of any assumed geometry, but not of the
-training data. Experimentally solved human mt-tRNA structures would be the
-fully independent test.
+**Independent check against experimental structures.** The covariation
+reference shares its source genomes with the finetuning corpus, so the model
+could have learned the statistics it is graded on. To rule that out, pairs
+were read off experimental 3D models in the PDB (`scripts/step13_pdb_structures.py`):
+8 human mt-tRNAs (H, I, M, Q, R, S2, V, Y) from 36 X-ray/cryo-EM chains at
+1.9–4.3 Å, canonical pairs called from hydrogen-bond donor–acceptor distances
+(≤3.6 Å), reduced to the maximum nested structure, majority vote across chains.
+132 pairs; scored with `scripts/step14_grade_vs_pdb.py`, gene-level bootstrap:
+
+| predictor | precision | recall | F1 |
+| --- | --- | --- | --- |
+| Minerva finetuned, tRNA alone | 67.0% | **93.9%** | **0.782** |
+| Minerva finetuned, in genome | 66.7% | 81.8% | 0.735 |
+| ViennaRNA MFE | 57.3% | 68.2% | 0.623 |
+| Minerva base, tRNA alone | 64.3% | 61.4% | 0.628 |
+| Minerva base, in genome | 58.1% | 32.6% | 0.417 |
+
+Finetuned − ViennaRNA: recall **+25.8 [+6.1, +45.5]**, precision +9.7
+[−4.3, +23.5], F1 +0.159 [−0.003, +0.319] (without the partially modelled
+TRNS2: +0.171 [+0.004, +0.342]). Finetuned − base, F1: +0.154 [+0.068, +0.246].
+The recall advantage replicates on independent ground truth; precision does
+not improve, and 69% of the finetuned model's false positives stack directly
+on a true helix, i.e. stems over-extended by a pair. Limits: n=8 tRNAs, and
+cryo-EM tRNA models can carry template-derived assumptions.
+
+The model code is fetched with `trust_remote_code`; results are pinned to
+Hub revision `df01967` (`src/mitominerva/loading.py`).
 
 Total compute: $24.35 of Modal credit (one A100 finetune, L4 inference).
 
@@ -66,6 +88,8 @@ Total compute: $24.35 of Modal credit (one A100 finetune, L4 inference).
    window is. Isolated folding is within 0.5 points of the best flank.
 9. **Longevity scan** over 1,321 species. ❌ No association after phylogenetic
    control.
+10. **Experimental structures.** ✅ Recall advantage over ViennaRNA replicates on
+    8 PDB-derived tRNA structures (+25.8 points); F1 advantage borderline.
 
 ## Setup
 
@@ -345,6 +369,8 @@ scripts/step10_build_windows.py  per-species tRNAs for the longevity scan
 scripts/modal_fragility.py  per-species mutational fragility on Modal (L4)
 scripts/step11_longevity.py fragility vs lifespan with phylogenetic control
 scripts/step12_confidence.py   gene-level bootstrap on the headline numbers
+scripts/step13_pdb_structures.py  base pairs from experimental PDB structures
+scripts/step14_grade_vs_pdb.py    precision/recall/F1 against those structures
 src/mitominerva/loading.py  load Minerva with a LoRA adapter merged in
 scripts/build_site.py       rebuilds docs/ from notes/ and outputs/
 scripts/bench_device.py     how long an input this machine can handle

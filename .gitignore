@@ -17,3 +17,4 @@ data/processed/*.one.gb
 # Modal skill docs, installed by `modal skills`, not project data
 .agents/
 data/processed/trna_windows.jsonl
+data/raw/pdb/

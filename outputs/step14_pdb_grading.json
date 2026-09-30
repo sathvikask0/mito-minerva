@@ -1,0 +1,476 @@
+{
+  "genes": [
+    "TRNH",
+    "TRNI",
+    "TRNM",
+    "TRNQ",
+    "TRNR",
+    "TRNS2",
+    "TRNV",
+    "TRNY"
+  ],
+  "pooled": {
+    "all 8 | Minerva finetuned, tRNA alone": {
+      "precision": 0.6702702702702703,
+      "recall": 0.9393939393939394,
+      "f1": 0.7823343848580442,
+      "ci_precision": [
+        0.6204808284231819,
+        0.7166666666666667
+      ],
+      "ci_recall": [
+        0.875889598540146,
+        0.9857142857142858
+      ],
+      "ci_f1": [
+        0.7350993377483444,
+        0.8176470588235295
+      ]
+    },
+    "all 8 | Minerva finetuned, in genome": {
+      "precision": 0.6666666666666666,
+      "recall": 0.8181818181818182,
+      "f1": 0.7346938775510203,
+      "ci_precision": [
+        0.5441176470588235,
+        0.7604166666666666
+      ],
+      "ci_recall": [
+        0.5689459247648904,
+        0.98
+      ],
+      "ci_f1": [
+        0.5789473684210527,
+        0.836262826878517
+      ]
+    },
+    "all 8 | ViennaRNA": {
+      "precision": 0.5732484076433121,
+      "recall": 0.6818181818181818,
+      "f1": 0.6228373702422145,
+      "ci_precision": [
+        0.4146233222687256,
+        0.7435897435897436
+      ],
+      "ci_recall": [
+        0.512,
+        0.8484848484848485
+      ],
+      "ci_f1": [
+        0.4579124579124579,
+        0.7915194346289751
+      ]
+    },
+    "all 8 | Minerva base, tRNA alone": {
+      "precision": 0.6428571428571429,
+      "recall": 0.6136363636363636,
+      "f1": 0.6279069767441862,
+      "ci_precision": [
+        0.5579640468227425,
+        0.7258064516129032
+      ],
+      "ci_recall": [
+        0.488,
+        0.7328767123287672
+      ],
+      "ci_f1": [
+        0.5321888412017168,
+        0.6996466431095406
+      ]
+    },
+    "all 8 | Minerva base, in genome": {
+      "precision": 0.581081081081081,
+      "recall": 0.32575757575757575,
+      "f1": 0.41747572815533973,
+      "ci_precision": [
+        0.4897959183673469,
+        0.7
+      ],
+      "ci_recall": [
+        0.14893617021276595,
+        0.5531914893617021
+      ],
+      "ci_f1": [
+        0.2372769848349688,
+        0.5669350099894229
+      ]
+    },
+    "without TRNS2 | Minerva finetuned, tRNA alone": {
+      "precision": 0.6820809248554913,
+      "recall": 0.959349593495935,
+      "f1": 0.7972972972972973,
+      "ci_precision": [
+        0.6384180790960452,
+        0.7278599912197262
+      ],
+      "ci_recall": [
+        0.9133858267716536,
+        0.9920634920634921
+      ],
+      "ci_f1": [
+        0.7682119205298013,
+        0.8266666666666667
+      ]
+    },
+    "without TRNS2 | Minerva finetuned, in genome": {
+      "precision": 0.7163120567375887,
+      "recall": 0.8211382113821138,
+      "f1": 0.7651515151515151,
+      "ci_precision": [
+        0.6419753086419753,
+        0.7771084337349398
+      ],
+      "ci_recall": [
+        0.559322033898305,
+        0.9921875
+      ],
+      "ci_f1": [
+        0.6153846153846154,
+        0.8590604026845637
+      ]
+    },
+    "without TRNS2 | ViennaRNA": {
+      "precision": 0.5845070422535211,
+      "recall": 0.6747967479674797,
+      "f1": 0.6264150943396227,
+      "ci_precision": [
+        0.41257678132678133,
+        0.7655172413793103
+      ],
+      "ci_recall": [
+        0.4956521739130435,
+        0.8449612403100775
+      ],
+      "ci_f1": [
+        0.44881889763779526,
+        0.8043478260869564
+      ]
+    },
+    "without TRNS2 | Minerva base, tRNA alone": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6016260162601627,
+      "f1": 0.6324786324786325,
+      "ci_precision": [
+        0.5833333333333334,
+        0.7473684210526316
+      ],
+      "ci_recall": [
+        0.4649122807017544,
+        0.7265802556818179
+      ],
+      "ci_f1": [
+        0.5263157894736842,
+        0.7080368004866178
+      ]
+    },
+    "without TRNS2 | Minerva base, in genome": {
+      "precision": 0.5873015873015873,
+      "recall": 0.3008130081300813,
+      "f1": 0.3978494623655914,
+      "ci_precision": [
+        0.4782361660079052,
+        0.75
+      ],
+      "ci_recall": [
+        0.12280701754385964,
+        0.5366787962234448
+      ],
+      "ci_f1": [
+        0.20122641509433967,
+        0.5568792295679331
+      ]
+    }
+  },
+  "deltas": {
+    "all 8 | Minerva finetuned, tRNA alone - ViennaRNA": {
+      "point": 0.15949701461582966,
+      "ci": [
+        -0.0026548187153748737,
+        0.31854345165238684
+      ],
+      "better": 4.0,
+      "worse": 4.0
+    },
+    "all 8 | Minerva finetuned, in genome - ViennaRNA": {
+      "point": 0.11185650730880581,
+      "ci": [
+        -0.025422933705919512,
+        0.25940144839019297
+      ],
+      "better": 5.0,
+      "worse": 3.0
+    },
+    "all 8 | Minerva finetuned, tRNA alone - Minerva base, tRNA alone": {
+      "point": 0.15442740811385802,
+      "ci": [
+        0.06774365111022473,
+        0.24625554733727806
+      ],
+      "better": 6.0,
+      "worse": 2.0
+    },
+    "all 8 | Minerva finetuned, in genome - Minerva base, in genome": {
+      "point": 0.3172181493956806,
+      "ci": [
+        0.06208651399491094,
+        0.5690827071299116
+      ],
+      "better": 5.0,
+      "worse": 3.0
+    },
+    "without TRNS2 | Minerva finetuned, tRNA alone - ViennaRNA": {
+      "point": 0.17088220295767453,
+      "ci": [
+        0.0037665732550692444,
+        0.34151515151515166
+      ],
+      "better": 4.0,
+      "worse": 3.0
+    },
+    "without TRNS2 | Minerva finetuned, in genome - ViennaRNA": {
+      "point": 0.1387364208118924,
+      "ci": [
+        0.004110671936758847,
+        0.2910109498344793
+      ],
+      "better": 5.0,
+      "worse": 2.0
+    },
+    "without TRNS2 | Minerva finetuned, tRNA alone - Minerva base, tRNA alone": {
+      "point": 0.1648186648186648,
+      "ci": [
+        0.07449109767596651,
+        0.26545731496226543
+      ],
+      "better": 6.0,
+      "worse": 1.0
+    },
+    "without TRNS2 | Minerva finetuned, in genome - Minerva base, in genome": {
+      "point": 0.36730205278592376,
+      "ci": [
+        0.10795755968169762,
+        0.621907361670783
+      ],
+      "better": 5.0,
+      "worse": 2.0
+    }
+  },
+  "per_gene": {
+    "TRNH": {
+      "Minerva finetuned, tRNA alone": {
+        "tp": 19,
+        "n_pred": 25,
+        "n_true": 19
+      },
+      "Minerva finetuned, in genome": {
+        "tp": 18,
+        "n_pred": 25,
+        "n_true": 19
+      },
+      "ViennaRNA": {
+        "tp": 11,
+        "n_pred": 22,
+        "n_true": 19
+      },
+      "Minerva base, tRNA alone": {
+        "tp": 11,
+        "n_pred": 16,
+        "n_true": 19
+      },
+      "Minerva base, in genome": {
+        "tp": 6,
+        "n_pred": 8,
+        "n_true": 19
+      }
+    },
+    "TRNI": {
+      "Minerva finetuned, tRNA alone": {
+        "tp": 18,
+        "n_pred": 26,
+        "n_true": 18
+      },
+      "Minerva finetuned, in genome": {
+        "tp": 18,
+        "n_pred": 22,
+        "n_true": 18
+      },
+      "ViennaRNA": {
+        "tp": 17,
+        "n_pred": 20,
+        "n_true": 18
+      },
+      "Minerva base, tRNA alone": {
+        "tp": 13,
+        "n_pred": 23,
+        "n_true": 18
+      },
+      "Minerva base, in genome": {
+        "tp": 4,
+        "n_pred": 11,
+        "n_true": 18
+      }
+    },
+    "TRNM": {
+      "Minerva finetuned, tRNA alone": {
+        "tp": 17,
+        "n_pred": 24,
+        "n_true": 18
+      },
+      "Minerva finetuned, in genome": {
+        "tp": 18,
+        "n_pred": 25,
+        "n_true": 18
+      },
+      "ViennaRNA": {
+        "tp": 15,
+        "n_pred": 18,
+        "n_true": 18
+      },
+      "Minerva base, tRNA alone": {
+        "tp": 12,
+        "n_pred": 16,
+        "n_true": 18
+      },
+      "Minerva base, in genome": {
+        "tp": 6,
+        "n_pred": 8,
+        "n_true": 18
+      }
+    },
+    "TRNQ": {
+      "Minerva finetuned, tRNA alone": {
+        "tp": 17,
+        "n_pred": 28,
+        "n_true": 18
+      },
+      "Minerva finetuned, in genome": {
+        "tp": 12,
+        "n_pred": 22,
+        "n_true": 18
+      },
+      "ViennaRNA": {
+        "tp": 9,
+        "n_pred": 23,
+        "n_true": 18
+      },
+      "Minerva base, tRNA alone": {
+        "tp": 16,
+        "n_pred": 23,
+        "n_true": 18
+      },
+      "Minerva base, in genome": {
+        "tp": 17,
+        "n_pred": 30,
+        "n_true": 18
+      }
+    },
+    "TRNR": {
+      "Minerva finetuned, tRNA alone": {
+        "tp": 16,
+        "n_pred": 24,
+        "n_true": 16
+      },
+      "Minerva finetuned, in genome": {
+        "tp": 16,
+        "n_pred": 23,
+        "n_true": 16
+      },
+      "ViennaRNA": {
+        "tp": 5,
+        "n_pred": 19,
+        "n_true": 16
+      },
+      "Minerva base, tRNA alone": {
+        "tp": 7,
+        "n_pred": 10,
+        "n_true": 16
+      },
+      "Minerva base, in genome": {
+        "tp": 0,
+        "n_pred": 0,
+        "n_true": 16
+      }
+    },
+    "TRNS2": {
+      "Minerva finetuned, tRNA alone": {
+        "tp": 6,
+        "n_pred": 12,
+        "n_true": 9
+      },
+      "Minerva finetuned, in genome": {
+        "tp": 7,
+        "n_pred": 21,
+        "n_true": 9
+      },
+      "ViennaRNA": {
+        "tp": 7,
+        "n_pred": 15,
+        "n_true": 9
+      },
+      "Minerva base, tRNA alone": {
+        "tp": 7,
+        "n_pred": 15,
+        "n_true": 9
+      },
+      "Minerva base, in genome": {
+        "tp": 6,
+        "n_pred": 11,
+        "n_true": 9
+      }
+    },
+    "TRNV": {
+      "Minerva finetuned, tRNA alone": {
+        "tp": 15,
+        "n_pred": 25,
+        "n_true": 15
+      },
+      "Minerva finetuned, in genome": {
+        "tp": 0,
+        "n_pred": 0,
+        "n_true": 15
+      },
+      "ViennaRNA": {
+        "tp": 7,
+        "n_pred": 19,
+        "n_true": 15
+      },
+      "Minerva base, tRNA alone": {
+        "tp": 4,
+        "n_pred": 10,
+        "n_true": 15
+      },
+      "Minerva base, in genome": {
+        "tp": 3,
+        "n_pred": 5,
+        "n_true": 15
+      }
+    },
+    "TRNY": {
+      "Minerva finetuned, tRNA alone": {
+        "tp": 16,
+        "n_pred": 21,
+        "n_true": 19
+      },
+      "Minerva finetuned, in genome": {
+        "tp": 19,
+        "n_pred": 24,
+        "n_true": 19
+      },
+      "ViennaRNA": {
+        "tp": 19,
+        "n_pred": 21,
+        "n_true": 19
+      },
+      "Minerva base, tRNA alone": {
+        "tp": 11,
+        "n_pred": 13,
+        "n_true": 19
+      },
+      "Minerva base, in genome": {
+        "tp": 1,
+        "n_pred": 1,
+        "n_true": 19
+      }
+    }
+  }
+}
