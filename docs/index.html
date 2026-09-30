@@ -78,7 +78,8 @@
 <a href='#s04'>Step 4</a>
 <a href='#s05'>Step 5</a>
 <a href='#s06'>Step 6</a>
-<a href='#s07'>Step 7</a></nav>
+<a href='#s07'>Step 7</a>
+<a href='#s08'>Step 8</a></nav>
 <section id='s00'><h2>The idea </h2><h3>What we're trying to do</h3>
 <p>Your cells have a second, tiny genome inside the <strong>mitochondria</strong> — the parts of
 the cell that make energy. It is about 16,500 letters long, versus 3 billion in
@@ -564,12 +565,77 @@ coordinates are exactly right.</p>
 themselves enormous folded structures. The most likely explanation is that
 their base pairing dominates that stretch and drowns out the small tRNA. A
 real limitation, and a specific one worth knowing about.</p></section>
+<section id='s08'><h2>Step 8 — do long-lived animals have sturdier tRNAs? <span class='badge' style='background:#1a7f5a'>done</span></h2><p>The question: do animals that live a long time have mitochondrial tRNAs whose
+shape survives random mutations better?</p>
+<p>The idea behind it: mitochondrial DNA mutates fast and is barely repaired. A
+mouse has to keep its mitochondria working for three years; a bowhead whale for
+two centuries. So long-lived animals might be pushed by evolution toward tRNAs
+that still fold properly after a letter changes.</p>
+<h3>What we did</h3>
+<p>For <strong>1,321 animals</strong> with a known maximum lifespan, we took every tRNA, changed
+every letter to each of the other three, and asked the model how much of the
+folded shape broke. The average damage per mutation is that species'
+<strong>fragility</strong>.</p>
+<p>1,044 of them also had a known body mass, which we need as a control.</p>
+<h3>The trap</h3>
+<p>The raw numbers show a weak link — but in the <strong>wrong direction</strong>: longer-lived
+species looked slightly <em>more</em> fragile (r = +0.08).</p>
+<p>And that link turns out to be fake. Mammals, birds, fish and reptiles differ
+from each other in lifespan <em>and</em> in their tRNAs, for reasons that have nothing
+to do with each other. Comparing a whale to a goldfish mostly measures "mammal
+vs fish".</p>
+<p>The fix is to compare each animal only with its close relatives — whales with
+whales, rockfish with rockfish — and ask whether the longer-lived relative has
+the sturdier tRNAs.</p>
+<h3>Result</h3>
+<table>
+<thead>
+<tr>
+<th>compared only within</th>
+<th>species</th>
+<th>link</th>
+<th>chance it's luck</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>the same family</td>
+<td>911</td>
+<td>+0.05</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>the same order</td>
+<td>1,026</td>
+<td>−0.01</td>
+<td>76%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>No link.</strong> Among close relatives, living longer has nothing to do with how
+fragile the tRNAs are. A second way of measuring fragility gave the same answer.</p>
+<p>One group looked promising: reptiles, at −0.48, in the predicted direction. It
+disappears when turtles are compared only with turtles and lizards with lizards
+(−0.06). It was just "turtles live long and have different tRNAs", not a real
+effect.</p>
+<h3>What this means</h3>
+<p>The hypothesis is wrong, or at least undetectable this way. Long-lived animals
+are not buying longevity through mutation-proof tRNA shapes — they presumably
+handle mitochondrial damage some other way.</p>
+<p>Total cost for this step: about <strong>$8</strong> of GPU time, including two runs lost to
+cancellations before the job was made to survive them.</p></section>
 <section id="log">
   <h2>Every step, as it happened</h2>
   <p class="note">Each row is one commit. The notebook above is rebuilt from the
   repository after every step, so it never drifts from the code.</p>
   <table><thead><tr><th>commit</th><th>date</th><th>what changed</th></tr></thead>
-  <tbody><tr><td class='mono'>971cfc6</td><td class='mono'>2026-09-29</td><td>Validate against base pairs derived from evolution, not from my assumption</td></tr>
+  <tbody><tr><td class='mono'>bb9a823</td><td class='mono'>2026-09-29</td><td>Spawn the scan so it survives the client disconnecting</td></tr>
+<tr><td class='mono'>ae64a6c</td><td class='mono'>2026-09-29</td><td>Save the species scan as it goes, and resume after interruption</td></tr>
+<tr><td class='mono'>b74bed2</td><td class='mono'>2026-09-29</td><td>Longevity analysis, with the controls that decide whether it means anything</td></tr>
+<tr><td class='mono'>9bc40a1</td><td class='mono'>2026-09-29</td><td>Benchmark the species scan: $4.81, not $25</td></tr>
+<tr><td class='mono'>77a7e54</td><td class='mono'>2026-09-29</td><td>Probe context: the rRNA hypothesis was wrong, and ±200nt is the sweet spot</td></tr>
+<tr><td class='mono'>5e1bb96</td><td class='mono'>2026-09-29</td><td>Site: add the evolution-graded validation</td></tr>
+<tr><td class='mono'>971cfc6</td><td class='mono'>2026-09-29</td><td>Validate against base pairs derived from evolution, not from my assumption</td></tr>
 <tr><td class='mono'>0cfd62d</td><td class='mono'>2026-09-29</td><td>Site: the result is structure, not disease prediction</td></tr>
 <tr><td class='mono'>47158fb</td><td class='mono'>2026-09-29</td><td>Step 6: test whether the finetuned score is just conservation</td></tr>
 <tr><td class='mono'>809b3c4</td><td class='mono'>2026-09-29</td><td>Step 5 result: finetuning fixes the context collapse</td></tr>

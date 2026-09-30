@@ -28,6 +28,7 @@ STEPS = [
     ("05-finetune.md", "Step 5 — teach it mitochondria", "done"),
     ("06-what-we-found.md", "Step 6 — what we actually found", "done"),
     ("07-proving-it.md", "Step 7 — letting evolution grade us", "done"),
+    ("08-longevity.md", "Step 8 — do long-lived animals have sturdier tRNAs?", "done"),
 ]
 
 BADGE = {"done": ("done", "#1a7f5a"), "running": ("in progress", "#b8860b"),
