@@ -9,11 +9,11 @@ Character counts are checked (links count as 23 on X).
 📎 attach: `1_hero_arcs.png`
 
 ```
-I took an AI trained only on bacterial DNA and taught it to read human mitochondrial DNA.
+I taught Minerva, a genome model trained only on bacteria (@_David_Li @garykbrixi @BrianHie), to read human mitochondrial DNA.
 
-It now works out how mitochondrial tRNAs fold far better than the standard tool, checked against lab-measured 3D structures.
+Now it predicts tRNA shapes far better than the standard tool, verified on lab-solved 3D structures.
 
-Then I tried to break every claim. 🧵
+Then I tried to break it. 🧵 cc @arcinstitute
 ```
 
 ## 2/11
@@ -32,7 +32,7 @@ So: can a model trained on bacteria read them?
 ```
 Out of the box: barely. On mitochondrial DNA it scored about as well as random guessing.
 
-So I fine-tuned it (Minerva, an open 650M-param genome model) on 15,589 animal mitochondrial genomes, human held out.
+So I fine-tuned the 650M-parameter model on 15,589 animal mitochondrial genomes, with human held out.
 
 1 GPU, ~4 hours, ~$10. Error on unseen genomes halved.
 ```
