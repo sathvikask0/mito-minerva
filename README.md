@@ -8,6 +8,47 @@ the mitochondrial genome. If it does, its single-sequence coevolution
 predictions give a way to score how badly a given mutation disrupts a
 mitochondrial tRNA — without alignments, and without a structure.
 
+Site with the plain-language write-up: https://sathvikask0.github.io/mito-minerva/
+
+## Result
+
+**One positive, two negatives.**
+
+After LoRA finetuning on 15,589 animal mitochondrial genomes (human held out),
+Minerva recovers base pairs of the 22 human mitochondrial tRNAs far better
+than ViennaRNA, and genomic context no longer degrades it. Scored against 409
+base pairs derived from covariation across 8,397–15,552 species per gene, 95%
+intervals from a gene-level bootstrap:
+
+| predictor | recall | 95% CI |
+| --- | --- | --- |
+| Minerva finetuned, tRNA alone | **63.8%** | 59.3–67.5 |
+| Minerva finetuned, in genome | **62.8%** | 56.9–67.4 |
+| ViennaRNA MFE | 40.8% | 33.0–48.5 |
+| Minerva base, tRNA alone | 39.6% | 32.4–46.6 |
+| Minerva base, in genome | 27.9% | 17.8–38.8 |
+
+Finetuned minus ViennaRNA: **+23.0 points [+12.6, +32.6]**, better on 16 of 22
+tRNAs. The `base_pairing` head (a 41-parameter logistic regression over the
+last two layers' attention) was never retrained; only the attention changed.
+
+The negatives:
+
+- **Pathogenicity.** Finetuned masked-marginal LLR reaches AUC 0.744 on ClinVar,
+  but a plain conservation count from the same corpus reaches 0.706; the
+  difference is +0.038 [−0.052, +0.124] at 52 pathogenic variants.
+- **Longevity.** Across 1,321 species, per-genome tRNA structural fragility does
+  not track maximum lifespan once phylogeny is controlled (within family
+  r=+0.05, p=0.15; within order r=−0.01, p=0.76).
+
+**Caveat.** The covariation reference comes from the same genomes the model
+was finetuned on, so the model may have learned the very statistics it is
+graded against. That is independent of any assumed geometry, but not of the
+training data. Experimentally solved human mt-tRNA structures would be the
+fully independent test.
+
+Total compute: $24.35 of Modal credit (one A100 finetune, L4 inference).
+
 ## Plan
 
 1. **Build the input.** Convert the rCRS (NC_012920.1) to Minerva's mixed-token
@@ -15,8 +56,16 @@ mitochondrial tRNA — without alignments, and without a structure.
 2. **Go / no-go.** Does the `base_pairing` head recover the cloverleaf folds of
    the 22 mitochondrial tRNAs? ✅ yes, but only on near-isolated genes — see below.
 3. **Mutate.** ✅ 4,524 point mutations scored two ways.
-4. **Validate.** ❌ Against ClinVar, Minerva does not beat ViennaRNA and
+4. **Validate.** ❌ Against ClinVar, base Minerva does not beat ViennaRNA and
    neither is accurate enough to use. See below.
+5. **Finetune** on animal mitochondrial genomes. ✅ Held-out loss 1.476 → 0.744;
+   genomic-context collapse fixed.
+6. **Is the disease score just conservation?** ❌ Can't distinguish it.
+7. **Grade against covariation, not geometry.** ✅ 63.8% vs ViennaRNA 40.8%.
+8. **Context probe.** rRNA adjacency is not what breaks TRNV; the full 8k
+   window is. Isolated folding is within 0.5 points of the best flank.
+9. **Longevity scan** over 1,321 species. ❌ No association after phylogenetic
+   control.
 
 ## Setup
 
@@ -228,9 +277,48 @@ anticodon arm. Step 4 is a real negative: that ability does not transfer to
 ranking mutations by pathogenicity. Both results are reproducible from this
 repo.
 
-The obvious next move, if continuing, is the fallback from the original plan —
-finetune on animal mitochondrial genomes, of which thousands are public — and
-to obtain the larger MITOMAP label set so the test has more power.
+So we took the fallback from the original plan and finetuned on animal
+mitochondrial genomes.
+
+## Steps 5–9 — finetune, then try hard to disprove it
+
+**Finetuning** (`scripts/modal_train.py`, A100-80GB, 3h51m, ~$10). LoRA r=8 on
+`wqkv, wo, w1, w2, w3`; 15,589 RefSeq Metazoa genomes, human held out; 300
+genomes held out for validation *before* tiling into 4,096-token blocks, so no
+genome leaks across the split. One epoch, 2,626 steps. Validation loss fell
+monotonically 1.476 → 0.741 with train and validation overlapping throughout.
+Two gotchas: Minerva refuses padded batches without flash-attn, so every block
+is exactly `block_size` with the last one back-shifted; and transformers skips
+its gradient-accumulation normalisation because Minerva's `forward` takes
+`**kwargs`, which silently doubled loss and gradient until
+`trainer.model_accepts_loss_kwargs = False`.
+
+**Conservation check** (`scripts/step6_*`). Per-position allele counts over
+259,964 animal tRNAs aligned to human. Conservation alone scores 0.706 against
+the finetuned model's 0.744; not separable at n=52.
+
+**Covariation reference** (`scripts/step7_covariation.py`,
+`scripts/step8_validate_structure.py`). APC-corrected mutual information
+between alignment columns, keeping pairs that are Watson-Crick/GU in ≥90% of
+species, greedily one partner per position. It recovers the known D-arm loss of
+mt-tRNA-Ser(AGY) blind (TRNS2: 7 pairs; every other tRNA 10–26). Intervals in
+`scripts/step12_confidence.py`.
+
+**Context probe** (`scripts/step9_context_probe.py`). Recall against flank
+size, with dinucleotide-shuffled flanks as control: 63.8% (0 nt), 64.3%
+(200 nt), 53.8% (800 nt); real flanks beat shuffled at every large size. TRNV
+scores 10/13 even with 800 nt of real rRNA each side, yet 0/13 in the full
+7,918-token window — so the failure is the long window, not rRNA.
+
+**Longevity** (`scripts/step10_build_windows.py`, `scripts/modal_fragility.py`,
+`scripts/step11_longevity.py`). 1,334 species with both an AnAge maximum
+lifespan and a well-annotated genome; every base of every tRNA mutated to all
+three alternatives, fragility = mean fraction of predicted pairs lost. Controls
+for log body mass and GC (GC alone correlates r=−0.29 with fragility) and for
+phylogeny by centring within family and order, with permutation inside those
+groups. The raw association is weak and in the wrong direction (r=+0.08); it
+vanishes within groups. A reptile signal (r=−0.48) is turtles vs squamates and
+disappears within order.
 
 ## Layout
 
@@ -247,6 +335,17 @@ scripts/step3_mutate.py     every point mutation, scored two ways
 scripts/step3b_context_llr.py  the likelihood score with flanking sequence
 scripts/step4_fetch_clinvar.py labelled variants from NCBI
 scripts/step4_evaluate.py   AUC against ClinVar, with ViennaRNA as baseline
+scripts/step5_build_corpus.py  15,589 animal mitochondrial genomes, human held out
+scripts/modal_train.py      LoRA finetune on Modal (A100)
+scripts/step6_*.py          conservation baseline for the disease score
+scripts/step7_covariation.py   base pairs from covariation across species
+scripts/step8_validate_structure.py  recall of covariation pairs
+scripts/step9_context_probe.py  recall vs flank size, real vs shuffled
+scripts/step10_build_windows.py  per-species tRNAs for the longevity scan
+scripts/modal_fragility.py  per-species mutational fragility on Modal (L4)
+scripts/step11_longevity.py fragility vs lifespan with phylogenetic control
+scripts/step12_confidence.py   gene-level bootstrap on the headline numbers
+src/mitominerva/loading.py  load Minerva with a LoRA adapter merged in
 scripts/build_site.py       rebuilds docs/ from notes/ and outputs/
 scripts/bench_device.py     how long an input this machine can handle
 notes/                      the plain-language write-up behind the site

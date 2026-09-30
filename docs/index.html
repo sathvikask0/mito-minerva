@@ -79,7 +79,8 @@
 <a href='#s05'>Step 5</a>
 <a href='#s06'>Step 6</a>
 <a href='#s07'>Step 7</a>
-<a href='#s08'>Step 8</a></nav>
+<a href='#s08'>Step 8</a>
+<a href='#s09'>Conclusion</a></nav>
 <section id='s00'><h2>The idea </h2><h3>What we're trying to do</h3>
 <p>Your cells have a second, tiny genome inside the <strong>mitochondria</strong> — the parts of
 the cell that make energy. It is about 16,500 letters long, versus 3 billion in
@@ -624,12 +625,99 @@ are not buying longevity through mutation-proof tRNA shapes — they presumably
 handle mitochondrial damage some other way.</p>
 <p>Total cost for this step: about <strong>$8</strong> of GPU time, including two runs lost to
 cancellations before the job was made to survive them.</p></section>
+<section id='s09'><h2>Conclusion <span class='badge' style='background:#1a7f5a'>done</span></h2><p>We set out to predict which mutations break human mitochondrial tRNAs, using an
+AI trained on bacterial DNA. Here is what held up and what didn't.</p>
+<h3>What we can claim</h3>
+<p><strong>Fine-tuning taught the model to read mitochondrial tRNA shape, better than
+the standard physics tool.</strong></p>
+<p>Scored on 409 base pairs that evolution shows are real, across all 22 human
+mitochondrial tRNAs:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>recall</th>
+<th>95% range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Minerva, fine-tuned</strong></td>
+<td><strong>63.8%</strong></td>
+<td>59.3 – 67.5</td>
+</tr>
+<tr>
+<td>Minerva, fine-tuned, inside the genome</td>
+<td>62.8%</td>
+<td>56.9 – 67.4</td>
+</tr>
+<tr>
+<td>ViennaRNA (standard tool)</td>
+<td>40.8%</td>
+<td>33.0 – 48.5</td>
+</tr>
+<tr>
+<td>Minerva, before fine-tuning</td>
+<td>39.6%</td>
+<td>32.4 – 46.6</td>
+</tr>
+<tr>
+<td>Minerva, before fine-tuning, inside the genome</td>
+<td>27.9%</td>
+<td>17.8 – 38.8</td>
+</tr>
+</tbody>
+</table>
+<p>Fine-tuned Minerva beats ViennaRNA by <strong>23 points (12.6 to 32.6)</strong> and wins on
+16 of the 22 tRNAs. The ranges come from resampling whole tRNAs, not single
+pairs, so they aren't flattered by counting related pairs as independent.</p>
+<p>Before fine-tuning, putting a tRNA back inside its genome wrecked the
+prediction. After, it makes no difference (+1.0 points, range −4.8 to +8.0).</p>
+<p>It cost about <strong>$24</strong> of rented GPU in total.</p>
+<h3>How it works, in one paragraph</h3>
+<p>The model never outputs a shape directly. Inside it, "attention" lets each
+letter look at every other letter. Some of those attention patterns learn to
+point from a letter to the partner it pairs with. A tiny add-on of 41 numbers,
+trained by the model's authors on bacterial RNA, reads those patterns and turns
+them into a pairing map. We <strong>never retrained that add-on</strong> and never showed
+it a single mitochondrial pair. Fine-tuning only changed the attention, and
+the add-on read the improvement out on its own.</p>
+<h3>What we cannot claim</h3>
+<p><strong>Disease prediction.</strong> The model's scores separate disease mutations from
+harmless ones (0.744, where 0.5 is a coin flip), but simply counting how
+conserved each letter is across animals gets 0.706. The gap is too small to
+trust with only 52 known disease mutations.</p>
+<p><strong>Longevity.</strong> Across 1,321 animals living 2 to 211 years, long-lived species
+do not have sturdier tRNAs once you compare each animal with its close
+relatives.</p>
+<h3>The honest caveat</h3>
+<p>Our "real" base pairs come from spotting letters that change together across
+thousands of species, and those are the same 15,589 genomes the model trained
+on. So the model may have learned exactly the pattern we then graded it on.</p>
+<p>That doesn't make the result wrong. Learning which letters change together
+from raw DNA, with no alignment and no labels, is the same thing that makes
+protein AI models work. But it means the grading is independent of <em>our
+assumptions</em>, not of the <em>training data</em>. A fully independent test would use
+lab-solved 3D structures of human mitochondrial tRNAs. That's the next step if
+anyone picks this up.</p>
+<h3>What we'd tell someone else</h3>
+<ul>
+<li>Check a good-looking number against the most boring explanation you can
+  build. Our disease result looked strong until we did.</li>
+<li>Don't grade a model against a definition you wrote yourself.</li>
+<li>Compare animals with their relatives, or you'll mostly measure "mammal vs
+  fish".</li>
+<li>Measure costs; don't guess them. Our first two estimates were off by 4× and
+  5×.</li>
+</ul></section>
 <section id="log">
   <h2>Every step, as it happened</h2>
   <p class="note">Each row is one commit. The notebook above is rebuilt from the
   repository after every step, so it never drifts from the code.</p>
   <table><thead><tr><th>commit</th><th>date</th><th>what changed</th></tr></thead>
-  <tbody><tr><td class='mono'>bb9a823</td><td class='mono'>2026-09-29</td><td>Spawn the scan so it survives the client disconnecting</td></tr>
+  <tbody><tr><td class='mono'>1a6e9a2</td><td class='mono'>2026-09-30</td><td>Error bars on the headline structure result</td></tr>
+<tr><td class='mono'>cb71c73</td><td class='mono'>2026-09-30</td><td>Step 8: no link between tRNA fragility and lifespan</td></tr>
+<tr><td class='mono'>bb9a823</td><td class='mono'>2026-09-29</td><td>Spawn the scan so it survives the client disconnecting</td></tr>
 <tr><td class='mono'>ae64a6c</td><td class='mono'>2026-09-29</td><td>Save the species scan as it goes, and resume after interruption</td></tr>
 <tr><td class='mono'>b74bed2</td><td class='mono'>2026-09-29</td><td>Longevity analysis, with the controls that decide whether it means anything</td></tr>
 <tr><td class='mono'>9bc40a1</td><td class='mono'>2026-09-29</td><td>Benchmark the species scan: $4.81, not $25</td></tr>
@@ -651,11 +739,9 @@ cancellations before the job was made to survive them.</p></section>
 <tr><td class='mono'>0b9293f</td><td class='mono'>2026-09-28</td><td>Demote note headings so step titles stay dominant on the site</td></tr>
 <tr><td class='mono'>47c2baa</td><td class='mono'>2026-09-28</td><td>Step 3: 4,524 mutations scored across all 22 tRNAs</td></tr>
 <tr><td class='mono'>fc9838e</td><td class='mono'>2026-09-28</td><td>Add step 3 mutation scan and the lab-notebook site</td></tr>
-<tr><td class='mono'>2d68488</td><td class='mono'>2026-09-28</td><td>Step 2: Minerva folds mitochondrial tRNAs, but not in genomic context</td></tr>
-<tr><td class='mono'>dcfc635</td><td class='mono'>2026-09-28</td><td>Full window runs on CPU in 3 minutes; no GPU needed for step 2</td></tr>
-<tr><td class='mono'>c73fda4</td><td class='mono'>2026-09-28</td><td>Step 1: rCRS to Minerva mixed-token input</td></tr></tbody></table>
+<tr><td class='mono'>2d68488</td><td class='mono'>2026-09-28</td><td>Step 2: Minerva folds mitochondrial tRNAs, but not in genomic context</td></tr></tbody></table>
 </section>
-<footer>Last updated 29 September 2026. <a href='https://github.com/sathvikask0/mito-minerva'>source on GitHub</a></footer>
+<footer>Last updated 30 September 2026. <a href='https://github.com/sathvikask0/mito-minerva'>source on GitHub</a></footer>
 </div>
 </body>
 </html>
