@@ -1,0 +1,88 @@
+{
+  "n_genes": 22,
+  "n_pairs": 409,
+  "recall": {
+    "finetuned, tRNA alone": {
+      "point": 0.6381418092909535,
+      "ci": [
+        0.5925902777777777,
+        0.6754176610978521
+      ]
+    },
+    "finetuned, in genome": {
+      "point": 0.628361858190709,
+      "ci": [
+        0.568673517599811,
+        0.673960745792671
+      ]
+    },
+    "base, tRNA alone": {
+      "point": 0.3960880195599022,
+      "ci": [
+        0.3238323367469798,
+        0.46616628985050035
+      ]
+    },
+    "base, in genome": {
+      "point": 0.2787286063569682,
+      "ci": [
+        0.17840149329713217,
+        0.3880972273228057
+      ]
+    },
+    "ViennaRNA": {
+      "point": 0.4083129584352078,
+      "ci": [
+        0.3301198970639841,
+        0.48484848484848486
+      ]
+    }
+  },
+  "deltas": {
+    "finetuned, tRNA alone - ViennaRNA": {
+      "point": 0.22982885085574573,
+      "ci": [
+        0.12559676044330775,
+        0.3262300846955698
+      ],
+      "genes_better": 16,
+      "genes_worse": 3
+    },
+    "finetuned, in genome - ViennaRNA": {
+      "point": 0.2200488997555012,
+      "ci": [
+        0.12903029589514167,
+        0.3129584352078239
+      ],
+      "genes_better": 17,
+      "genes_worse": 3
+    },
+    "finetuned, tRNA alone - base, tRNA alone": {
+      "point": 0.24205378973105135,
+      "ci": [
+        0.16304281709510204,
+        0.32315904264477985
+      ],
+      "genes_better": 19,
+      "genes_worse": 1
+    },
+    "finetuned, in genome - base, in genome": {
+      "point": 0.34963325183374083,
+      "ci": [
+        0.2209914579198627,
+        0.4693890025447832
+      ],
+      "genes_better": 17,
+      "genes_worse": 3
+    },
+    "finetuned, tRNA alone - finetuned, in genome": {
+      "point": 0.009779951100244499,
+      "ci": [
+        -0.048312103028388946,
+        0.0802008363153874
+      ],
+      "genes_better": 6,
+      "genes_worse": 6
+    }
+  }
+}
