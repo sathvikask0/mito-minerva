@@ -9,6 +9,14 @@ predictions give a way to score how badly a given mutation disrupts a
 mitochondrial tRNA — without alignments, and without a structure.
 
 Site with the plain-language write-up: https://sathvikask0.github.io/mito-minerva/
+Finetuned model (LoRA adapter): https://huggingface.co/sathvikask/mito-minerva
+
+```python
+from peft import PeftModel
+# base = AutoModelForMaskedLM.from_pretrained("gbrixi/minerva-mlm-8k", trust_remote_code=True,
+#                                             revision="df01967534e5414af838665f715fa2033f4c9012")
+model = PeftModel.from_pretrained(base, "sathvikask/mito-minerva").merge_and_unload()
+```
 
 ## Result
 

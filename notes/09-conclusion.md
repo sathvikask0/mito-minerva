@@ -71,3 +71,10 @@ but borderline with only eight tRNAs.
   fish".
 - Measure costs; don't guess them. Our first two estimates were off by 4× and
   5×.
+
+## Use the model
+
+The fine-tuned model is public on Hugging Face:
+**https://huggingface.co/sathvikask/mito-minerva**. It's a small add-on (23 MB)
+that plugs into the original Minerva, with instructions and all the results
+above on its page.

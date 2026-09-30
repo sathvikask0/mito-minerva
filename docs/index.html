@@ -810,13 +810,19 @@ but borderline with only eight tRNAs.</p>
   fish".</li>
 <li>Measure costs; don't guess them. Our first two estimates were off by 4× and
   5×.</li>
-</ul></section>
+</ul>
+<h3>Use the model</h3>
+<p>The fine-tuned model is public on Hugging Face:
+<strong>https://huggingface.co/sathvikask/mito-minerva</strong>. It's a small add-on (23 MB)
+that plugs into the original Minerva, with instructions and all the results
+above on its page.</p></section>
 <section id="log">
   <h2>Every step, as it happened</h2>
   <p class="note">Each row is one commit. The notebook above is rebuilt from the
   repository after every step, so it never drifts from the code.</p>
   <table><thead><tr><th>commit</th><th>date</th><th>what changed</th></tr></thead>
-  <tbody><tr><td class='mono'>87064a4</td><td class='mono'>2026-09-30</td><td>Rebuild site after purging the RefSeq download from history</td></tr>
+  <tbody><tr><td class='mono'>e57eba6</td><td class='mono'>2026-09-30</td><td>Grade against experimental structures: the recall advantage replicates</td></tr>
+<tr><td class='mono'>87064a4</td><td class='mono'>2026-09-30</td><td>Rebuild site after purging the RefSeq download from history</td></tr>
 <tr><td class='mono'>563921c</td><td class='mono'>2026-09-30</td><td>Conclude: README result section and a closing note on the site</td></tr>
 <tr><td class='mono'>d231e6f</td><td class='mono'>2026-09-30</td><td>Error bars on the headline structure result</td></tr>
 <tr><td class='mono'>dec2c5e</td><td class='mono'>2026-09-30</td><td>Step 8: no link between tRNA fragility and lifespan</td></tr>
@@ -839,8 +845,7 @@ but borderline with only eight tRNAs.</p>
 <tr><td class='mono'>e105677</td><td class='mono'>2026-09-28</td><td>Stop tracking the RefSeq download; it is fetched by script</td></tr>
 <tr><td class='mono'>7906c02</td><td class='mono'>2026-09-28</td><td>Step 5 setup: animal mitochondrial corpus and the compute decision</td></tr>
 <tr><td class='mono'>2d30fa9</td><td class='mono'>2026-09-28</td><td>Step 4: Minerva does not beat ViennaRNA at ranking tRNA pathogenicity</td></tr>
-<tr><td class='mono'>0b9293f</td><td class='mono'>2026-09-28</td><td>Demote note headings so step titles stay dominant on the site</td></tr>
-<tr><td class='mono'>47c2baa</td><td class='mono'>2026-09-28</td><td>Step 3: 4,524 mutations scored across all 22 tRNAs</td></tr></tbody></table>
+<tr><td class='mono'>0b9293f</td><td class='mono'>2026-09-28</td><td>Demote note headings so step titles stay dominant on the site</td></tr></tbody></table>
 </section>
 <footer>Last updated 30 September 2026. <a href='https://github.com/sathvikask0/mito-minerva'>source on GitHub</a></footer>
 </div>
