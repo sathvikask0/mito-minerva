@@ -74,6 +74,17 @@ not improve, and 69% of the finetuned model's false positives stack directly
 on a true helix, i.e. stems over-extended by a pair. Limits: n=8 tRNAs, and
 cryo-EM tRNA models can carry template-derived assumptions.
 
+**Grading the grader.** The covariation reference itself, scored against the
+same 132 PDB pairs (`scripts/step15_covariation_vs_pdb.py`), reaches only
+precision 58.3%, recall 56.1%, F1 **0.571** [0.48, 0.64]. Finetuned Minerva
+beats it by +0.211 F1 [+0.143, +0.293] on 8/8 tRNAs (in genome: +0.163
+[+0.019, +0.285], 6/8), so the model is not just reproducing the covariation
+statistics it was trained near. The reference misses much of the acceptor stem
+in 6/8 tRNAs (17 of 58 misses), likely positions too conserved to covary, so
+the step 7 recall figures understate the model. Caveat: the reference is a
+simple pipeline (pairwise alignment to human, no sequence weighting, greedy
+pairing); a structure-aware tool such as Infernal + R-scape would score higher.
+
 The model code is fetched with `trust_remote_code`; results are pinned to
 Hub revision `df01967` (`src/mitominerva/loading.py`).
 
@@ -98,6 +109,8 @@ Total compute: $24.35 of Modal credit (one A100 finetune, L4 inference).
    control.
 10. **Experimental structures.** ✅ Recall advantage over ViennaRNA replicates on
     8 PDB-derived tRNA structures (+25.8 points); F1 advantage borderline.
+11. **Grade the grader.** ✅ The covariation reference scores F1 0.57 against
+    the PDB structures; finetuned Minerva 0.78, better on 8/8 tRNAs.
 
 ## Setup
 
@@ -379,6 +392,7 @@ scripts/step11_longevity.py fragility vs lifespan with phylogenetic control
 scripts/step12_confidence.py   gene-level bootstrap on the headline numbers
 scripts/step13_pdb_structures.py  base pairs from experimental PDB structures
 scripts/step14_grade_vs_pdb.py    precision/recall/F1 against those structures
+scripts/step15_covariation_vs_pdb.py  the covariation reference graded the same way
 src/mitominerva/loading.py  load Minerva with a LoRA adapter merged in
 scripts/build_site.py       rebuilds docs/ from notes/ and outputs/
 scripts/bench_device.py     how long an input this machine can handle

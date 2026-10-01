@@ -81,6 +81,7 @@
 <a href='#s07'>Step 7</a>
 <a href='#s08'>Step 8</a>
 <a href='#s10'>Step 9</a>
+<a href='#s11'>Step 10</a>
 <a href='#s09'>Conclusion</a></nav>
 <section id='s00'><h2>The idea </h2><h3>What we're trying to do</h3>
 <p>Your cells have a second, tiny genome inside the <strong>mitochondria</strong> — the parts of
@@ -724,6 +725,84 @@ making fewer mistakes.</p>
 <p>Remaining limits: only 8 tRNAs, and cryo-EM models are sometimes built with
 help from templates, so a modeller's expectations can leak into a structure.
 But none of that connects to our genomes or our model.</p></section>
+<section id='s11'><h2>Step 10 — grading the grader <span class='badge' style='background:#1a7f5a'>done</span></h2><p>Step 9 answered one circularity worry: the model was graded against lab
+structures it could not have seen. A second one remained. The model was
+fine-tuned on the same genomes that produced our covariation reference in
+Step 7. Maybe it had simply learned to reproduce that covariation signal,
+and any "win" was really a win for covariation.</p>
+<p>That is easy to test, and it needs no GPU: <strong>grade the covariation reference
+itself against the lab structures</strong>, with the same scoring as Step 9.</p>
+<h3>Result</h3>
+<p>Same 8 tRNAs, same 132 lab-measured base pairs:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>finds real pairs (recall)</th>
+<th>its pairs are real (precision)</th>
+<th>overall (F1)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Minerva, fine-tuned</strong></td>
+<td><strong>94%</strong></td>
+<td>67%</td>
+<td><strong>0.78</strong></td>
+</tr>
+<tr>
+<td>Minerva, fine-tuned, inside the genome</td>
+<td>82%</td>
+<td>67%</td>
+<td>0.74</td>
+</tr>
+<tr>
+<td>ViennaRNA</td>
+<td>68%</td>
+<td>57%</td>
+<td>0.62</td>
+</tr>
+<tr>
+<td>Minerva, before fine-tuning</td>
+<td>61%</td>
+<td>64%</td>
+<td>0.63</td>
+</tr>
+<tr>
+<td><strong>Covariation reference (Step 7)</strong></td>
+<td>56%</td>
+<td>58%</td>
+<td><strong>0.57</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>The fine-tuned model beats the covariation reference on all 8 tRNAs:</strong>
+  +0.21 F1 (95% range +0.14 to +0.29).</li>
+<li>Inside the genome it still wins, +0.16 (range +0.02 to +0.29), on 6 of 8.</li>
+<li>ViennaRNA and the original model are statistically tied with it.</li>
+</ul>
+<p>So the model is not just copying the covariation reference. It agrees with
+the lab structures more than the reference does.</p>
+<h3>What the reference gets wrong</h3>
+<p>Looking pair by pair, the reference misses much of the <strong>acceptor stem</strong> in 6
+of the 8 tRNAs (17 of its 58 misses). These positions are likely too
+conserved to covary: if a base pair almost never changes, there are no
+compensating changes to detect. Many of its extra pairs sit far from any real
+helix and look like tertiary contacts or noise.</p>
+<h3>What this changes</h3>
+<ul>
+<li><strong>Step 7's headline undersells the model.</strong> That reference is only about
+  58% precise against the lab structures, so some of the model's "misses" in
+  Step 7 were the reference's mistakes, not the model's.</li>
+<li><strong>The honest claim is narrow.</strong> Our covariation pipeline is simple: each
+  species is aligned to human one at a time, related species are not
+  down-weighted, and pairs are picked greedily. A structure-aware covariation
+  tool (Infernal with R-scape, for example) would do better. So this shows the
+  model beats <em>this</em> covariation reference, not covariation in general.</li>
+</ul>
+<p>Script: <code>scripts/step15_covariation_vs_pdb.py</code>, output
+<code>outputs/step15_covariation_vs_pdb.json</code>. It reads committed files only.</p></section>
 <section id='s09'><h2>Conclusion <span class='badge' style='background:#1a7f5a'>done</span></h2><p>We set out to predict which mutations break human mitochondrial tRNAs, using an
 AI trained on bacterial DNA. Here is what held up and what didn't.</p>
 <h3>What we can claim</h3>
@@ -821,7 +900,10 @@ above on its page.</p></section>
   <p class="note">Each row is one commit. The notebook above is rebuilt from the
   repository after every step, so it never drifts from the code.</p>
   <table><thead><tr><th>commit</th><th>date</th><th>what changed</th></tr></thead>
-  <tbody><tr><td class='mono'>e57eba6</td><td class='mono'>2026-09-30</td><td>Grade against experimental structures: the recall advantage replicates</td></tr>
+  <tbody><tr><td class='mono'>eff90d3</td><td class='mono'>2026-09-30</td><td>Thread: tag Minerva's authors and Arc Institute in the opening tweet</td></tr>
+<tr><td class='mono'>4ecc547</td><td class='mono'>2026-09-30</td><td>Twitter thread with figures</td></tr>
+<tr><td class='mono'>3fe4148</td><td class='mono'>2026-09-30</td><td>Link the published adapter on Hugging Face</td></tr>
+<tr><td class='mono'>e57eba6</td><td class='mono'>2026-09-30</td><td>Grade against experimental structures: the recall advantage replicates</td></tr>
 <tr><td class='mono'>87064a4</td><td class='mono'>2026-09-30</td><td>Rebuild site after purging the RefSeq download from history</td></tr>
 <tr><td class='mono'>563921c</td><td class='mono'>2026-09-30</td><td>Conclude: README result section and a closing note on the site</td></tr>
 <tr><td class='mono'>d231e6f</td><td class='mono'>2026-09-30</td><td>Error bars on the headline structure result</td></tr>
@@ -842,10 +924,7 @@ above on its page.</p></section>
 <tr><td class='mono'>62d768c</td><td class='mono'>2026-09-28</td><td>Fix loss inflated by gradient accumulation</td></tr>
 <tr><td class='mono'>bd346fd</td><td class='mono'>2026-09-28</td><td>Step 5: LoRA finetuning job on Modal</td></tr>
 <tr><td class='mono'>6820bff</td><td class='mono'>2026-09-28</td><td>Ignore the corpus builder's scratch GenBank file</td></tr>
-<tr><td class='mono'>e105677</td><td class='mono'>2026-09-28</td><td>Stop tracking the RefSeq download; it is fetched by script</td></tr>
-<tr><td class='mono'>7906c02</td><td class='mono'>2026-09-28</td><td>Step 5 setup: animal mitochondrial corpus and the compute decision</td></tr>
-<tr><td class='mono'>2d30fa9</td><td class='mono'>2026-09-28</td><td>Step 4: Minerva does not beat ViennaRNA at ranking tRNA pathogenicity</td></tr>
-<tr><td class='mono'>0b9293f</td><td class='mono'>2026-09-28</td><td>Demote note headings so step titles stay dominant on the site</td></tr></tbody></table>
+<tr><td class='mono'>e105677</td><td class='mono'>2026-09-28</td><td>Stop tracking the RefSeq download; it is fetched by script</td></tr></tbody></table>
 </section>
 <footer>Last updated 30 September 2026. <a href='https://github.com/sathvikask0/mito-minerva'>source on GitHub</a></footer>
 </div>

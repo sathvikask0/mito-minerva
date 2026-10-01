@@ -124,3 +124,17 @@ Code: https://github.com/sathvikask0/mito-minerva
 Write-up: https://sathvikask0.github.io/mito-minerva/
 Model: https://huggingface.co/sathvikask/mito-minerva
 ```
+
+## Follow-up (reply to 11/11)
+
+```
+Follow-up: was the model just copying the evolutionary signal it trained on?
+
+I graded that evolution-based answer key itself against the 8 lab-solved tRNA structures.
+
+Answer key: F1 0.57
+ViennaRNA: 0.62
+Fine-tuned Minerva: 0.78, better on all 8
+
+It beats the grader.
+```
